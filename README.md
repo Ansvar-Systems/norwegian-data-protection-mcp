@@ -85,15 +85,15 @@ Full tool documentation: [TOOLS.md](TOOLS.md)
 
 | Category | Records | Content |
 |----------|---------|---------|
-| Decisions | 92 | Vedtak, overtredelsesgebyr (fines), varsler (notices), uttalelser (opinions) |
-| Guidelines | 78 | Veiledere (guides), retningslinjer, hoeringsuttalelser, FAQs |
+| Decisions | 180 | Overtredelsesgebyr (fines), vedtak, klagevedtak, irettesettelser, forbud, varsler |
+| Guidelines | 186 | Veiledere (guides), rapporter, hoeringsuttalelser, verktoy |
 | Topics | 30 | Controlled vocabulary for data protection areas |
-| **Total** | **200 records** | ~496 KB database |
+| **Total** | **396 records** | ~820 KB database |
 
 ### Key Statistics
 
-- **54 administrative fines** (overtredelsesgebyr) totalling **338.6M NOK**
-- **73 unique entities** sanctioned
+- **97 fine decisions** totalling **531M NOK**
+- **113 unique entities** sanctioned
 - **30 data protection topics** covering consent, cookies, DPIA, DPO, transfers, children, health data, and more
 
 **Language note:** All regulatory content is in Norwegian. Search queries work best in Norwegian (e.g., `personvern`, `samtykke`, `konsekvensvurdering`, `informasjonskapsler`).

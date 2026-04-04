@@ -19,8 +19,8 @@ sources:
       url: "https://www.datatilsynet.no/"
       summary: "Datatilsynet enforcement decisions and guidance are public records"
     coverage:
-      scope: "Vedtak, overtredelsesgebyr, varsler, uttalelser, veiledere, retningslinjer, hoeringsuttalelser, FAQs"
-      item_count: 200
+      scope: "Overtredelsesgebyr, vedtak, klagevedtak, irettesettelser, forbud, varsler, veiledere, rapporter, hoeringsuttalelser, verktoy"
+      item_count: 396
     languages:
       - "no"
 

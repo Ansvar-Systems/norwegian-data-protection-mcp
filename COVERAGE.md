@@ -10,10 +10,10 @@ Current coverage of Norwegian data protection regulatory data from Datatilsynet.
 
 | Source | Authority | Records | Content |
 |--------|-----------|---------|---------|
-| **Datatilsynet** | Norwegian Data Protection Authority | 92 decisions | Vedtak, overtredelsesgebyr, varsler, uttalelser on GDPR enforcement |
-| **Datatilsynet** | Norwegian Data Protection Authority | 78 guidelines | Veiledere, retningslinjer, hoeringsuttalelser, FAQs on data protection compliance |
+| **Datatilsynet** | Norwegian Data Protection Authority | 180 decisions | Overtredelsesgebyr, vedtak, klagevedtak, irettesettelser, forbud, varsler on GDPR enforcement |
+| **Datatilsynet** | Norwegian Data Protection Authority | 186 guidelines | Veiledere, rapporter, hoeringsuttalelser, verktoy on data protection compliance |
 | **Topics** | Controlled vocabulary | 30 topics | Data protection topic taxonomy (Norwegian + English names) |
-| **Total** | | **200 records** | ~496 KB SQLite database |
+| **Total** | | **396 records** | ~820 KB SQLite database |
 
 ---
 
@@ -21,16 +21,18 @@ Current coverage of Norwegian data protection regulatory data from Datatilsynet.
 
 | Type | Norwegian Term | Count | Description |
 |------|---------------|-------|-------------|
-| `vedtak` | Vedtak (Decision) | ~18 | Formal enforcement decisions by Datatilsynet |
-| `overtredelsesgebyr` | Overtredelsesgebyr (Administrative Fine) | 54 | GDPR fines imposed on organisations |
-| `varsel` | Varsel om vedtak (Notice of Decision) | ~10 | Preliminary notices before final decision |
-| `uttalelse` | Uttalelse (Opinion/Statement) | ~10 | Regulatory opinions and statements |
+| `overtredelsesgebyr` | Overtredelsesgebyr (Administrative Fine) | 89 | GDPR fines imposed on organisations |
+| `vedtak` | Vedtak (Decision) | 34 | Formal enforcement decisions by Datatilsynet |
+| `klagevedtak` | Klagevedtak (Appeal Decision) | 30 | Decisions on complaints and appeals |
+| `irettesettelse` | Irettesettelse (Reprimand) | 16 | Formal reprimands without financial penalty |
+| `forbud` | Forbud (Prohibition) | 8 | Orders to cease processing activities |
+| `varsel` | Varsel om vedtak (Notice of Decision) | 3 | Preliminary notices before final decision |
 
 ### Fines Summary
 
-- **54 fine decisions** (overtredelsesgebyr)
-- **73 unique entities** sanctioned
-- **338.6M NOK** total fines across all decisions
+- **97 fine decisions** across all decision types
+- **113 unique entities** sanctioned
+- **531.0M NOK** total fines across all decisions
 - Covers sectors including telecommunications, municipalities, healthcare, education, finance, and technology
 
 ---
@@ -39,11 +41,10 @@ Current coverage of Norwegian data protection regulatory data from Datatilsynet.
 
 | Type | Norwegian Term | Count | Description |
 |------|---------------|-------|-------------|
-| `veileder` | Veileder (Guide) | 47 | Practical compliance guidance documents |
-| `hoeringsuttalelse` | Hoeringsuttalelse (Consultation Response) | 15 | Datatilsynet responses to legislative consultations |
-| `retningslinje` | Retningslinje (Guideline) | ~8 | Formal regulatory guidelines |
-| `FAQ` | Ofte stilte sporsmal | ~5 | Frequently asked questions on data protection topics |
-| `uttalelse` | Uttalelse (Statement) | ~3 | Guidance-level opinions and statements |
+| `veileder` | Veileder (Guide) | 127 | Practical compliance guidance documents |
+| `rapport` | Rapport (Report) | 35 | Published reports and analysis from Datatilsynet |
+| `hoeringsuttalelse` | Hoeringsuttalelse (Consultation Response) | 22 | Datatilsynet responses to legislative consultations |
+| `verktoy` | Verktoy (Tool) | 2 | Interactive compliance tools and checklists |
 
 ---
 
@@ -97,11 +98,11 @@ This dataset does not cover:
 
 ## Planned Improvements
 
-Full automated ingestion is planned from:
+Additional data sources planned:
 
-- **datatilsynet.no** -- enforcement decisions, guidance documents, consultation responses, and news
-- **lovdata.no** -- personopplysningsloven and related regulations (full text)
 - **personvernnemnda.no** -- Privacy Appeals Board decisions
+- **lovdata.no** -- personopplysningsloven and related regulations (full text)
+- **Automated refresh** -- scheduled ingestion from datatilsynet.no for new decisions and guidance
 
 ---
 
