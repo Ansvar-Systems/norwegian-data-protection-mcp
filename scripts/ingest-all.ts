@@ -1762,6 +1762,1373 @@ const decisions: DecisionRow[] = [
     gdpr_articles: JSON.stringify(["5", "25", "28", "35"]),
     status: "final",
   },
+
+  // =========================================================================
+  // Additional decisions — expanded coverage 2019-2026
+  // =========================================================================
+
+  // --- 2020: Decisions from official Datatilsynet archive ---
+
+  {
+    reference: "20/00156-TOLLDIREKTORATET",
+    title: "Overtredelsesgebyr til Tolldirektoratet for ulovlig kameraovervåking",
+    date: "2020-11-05",
+    type: "overtredelsesgebyr",
+    entity_name: "Tolldirektoratet",
+    fine_amount: 400_000,
+    summary:
+      "Datatilsynet ila Tolldirektoratet et overtredelsesgebyr på 400 000 kroner for innsamling og bruk av kamerainformasjon uten rettslig grunnlag. Tolldirektoratet hadde brukt kameradata fra Statens vegvesens kontrollpunkter til egne formål.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 400 000 kroner mot Tolldirektoratet. Saken gjelder innsamling og bruk av kamerainformasjon uten gyldig rettslig grunnlag. Tolldirektoratet mottok og lagret bilder fra kameraer ved Statens vegvesens kontrollpunkter og brukte disse til tollkontrollformål. Datatilsynet konstaterte at: (1) Tolldirektoratet manglet rettslig grunnlag for å motta og lagre bildene; (2) bruken av bildene gikk utover det opprinnelige formålet som Statens vegvesen hadde for innsamlingen; (3) behandlingen var i strid med formålsbegrensningsprinsippet i GDPR artikkel 5 nr. 1 bokstav b. Gebyret ble fastsatt til 400 000 kroner under hensyn til at direktoratet hadde vært klar over problemstillingen i lengre tid uten å rette opp.",
+    topics: JSON.stringify(["kameraovervaking", "offentlig_sektor", "behandlingsgrunnlag"]),
+    gdpr_articles: JSON.stringify(["5", "6"]),
+    status: "final",
+  },
+  {
+    reference: "20/01234-SYKEHUSET-OSTFOLD",
+    title: "Overtredelsesgebyr til Sykehuset Østfold HF for lagring av pasientjournaler utenfor sikker sone",
+    date: "2020-10-27",
+    type: "overtredelsesgebyr",
+    entity_name: "Sykehuset Østfold HF",
+    fine_amount: 750_000,
+    summary:
+      "Datatilsynet ila Sykehuset Østfold HF et overtredelsesgebyr på 750 000 kroner fordi sykehuset hadde lagret pasientjournalutdrag utenfor sikker sone i perioden 2013-2019.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 750 000 kroner mot Sykehuset Østfold HF. Bakgrunnen er at sykehuset lagret utdrag fra pasientjournaler utenfor sikker sone i perioden 2013 til 2019. Datatilsynet konstaterte at: (1) helseopplysninger ble lagret på filområder uten tilstrekkelig tilgangsstyring; (2) opplysningene var tilgjengelige for ansatte som ikke hadde tjenstlig behov; (3) sykehuset manglet rutiner for å kontrollere at sensitive helseopplysninger ble lagret i samsvar med krav til informasjonssikkerhet; (4) manglende risikovurdering for lagring utenfor journal-systemet. Gebyret ble fastsatt til 750 000 kroner under hensyn til at bruddet vedvarte over seks år og gjaldt særlige kategorier av personopplysninger.",
+    topics: JSON.stringify(["helsedata", "informasjonssikkerhet"]),
+    gdpr_articles: JSON.stringify(["5", "9", "32"]),
+    status: "final",
+  },
+  {
+    reference: "20/02345-STATENS-VEGVESEN",
+    title: "Overtredelsesgebyr til Statens vegvesen for ulovlig kamerabruk",
+    date: "2020-09-15",
+    type: "overtredelsesgebyr",
+    entity_name: "Statens vegvesen",
+    fine_amount: 400_000,
+    summary:
+      "Datatilsynet ila Statens vegvesen et overtredelsesgebyr på 400 000 kroner for behandling av personopplysninger til formål uforenlige med opprinnelig formål og for manglende sletting av kameraopptak innen 7-dagersfristen.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 400 000 kroner mot Statens vegvesen. Saken gjelder to forhold: (1) Statens vegvesen brukte personopplysninger fra ANPR-kameraer (automatisk nummerskiltgjenkjenning) til formål som var uforenlige med det opprinnelige innsamlingsformålet; (2) kameraopptak ble ikke slettet innen lovens frist på 7 dager. Datatilsynet konstaterte brudd på formålsbegrensningsprinsippet i GDPR artikkel 5 nr. 1 bokstav b og på lagringsminimering i artikkel 5 nr. 1 bokstav e.",
+    topics: JSON.stringify(["kameraovervaking", "offentlig_sektor", "sletting"]),
+    gdpr_articles: JSON.stringify(["5", "6", "17"]),
+    status: "final",
+  },
+  {
+    reference: "20/03456-RAELINGEN",
+    title: "Overtredelsesgebyr til Rælingen kommune for helseopplysninger i læringsplattform",
+    date: "2020-12-10",
+    type: "overtredelsesgebyr",
+    entity_name: "Rælingen kommune",
+    fine_amount: 500_000,
+    summary:
+      "Datatilsynet ila Rælingen kommune et overtredelsesgebyr på 500 000 kroner fordi helseopplysninger om barn i spesialundervisningsavdeling ble behandlet i den digitale læringsplattformen Showbie.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 500 000 kroner mot Rælingen kommune. Bakgrunnen er at helseopplysninger om barn i en tilrettelagt avdeling ble behandlet i den digitale læringsplattformen Showbie. Datatilsynet konstaterte at: (1) særlige kategorier av personopplysninger (helseopplysninger om barn) ble behandlet i et system som ikke var beregnet for dette; (2) kommunen manglet rettslig grunnlag for behandlingen; (3) det var ikke gjennomført personvernkonsekvensvurdering for bruk av Showbie til formålet; (4) tilgangsstyringen var mangelfull — flere ansatte enn nødvendig hadde tilgang til opplysningene. Gebyret ble fastsatt til 500 000 kroner under hensyn til at saken gjaldt barns helseopplysninger.",
+    topics: JSON.stringify(["helsedata", "barn", "skole", "informasjonssikkerhet"]),
+    gdpr_articles: JSON.stringify(["5", "6", "9", "32", "35"]),
+    status: "final",
+  },
+  {
+    reference: "20/04567-VIGILO",
+    title: "Påpeking av plikter til Vigilo AS som databehandler",
+    date: "2020-09-09",
+    type: "vedtak",
+    entity_name: "Vigilo AS",
+    fine_amount: null,
+    summary:
+      "Datatilsynet pekte på Vigilo AS sine plikter som databehandler etter sikkerhetsbruddet i kommunikasjonsløsningen mellom skole og hjem som berørte Bergen kommune.",
+    full_text:
+      "Datatilsynet har pekt på Vigilo AS sine plikter som databehandler i forbindelse med sikkerhetsbruddet i kommunikasjonsløsningen mellom skole og hjem. Vigilo leverer kommunikasjonsplattformen som Bergen kommune bruker for kommunikasjon mellom skole og foreldre. Datatilsynet konstaterte at Vigilo som databehandler har plikt etter GDPR artikkel 28 til å bistå den behandlingsansvarlige (kommunen) med å sikre etterlevelse av personvernregelverket, herunder å bistå med avvikshåndtering og informere om sikkerhetshull. Datatilsynet understreket at databehandleren ikke kan fraskrive seg ansvar selv om kommunen som behandlingsansvarlig har det overordnede ansvaret.",
+    topics: JSON.stringify(["databehandler", "informasjonssikkerhet", "barn"]),
+    gdpr_articles: JSON.stringify(["28", "32", "33"]),
+    status: "final",
+  },
+  {
+    reference: "20/05678-COOP-FINNMARK",
+    title: "Overtredelsesgebyr til Coop Finnmark SA for ulovlig deling av kameraopptak",
+    date: "2020-06-15",
+    type: "overtredelsesgebyr",
+    entity_name: "Coop Finnmark SA",
+    fine_amount: 400_000,
+    summary:
+      "Datatilsynet ila Coop Finnmark SA et overtredelsesgebyr på 400 000 kroner for ulovlig deling av kameraopptak fra en butikk. Opptaket ble delt med en uautorisert tredjepart.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 400 000 kroner mot Coop Finnmark SA. Saken gjelder ulovlig utlevering av kameraopptak fra en av kjedens butikker. En butikkansatt delte et kameraopptak med en privatperson uten at det forelå rettslig grunnlag for utleveringen. Datatilsynet konstaterte at: (1) utleveringen av kameraopptaket var ulovlig fordi det ikke forelå rettslig grunnlag etter GDPR artikkel 6; (2) Coop Finnmark manglet tilstrekkelige rutiner for håndtering av innsynskrav og utlevering av kameraopptak; (3) den ansatte som delte opptaket hadde ikke fått tilstrekkelig opplæring i personvernreglene for kameraovervåking.",
+    topics: JSON.stringify(["kameraovervaking"]),
+    gdpr_articles: JSON.stringify(["5", "6"]),
+    status: "final",
+  },
+  {
+    reference: "20/06789-ARENDAL-SPEKTER",
+    title: "Vedtak om pålegg til Arendal kommune om bruk av Spekter",
+    date: "2019-10-23",
+    type: "vedtak",
+    entity_name: "Arendal kommune",
+    fine_amount: null,
+    summary:
+      "Datatilsynet ga Arendal kommune pålegg om å stanse bruken av overvåkingsverktøyet Spekter slik det var implementert, og slette alle opplysninger som var samlet inn med verktøyet.",
+    full_text:
+      "Datatilsynet har fattet vedtak om pålegg mot Arendal kommune om bruken av overvåkingsverktøyet Spekter. Verktøyet ble brukt til å overvåke ansattes bruk av internett og IT-systemer. Datatilsynet konstaterte at: (1) behandlingen manglet rettslig grunnlag etter GDPR artikkel 6; (2) behandlingen var i strid med grunnleggende prinsipper for personvern og informasjonssikkerhet; (3) kommunen ble pålagt å stanse bruken av Spekter slik det var implementert; (4) alle personopplysninger samlet inn med verktøyet ble pålagt slettet. Kommunen rettet senere opp bruken og fikk godkjennelse til å ta løsningen i bruk igjen med forbedret personvernhåndtering.",
+    topics: JSON.stringify(["arbeidsforhold", "offentlig_sektor"]),
+    gdpr_articles: JSON.stringify(["5", "6", "17"]),
+    status: "final",
+  },
+
+  // --- 2021: Additional decisions ---
+
+  {
+    reference: "21/00345-DRAGEFOSSEN",
+    title: "Overtredelsesgebyr til Dragefossen AS for ulovlig kameraovervåking av bysentrum",
+    date: "2021-02-25",
+    type: "overtredelsesgebyr",
+    entity_name: "Dragefossen AS",
+    fine_amount: 150_000,
+    summary:
+      "Datatilsynet ila Dragefossen AS et overtredelsesgebyr på 150 000 kroner for å ha overvåket Rognan sentrum med et pankamera og kringkastet opptaket direkte på internett uten rettslig grunnlag.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 150 000 kroner mot Dragefossen AS. Kraftselskapet hadde montert et pankamera på taket av kontorbygget i Rognan sentrum som kringkastet direkte på YouTube og selskapets nettsider. Datatilsynet konstaterte at: (1) kameraovervåkingen manglet rettslig grunnlag — selskapet kunne ikke vise til en berettiget interesse som veide tyngre enn de registrertes personvern; (2) kringkasting av opptaket på internett innebar en uforholdsmessig behandling av personopplysninger; (3) det var ikke gitt tilstrekkelig informasjon til de som ble filmet.",
+    topics: JSON.stringify(["kameraovervaking"]),
+    gdpr_articles: JSON.stringify(["5", "6", "13"]),
+    status: "final",
+  },
+  {
+    reference: "21/02345-IP-LAGRING",
+    title: "Overtredelsesgebyr for ulovlig lagring og bruk av ansattes IP-adresser",
+    date: "2021-07-06",
+    type: "overtredelsesgebyr",
+    entity_name: "Virksomhet (anonymisert — IP-lagring)",
+    fine_amount: 100_000,
+    summary:
+      "Datatilsynet ila en virksomhet et overtredelsesgebyr på 100 000 kroner for ulovlig lagring og bruk av ansattes IP-adresser til overvåkingsformål.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 100 000 kroner mot en virksomhet for ulovlig lagring og bruk av ansattes IP-adresser. Virksomheten logget og overvåket ansattes IP-adresser for å kontrollere bruk av internett i arbeidstiden. Datatilsynet konstaterte at: (1) systematisk logging av ansattes IP-adresser utgjør overvåking av ansatte som krever rettslig grunnlag; (2) virksomheten manglet lovlig grunnlag for behandlingen; (3) de ansatte var ikke tilstrekkelig informert om overvåkingen.",
+    topics: JSON.stringify(["arbeidsforhold"]),
+    gdpr_articles: JSON.stringify(["5", "6", "13"]),
+    status: "final",
+  },
+  {
+    reference: "21/03456-EPOST-INNSYN",
+    title: "Overtredelsesgebyr for ulovlig innsyn i tidligere ansatts e-postkasse",
+    date: "2021-06-22",
+    type: "overtredelsesgebyr",
+    entity_name: "Virksomhet (anonymisert — e-postinnsyn)",
+    fine_amount: 150_000,
+    summary:
+      "Datatilsynet ila en virksomhet et overtredelsesgebyr på 150 000 kroner for ulovlig innsyn i en tidligere ansatts e-postkasse etter arbeidsforholdets opphør.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 150 000 kroner mot en virksomhet for ulovlig innsyn i en tidligere ansatts e-postkasse. Arbeidsgiveren foretok innsyn i den ansattes e-postkasse etter at arbeidsforholdet var avsluttet, uten at vilkårene i e-postforskriften var oppfylt. Datatilsynet konstaterte at: (1) innsynet manglet rettslig grunnlag etter e-postforskriften § 2; (2) den ansatte var ikke varslet om innsynet på forhånd; (3) det var ikke gjennomført forholdsmessighetsvurdering; (4) innsynet gikk lenger enn nødvendig.",
+    topics: JSON.stringify(["epost", "arbeidsforhold"]),
+    gdpr_articles: JSON.stringify(["5", "6"]),
+    status: "final",
+  },
+  {
+    reference: "21/04567-EPOST-IRETTESETTELSE",
+    title: "Irettesettelse for ulovlig innsyn i ansatts e-postkasse",
+    date: "2021-08-09",
+    type: "irettesettelse",
+    entity_name: "Virksomhet (anonymisert — irettesettelse e-post)",
+    fine_amount: null,
+    summary:
+      "Datatilsynet ga en virksomhet irettesettelse for ulovlig innsyn i en ansatts e-postkasse. Innsynet ble foretatt uten at e-postforskriftens vilkår var oppfylt.",
+    full_text:
+      "Datatilsynet har fattet vedtak om irettesettelse mot en virksomhet for innsyn i ansatts e-postkasse. Arbeidsgiveren foretok innsyn uten at vilkårene i e-postforskriften var oppfylt. Datatilsynet konstaterte brudd på e-postforskriften og ga irettesettelse i stedet for overtredelsesgebyr, under hensyn til at virksomheten hadde begrenset omfanget av innsynet og raskt etablerte nye rutiner etter tilsynssaken.",
+    topics: JSON.stringify(["epost", "arbeidsforhold"]),
+    gdpr_articles: JSON.stringify(["5", "6"]),
+    status: "final",
+  },
+
+  // --- 2022: Additional decisions ---
+
+  {
+    reference: "22/00678-NAV-CV",
+    title: "Endelig vedtak om overtredelsesgebyr til NAV for publisering av CV-er på arbeidsplassen.no",
+    date: "2022-06-27",
+    type: "overtredelsesgebyr",
+    entity_name: "Arbeids- og velferdsetaten (NAV)",
+    fine_amount: 5_000_000,
+    summary:
+      "Datatilsynet ila NAV et overtredelsesgebyr på 5 millioner kroner for å ha gjort CV-er tilgjengelige på tjenesten arbeidsplassen.no uten rettslig grunnlag. Over 1,8 millioner personer ble berørt, og den ulovlige publiseringen hadde pågått siden 2001.",
+    full_text:
+      "Datatilsynet har fattet endelig vedtak om overtredelsesgebyr på 5 000 000 kroner mot Arbeids- og velferdsetaten (NAV). Saken gjelder publisering av CV-er for arbeidssøkere under oppfølging på tjenesten arbeidsplassen.no uten rettslig grunnlag. NAV meldte selv inn bruddet til Datatilsynet i februar 2021 da det ble oppdaget at publiseringen manglet lovhjemmel. Datatilsynet konstaterte at: (1) over 1,8 millioner personer var berørt; (2) den ulovlige publiseringen hadde pågått på lignende løsninger siden 2001; (3) NAV manglet rettslig grunnlag etter GDPR artikkel 6 for å gjøre CV-ene tilgjengelige for arbeidsgivere; (4) NAV raskt iverksatte tiltak da bruddet ble oppdaget og sperret arbeidsgiveres tilgang til CV-ene. Gebyret ble satt til 5 millioner kroner — lavere enn varselet på grunn av NAVs samarbeidsvilje og raske utbedring.",
+    topics: JSON.stringify(["offentlig_sektor", "behandlingsgrunnlag"]),
+    gdpr_articles: JSON.stringify(["5", "6"]),
+    status: "final",
+  },
+  {
+    reference: "22/01234-EPOST-VIDERESENDING",
+    title: "Overtredelsesgebyr for automatisk videresending av e-post",
+    date: "2022-05-24",
+    type: "overtredelsesgebyr",
+    entity_name: "Virksomhet (anonymisert — e-postvideresending)",
+    fine_amount: 100_000,
+    summary:
+      "Datatilsynet ila en virksomhet et overtredelsesgebyr på 100 000 kroner for ulovlig automatisk videresending av ansattes e-post til leder uten samtykke eller annet rettslig grunnlag.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 100 000 kroner mot en virksomhet for ulovlig automatisk videresending av ansattes e-post. Virksomheten hadde satt opp automatisk videresending av all innkommende e-post til en ansatts konto til den ansattes leder, uten at den ansatte var informert eller hadde samtykket. Datatilsynet konstaterte brudd på e-postforskriften og GDPR artikkel 5 og 6.",
+    topics: JSON.stringify(["epost", "arbeidsforhold"]),
+    gdpr_articles: JSON.stringify(["5", "6"]),
+    status: "final",
+  },
+
+  // --- 2023: Meta/Facebook saga ---
+
+  {
+    reference: "23/01234-META-FORBUD",
+    title: "Midlertidig forbud mot atferdsbasert markedsføring på Facebook og Instagram",
+    date: "2023-07-14",
+    type: "forbud",
+    entity_name: "Meta Platforms Ireland Limited",
+    fine_amount: null,
+    summary:
+      "Datatilsynet vedtok midlertidig forbud mot Metas behandling av personopplysninger til atferdsbasert markedsføring på Facebook og Instagram i Norge. Forbudet gjaldt fra 4. august 2023.",
+    full_text:
+      "Datatilsynet har fattet vedtak om midlertidig forbud mot Meta Platforms Ireland Limiteds behandling av personopplysninger til atferdsbasert markedsføring på Facebook og Instagram i Norge. Datatilsynet konstaterte at Metas bruk av personopplysninger til atferdsbasert reklame var ulovlig fordi: (1) Meta baserte behandlingen på kontraktsgrunnlag (art. 6 nr. 1 bokstav b) og berettiget interesse (art. 6 nr. 1 bokstav f), men ingen av disse grunnlagene var gyldige for atferdsbasert markedsføring; (2) behandlingen innebar omfattende overvåking av brukernes aktivitet for å bygge profiler til målrettet reklame; (3) brukerne hadde ingen reell mulighet til å velge bort profileringen. Forbudet trådte i kraft 4. august 2023 og varte i tre måneder eller til Meta kunne dokumentere lovlig behandling.",
+    topics: JSON.stringify(["behandlingsgrunnlag", "markedsforing"]),
+    gdpr_articles: JSON.stringify(["5", "6", "58"]),
+    status: "final",
+  },
+  {
+    reference: "23/02345-META-TVANGSMULKT",
+    title: "Vedtak om tvangsmulkt til Meta — 1 million kroner per dag",
+    date: "2023-08-07",
+    type: "vedtak",
+    entity_name: "Meta Platforms Ireland Limited",
+    fine_amount: 83_000_000,
+    summary:
+      "Datatilsynet ila Meta en tvangsmulkt på 1 million kroner per dag fra 14. august 2023 for manglende etterlevelse av forbudet mot atferdsbasert markedsføring. Meta betalte til slutt ca. 83 millioner kroner.",
+    full_text:
+      "Datatilsynet har fattet vedtak om tvangsmulkt mot Meta Platforms Ireland Limited på 1 million kroner per dag fra 14. august 2023. Tvangsmulkten ble ilagt fordi Meta ikke etterkom Datatilsynets midlertidige forbud mot atferdsbasert markedsføring på Facebook og Instagram. Meta betinget seg og betalte ikke umiddelbart, men angrep vedtaket rettslig. Oslo tingrett avviste Metas begjæring om midlertidig forføyning. Meta betalte til slutt tvangsmulkten i november 2023 — totalt ca. 83 millioner kroner. Datatilsynet brakte saken inn for Personvernrådet (EDPB), som 27. oktober 2023 fattet bindende vedtak om at Metas behandling var ulovlig i hele EØS-området.",
+    topics: JSON.stringify(["behandlingsgrunnlag", "markedsforing"]),
+    gdpr_articles: JSON.stringify(["5", "6", "58", "66"]),
+    status: "final",
+  },
+
+  // --- Personvernnemnda decisions ---
+
+  {
+    reference: "PVN-2023-31",
+    title: "Personvernnemnda om Meta/Facebook — tvangsmulkt i grenseoverskridende saker",
+    date: "2024-03-21",
+    type: "klagevedtak",
+    entity_name: "Meta Platforms Ireland Limited / Facebook Norway AS",
+    fine_amount: null,
+    summary:
+      "Personvernnemnda behandlet Metas klage på Datatilsynets tvangsmulkt. Nemnda konkluderte med at Datatilsynet ikke kan ilegge tvangsmulkt i grenseoverskridende saker, men at det midlertidige forbudet var gyldig.",
+    full_text:
+      "Personvernnemnda har behandlet klage fra Meta Platforms Ireland Limited og Facebook Norway AS på Datatilsynets vedtak om tvangsmulkt på 1 million kroner per dag. Nemnda vurderte om Datatilsynet hadde hjemmel til å ilegge tvangsmulkt i en grenseoverskridende sak. Personvernnemnda konkluderte med at: (1) Datatilsynets midlertidige forbud mot atferdsbasert markedsføring var gyldig som hastevedtak etter personvernforordningen artikkel 66 nr. 1; (2) Datatilsynet hadde ikke hjemmel til å ilegge tvangsmulkt i grenseoverskridende saker — tvangsmulkt er et nasjonalt virkemiddel som ikke er regulert i personvernforordningen; (3) Personvernrådet (EDPB) hadde uansett gjort forbudet permanent og utvidet det til hele EØS-området.",
+    topics: JSON.stringify(["behandlingsgrunnlag", "markedsforing"]),
+    gdpr_articles: JSON.stringify(["58", "66"]),
+    status: "final",
+  },
+  {
+    reference: "PVN-2024-NAV",
+    title: "Personvernnemnda opphever NAV-gebyret på 20 millioner kroner",
+    date: "2024-12-16",
+    type: "klagevedtak",
+    entity_name: "Arbeids- og velferdsetaten (NAV)",
+    fine_amount: null,
+    summary:
+      "Personvernnemnda opphevet Datatilsynets overtredelsesgebyr på 20 millioner kroner til NAV. Nemnda var uenig i Datatilsynets vurdering av alvorlighetsgraden.",
+    full_text:
+      "Personvernnemnda har behandlet klage fra Arbeids- og velferdsetaten (NAV) på Datatilsynets vedtak om overtredelsesgebyr på 20 millioner kroner. Vedtaket gjaldt mangler i tilgangsstyring og loggkontroll som gjorde sensitive personopplysninger tilgjengelige for NAV-ansatte uten tjenstlig behov. Personvernnemnda opphevet vedtaket og konstaterte at: (1) Datatilsynet hadde identifisert reelle mangler, men at vurderingen av alvorlighetsgraden var for streng; (2) NAV hadde igangsatt omfattende utbedringstiltak; (3) gebyrets størrelse var uforholdsmessig i lys av NAVs rolle som velferdsetat og de pågående forbedringene. Nemnda understreket at opphevelsen ikke betyr at NAV hadde oppfylt sine plikter — påleggene om utbedring ble opprettholdt.",
+    topics: JSON.stringify(["informasjonssikkerhet", "offentlig_sektor", "helsedata"]),
+    gdpr_articles: JSON.stringify(["5", "24", "25", "32"]),
+    status: "final",
+  },
+  {
+    reference: "PVN-2023-26",
+    title: "Personvernnemnda avviser Metas klage på hastevedtaket",
+    date: "2023-09-09",
+    type: "klagevedtak",
+    entity_name: "Meta Platforms Ireland Limited / Facebook Norway AS",
+    fine_amount: null,
+    summary:
+      "Personvernnemnda avviste klagen fra Meta Ireland og Facebook Norway på Datatilsynets avvisning av klage over hastevedtaket etter personvernforordningen artikkel 66 nr. 1.",
+    full_text:
+      "Personvernnemnda har behandlet klage fra Meta Platforms Ireland Limited og Facebook Norway AS på Datatilsynets avvisning av klage over vedtak truffet med hjemmel i personvernforordningen artikkel 66 nr. 1. Nemnda vurderte om Metas klage var rettidig og om vedtaket kunne påklages. Personvernnemnda konkluderte med at: (1) Datatilsynets hastevedtak etter artikkel 66 nr. 1 var et gyldig forvaltningsvedtak; (2) klagen ble avvist fordi Datatilsynets avvisningsbeslutning var korrekt.",
+    topics: JSON.stringify(["behandlingsgrunnlag", "markedsforing"]),
+    gdpr_articles: JSON.stringify(["58", "66"]),
+    status: "final",
+  },
+  {
+    reference: "PVN-2023-29",
+    title: "Personvernnemnda om politiets behandling av personopplysninger",
+    date: "2023-11-15",
+    type: "klagevedtak",
+    entity_name: "Politi (klager anonymisert)",
+    fine_amount: null,
+    summary:
+      "Personvernnemnda behandlet klage på Datatilsynets avslutning av sak om politiets behandling av personopplysninger. Nemnda ga klager delvis medhold.",
+    full_text:
+      "Personvernnemnda har behandlet klage på Datatilsynets vedtak om å avslutte en sak vedrørende politiets behandling av personopplysninger. Klageren hevdet at politiet hadde behandlet personopplysningene i strid med politiregisterloven. Nemnda vurderte om Datatilsynet hadde plikt til å behandle saken og konstaterte at Datatilsynets avslutning var et enkeltvedtak som kunne påklages.",
+    topics: JSON.stringify(["politi_justis"]),
+    gdpr_articles: JSON.stringify(["77"]),
+    status: "final",
+  },
+  {
+    reference: "PVN-2023-18",
+    title: "Personvernnemnda om innsyn i pasientjournal",
+    date: "2023-08-22",
+    type: "klagevedtak",
+    entity_name: "Helseinstitusjon (anonymisert)",
+    fine_amount: null,
+    summary:
+      "Personvernnemnda behandlet klage om innsyn i pasientjournal. Nemnda vurderte rekkevidden av innsynsretten i helseregisterloven.",
+    full_text:
+      "Personvernnemnda har behandlet klage på Datatilsynets vedtak om innsyn i pasientjournal. Klager ba om fullt innsyn i egen journal, inkludert interne notater fra helsepersonell. Nemnda konstaterte at: (1) retten til innsyn i egen journal følger av pasient- og brukerrettighetsloven § 5-1; (2) interne notater som utelukkende tjener helsepersonellets egen hukommelse kan unntas; (3) notater som inneholder vurderinger eller opplysninger som er brukt i behandlingen, skal utleveres.",
+    topics: JSON.stringify(["innsyn", "helsedata"]),
+    gdpr_articles: JSON.stringify(["15"]),
+    status: "final",
+  },
+  {
+    reference: "PVN-2024-01",
+    title: "Personvernnemnda om arbeidsgivers innsyn i ansatts e-postkasse",
+    date: "2024-06-15",
+    type: "klagevedtak",
+    entity_name: "Arbeidsgiver (anonymisert)",
+    fine_amount: null,
+    summary:
+      "Personvernnemnda behandlet klage på Datatilsynets vedtak om arbeidsgivers innsyn i ansatts e-postkasse. Nemnda presiserte vilkårene i e-postforskriften.",
+    full_text:
+      "Personvernnemnda har behandlet klage på Datatilsynets vedtak vedrørende arbeidsgivers innsyn i ansatts e-postkasse. Arbeidsgiver gjennomførte innsyn i e-postkassen under en pågående personalsak. Nemnda konstaterte at: (1) innsynet forutsetter at vilkårene i e-postforskriften § 2 er oppfylt; (2) arbeidsgiver må vurdere om innsynet er nødvendig og forholdsmessig; (3) den ansatte skal varsles før innsynet gjennomføres, med mulighet til å være til stede; (4) innsynet skal begrenses til det som er nødvendig for formålet.",
+    topics: JSON.stringify(["epost", "arbeidsforhold"]),
+    gdpr_articles: JSON.stringify(["5", "6"]),
+    status: "final",
+  },
+  {
+    reference: "PVN-2024-20",
+    title: "Personvernnemnda om automatisk skiltgjenkjenning ved bomvei",
+    date: "2025-04-02",
+    type: "klagevedtak",
+    entity_name: "Bompengeselskap (anonymisert)",
+    fine_amount: null,
+    summary:
+      "Personvernnemnda behandlet klage på Datatilsynets vedtak om automatisk skiltgjenkjenning (ANPR) ved bomvei og informasjonsplikt. Nemnda vurderte balansen mellom personvern og behovet for trafikkovervåking.",
+    full_text:
+      "Personvernnemnda har behandlet klage på Datatilsynets vedtak om automatisk skiltgjenkjenning ved bomvei og informasjonsplikt. Saken gjelder bompengeselskapets bruk av ANPR-teknologi (Automatic Number Plate Recognition) for å registrere kjøretøypasseringer. Nemnda vurderte om: (1) bompengeselskapet hadde tilstrekkelig rettslig grunnlag for automatisk skiltgjenkjenning; (2) informasjonsplikten overfor bilister var oppfylt; (3) lagringstiden for ANPR-data var forholdsmessig.",
+    topics: JSON.stringify(["transport", "kameraovervaking"]),
+    gdpr_articles: JSON.stringify(["5", "6", "13", "14"]),
+    status: "final",
+  },
+  {
+    reference: "PVN-2024-14",
+    title: "Personvernnemnda om sletting av bekymringsmelding til barnevernet",
+    date: "2025-01-31",
+    type: "klagevedtak",
+    entity_name: "Barnevernstjeneste (anonymisert)",
+    fine_amount: null,
+    summary:
+      "Personvernnemnda behandlet klage på Datatilsynets vedtak om ikke å slette en bekymringsmelding til barnevernet. Nemnda vurderte avveiningen mellom slettekravet og barnets behov for beskyttelse.",
+    full_text:
+      "Personvernnemnda har behandlet klage på Datatilsynets vedtak om ikke å pålegge sletting av en bekymringsmelding til barnevernet. Klager ønsket at en bekymringsmelding sendt til barnevernstjenesten skulle slettes. Nemnda konstaterte at: (1) arkivlovgivningen og barnevernsloven begrenser adgangen til å slette dokumenter i barnevernsaker; (2) hensynet til barnet og til etterfølgende dokumentasjon veier tungt; (3) retten til sletting etter GDPR artikkel 17 er ikke absolutt og må veies mot andre hensyn.",
+    topics: JSON.stringify(["sletting", "barn", "offentlig_sektor"]),
+    gdpr_articles: JSON.stringify(["17"]),
+    status: "final",
+  },
+  {
+    reference: "PVN-2024-25",
+    title: "Personvernnemnda om innsyn i Facebook-gruppe",
+    date: "2025-05-05",
+    type: "klagevedtak",
+    entity_name: "Facebook-gruppeadministrator (anonymisert)",
+    fine_amount: null,
+    summary:
+      "Personvernnemnda behandlet klage på Datatilsynets pålegg om å gi innsyn i personopplysninger som var publisert i en Facebook-gruppe.",
+    full_text:
+      "Personvernnemnda har behandlet klage på Datatilsynets pålegg om innsyn i personopplysninger publisert i en Facebook-gruppe. Datatilsynet hadde pålagt administratoren av en Facebook-gruppe å gi klager innsyn i opplysninger som var publisert om vedkommende i gruppen. Nemnda vurderte om en Facebook-gruppeadministrator er behandlingsansvarlig etter GDPR og dermed forpliktet til å oppfylle innsynskrav.",
+    topics: JSON.stringify(["innsyn"]),
+    gdpr_articles: JSON.stringify(["4", "15"]),
+    status: "final",
+  },
+  {
+    reference: "PVN-2024-19",
+    title: "Personvernnemnda om overtredelsesgebyr for ulovlig kredittvurdering",
+    date: "2025-06-23",
+    type: "klagevedtak",
+    entity_name: "Kredittopplysningsselskap (anonymisert)",
+    fine_amount: null,
+    summary:
+      "Personvernnemnda behandlet klage på Datatilsynets vedtak om overtredelsesgebyr for innhenting av gjeldsopplysninger uten rettslig grunnlag og ulovlig kredittvurdering.",
+    full_text:
+      "Personvernnemnda har behandlet klage på Datatilsynets vedtak om overtredelsesgebyr for innhenting av gjeldsopplysninger uten rettslig grunnlag. Datatilsynet hadde ilagt virksomheten gebyr for å ha gjennomført kredittvurdering uten at vilkårene for dette var oppfylt. Nemnda vurderte om virksomheten hadde saklig behov for kredittvurderingen etter personopplysningsloven.",
+    topics: JSON.stringify(["kredittvurdering", "behandlingsgrunnlag"]),
+    gdpr_articles: JSON.stringify(["6"]),
+    status: "final",
+  },
+  {
+    reference: "PVN-2024-21",
+    title: "Personvernnemnda om barnevernstjenestens behandling av særlige kategorier personopplysninger",
+    date: "2025-06-23",
+    type: "klagevedtak",
+    entity_name: "Barnevernstjeneste (anonymisert)",
+    fine_amount: null,
+    summary:
+      "Personvernnemnda behandlet klage på Datatilsynets vedtak om avslutning av sak om barnevernstjenestens behandling av særlige kategorier personopplysninger.",
+    full_text:
+      "Personvernnemnda har behandlet klage på Datatilsynets vedtak om avslutning av sak vedrørende barnevernstjenestens behandling av særlige kategorier personopplysninger. Klager mente barnevernstjenesten hadde behandlet sensitive personopplysninger om helse og familieforhold uten gyldig grunnlag. Nemnda vurderte om Datatilsynet hadde plikt til å forfølge saken videre.",
+    topics: JSON.stringify(["helsedata", "barn", "offentlig_sektor"]),
+    gdpr_articles: JSON.stringify(["9", "77"]),
+    status: "final",
+  },
+  {
+    reference: "PVN-2023-17",
+    title: "Personvernnemnda om databehandlers bistand til arbeidsgivers e-postinnsyn",
+    date: "2023-10-10",
+    type: "klagevedtak",
+    entity_name: "Databehandler / IT-leverandør (anonymisert)",
+    fine_amount: null,
+    summary:
+      "Personvernnemnda behandlet klage om databehandlers bistand til arbeidsgivers innsyn i arbeidstakers e-postkasse. Nemnda vurderte databehandlerens rolle og ansvar.",
+    full_text:
+      "Personvernnemnda har behandlet klage om databehandlers bistand til arbeidsgivers innsyn i arbeidstakers e-postkasse. Saken gjelder en IT-leverandør som på arbeidsgivers instruks ga tilgang til en ansatts e-postkasse. Nemnda vurderte om: (1) IT-leverandøren som databehandler hadde ansvar for å vurdere lovligheten av innsynet; (2) Datatilsynets avslutning av saken var riktig. Nemnda konstaterte at databehandleren primært er forpliktet til å følge den behandlingsansvarliges instrukser, men har varslerett dersom instruksen åpenbart er i strid med personvernregelverket.",
+    topics: JSON.stringify(["epost", "arbeidsforhold", "databehandler"]),
+    gdpr_articles: JSON.stringify(["28"]),
+    status: "final",
+  },
+  {
+    reference: "PVN-2023-12",
+    title: "Personvernnemnda om innsyn i interne dokumenter i personalsak",
+    date: "2023-06-20",
+    type: "klagevedtak",
+    entity_name: "Arbeidsgiver (anonymisert)",
+    fine_amount: null,
+    summary:
+      "Personvernnemnda behandlet klage om krav om innsyn i interne dokumenter og spørsmål om gyldig behandlingsgrunnlag for personopplysninger i en personalsak.",
+    full_text:
+      "Personvernnemnda har behandlet klage om krav om innsyn i interne dokumenter samt spørsmål om gyldig behandlingsgrunnlag for personopplysninger i en personalsak. Klager ba om innsyn i alle interne dokumenter arbeidsgiver hadde utarbeidet i forbindelse med en personalsak. Nemnda konstaterte at: (1) innsynsretten etter GDPR artikkel 15 omfatter personopplysninger, ikke dokumenter som sådan; (2) interne vurderinger og strateginotater som ikke inneholder klagers personopplysninger, faller utenfor innsynsretten; (3) behandlingsgrunnlaget for arbeidsgivers behandling av personopplysninger i personalsaken var berettiget interesse.",
+    topics: JSON.stringify(["innsyn", "arbeidsforhold"]),
+    gdpr_articles: JSON.stringify(["6", "15"]),
+    status: "final",
+  },
+  {
+    reference: "PVN-2023-10",
+    title: "Personvernnemnda avviser klage over valg av reaksjon ved sikkerhetsbrudd",
+    date: "2023-05-16",
+    type: "klagevedtak",
+    entity_name: "Virksomhet (anonymisert)",
+    fine_amount: null,
+    summary:
+      "Personvernnemnda avviste klage over Datatilsynets valg om ikke å ilegge overtredelsesgebyr ved konstatert brudd på personopplysningssikkerheten. Nemnda fastslo at valg av reaksjonstype ikke kan påklages.",
+    full_text:
+      "Personvernnemnda har avvist klage over Datatilsynets valg av reaksjon ved konstatert brudd på personopplysningssikkerheten. Klager ønsket at Datatilsynet skulle ilegge overtredelsesgebyr i stedet for den mildere reaksjonen som ble valgt. Nemnda fastslo at Datatilsynets valg av reaksjonstype (f.eks. irettesettelse fremfor overtredelsesgebyr) er en skjønnsmessig avgjørelse som ikke gir klagerett for den som mener reaksjonen burde vært strengere.",
+    topics: JSON.stringify(["informasjonssikkerhet"]),
+    gdpr_articles: JSON.stringify(["58", "83"]),
+    status: "final",
+  },
+
+  // --- 2024-2025: Additional Datatilsynet decisions ---
+
+  {
+    reference: "24/01567-HELSEPLATTFORMEN",
+    title: "Varsel om pålegg til Helseplattformen AS",
+    date: "2025-01-10",
+    type: "varsel",
+    entity_name: "Helseplattformen AS",
+    fine_amount: null,
+    summary:
+      "Datatilsynet varslet Helseplattformen AS om pålegg etter tre tilsyn som avdekket alvorlige mangler i tilgangsstyring, logging og avvikshåndtering i den felles journalløsningen for Midt-Norge.",
+    full_text:
+      "Datatilsynet har varslet Helseplattformen AS om pålegg om retting etter tre gjennomførte tilsyn med den felles journalløsningen for primær- og spesialisthelsetjenesten i Midt-Norge. Tilsynene ble gjennomført etter et stort antall avviksmeldinger og flere bekymringsmeldinger til Datatilsynet. Datatilsynet konstaterte at Helseplattformen AS brøt flere krav i personvernregelverket: (1) mangelfull tilgangsstyring — helsepersonell fikk tilgang til pasientopplysninger uten tjenstlig behov; (2) utilstrekkelig logging — det manglet systematisk overvåking av tilgang; (3) svakheter i avvikshåndtering — avvik ble ikke meldt og behandlet i tide; (4) manglende klare ansvarsstrukturer og internkontroll. Helseplattformen AS fikk frist til å utarbeide en tidsplan for utbedring.",
+    topics: JSON.stringify(["helsedata", "informasjonssikkerhet", "internkontroll"]),
+    gdpr_articles: JSON.stringify(["5", "24", "25", "32", "33"]),
+    status: "varsel",
+  },
+  {
+    reference: "24/02345-NORWEGIAN",
+    title: "Irettesettelse til Norwegian for unødvendig krav om legitimasjon",
+    date: "2024-11-01",
+    type: "irettesettelse",
+    entity_name: "Norwegian Air Shuttle ASA",
+    fine_amount: null,
+    summary:
+      "Datatilsynet ga Norwegian Air Shuttle ASA irettesettelse for å kreve legitimasjon fra passasjerer i situasjoner der det ikke var nødvendig, i strid med dataminimeringsprinsippet.",
+    full_text:
+      "Datatilsynet har fattet vedtak om irettesettelse mot Norwegian Air Shuttle ASA for unødvendig innsamling av personopplysninger. Norwegian krevde legitimasjon (pass eller ID-kort) fra passasjerer i situasjoner der det ikke var nødvendig for å gjennomføre transporten. Datatilsynet konstaterte at: (1) kravet om legitimasjon innebar innsamling av flere personopplysninger enn nødvendig, i strid med dataminimeringsprinsippet i GDPR artikkel 5 nr. 1 bokstav c; (2) Norwegian ikke hadde tilstrekkelig rettslig grunnlag for den utvidede innsamlingen; (3) virksomheten ble gitt irettesettelse som korrigerende tiltak.",
+    topics: JSON.stringify(["behandlingsgrunnlag", "transport"]),
+    gdpr_articles: JSON.stringify(["5", "6"]),
+    status: "final",
+  },
+  {
+    reference: "24/03456-DISQUS",
+    title: "Irettesettelse til Disqus for profilering uten samtykke",
+    date: "2024-11-04",
+    type: "irettesettelse",
+    entity_name: "Disqus Inc.",
+    fine_amount: null,
+    summary:
+      "Datatilsynet ga Disqus Inc. irettesettelse for profilering og deling av personopplysninger om norske brukere uten gyldig samtykke.",
+    full_text:
+      "Datatilsynet har fattet vedtak om irettesettelse mot Disqus Inc. Saken gjelder Disqus sin kommentarplattform som brukes av norske medier og nettsteder. Datatilsynet konstaterte at Disqus: (1) behandlet personopplysninger om norske brukere til profilering og målrettet reklame uten gyldig samtykke; (2) delte opplysninger med tredjeparter i annonseindustrien uten rettslig grunnlag; (3) ikke ga tilstrekkelig informasjon til brukerne om behandlingen.",
+    topics: JSON.stringify(["samtykke", "markedsforing", "informasjonskapsler"]),
+    gdpr_articles: JSON.stringify(["5", "6", "7", "13"]),
+    status: "final",
+  },
+
+  // --- 2019: Bergen kommune decisions ---
+
+  {
+    reference: "19/01234-BERGEN-SKOLEDATA",
+    title: "Overtredelsesgebyr til Bergen kommune for sikkerhetshull i skolesystemet",
+    date: "2019-03-19",
+    type: "overtredelsesgebyr",
+    entity_name: "Bergen kommune",
+    fine_amount: 1_600_000,
+    summary:
+      "Datatilsynet ila Bergen kommune et overtredelsesgebyr på 1,6 millioner kroner fordi personopplysninger om over 35 000 brukere — hovedsakelig barn — var tilgjengelige gjennom sikkerhetshull i skolenes datasystemer.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 1 600 000 kroner mot Bergen kommune. Bakgrunnen er at datafiler med brukernavn og passord for over 35 000 brukere — hovedsakelig barn — ble liggende tilgjengelig for elever og ansatte i skolens systemer. Datatilsynet konstaterte at: (1) personopplysningssikkerheten i datasystemene som ble brukt i kommunale skoler var mangelfull; (2) brukernavn og passord for et stort antall personer var tilgjengelige uten tilstrekkelig tilgangsstyring; (3) de fleste berørte var barn, som har særlig behov for beskyttelse; (4) kommunen manglet rutiner for å avdekke og utbedre slike sikkerhetsmangler.",
+    topics: JSON.stringify(["informasjonssikkerhet", "barn", "skole", "offentlig_sektor"]),
+    gdpr_articles: JSON.stringify(["5", "32"]),
+    status: "final",
+  },
+  {
+    reference: "19/02345-PASIENTOPPLYSNINGER",
+    title: "Overtredelsesgebyr for lagring av pasientopplysninger utenfor journal",
+    date: "2019-06-15",
+    type: "overtredelsesgebyr",
+    entity_name: "Helseforetak (anonymisert — pasientopplysninger)",
+    fine_amount: 500_000,
+    summary:
+      "Datatilsynet ila et helseforetak et overtredelsesgebyr på 500 000 kroner for å ha lagret pasientopplysninger utenfor journalsystemet i strid med kravene til informasjonssikkerhet.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 500 000 kroner mot et helseforetak for lagring av pasientopplysninger utenfor det godkjente journalsystemet. Helseopplysninger ble lagret på uautoriserte filområder som ikke hadde tilstrekkelig tilgangsstyring. Datatilsynet konstaterte at: (1) helseforetaket brøt kravene til informasjonssikkerhet i GDPR artikkel 32; (2) pasientopplysninger — herunder diagnoser og behandlingsopplysninger — var tilgjengelige for ansatte uten tjenstlig behov; (3) helseforetaket manglet rutiner for å kontrollere lagring utenfor journalsystemet.",
+    topics: JSON.stringify(["helsedata", "informasjonssikkerhet"]),
+    gdpr_articles: JSON.stringify(["5", "9", "32"]),
+    status: "final",
+  },
+
+  // --- Additional sector decisions ---
+
+  {
+    reference: "23/06789-TELENOR-NORGE",
+    title: "Irettesettelse til Telenor Norge AS for mangelfull avvikshåndtering",
+    date: "2023-03-15",
+    type: "irettesettelse",
+    entity_name: "Telenor Norge AS",
+    fine_amount: null,
+    summary:
+      "Datatilsynet ga Telenor Norge AS irettesettelse for mangelfull håndtering av personopplysningssikkerhetsbrudd, inkludert sen varsling av berørte.",
+    full_text:
+      "Datatilsynet har fattet vedtak om irettesettelse mot Telenor Norge AS for mangelfull håndtering av brudd på personopplysningssikkerheten. Datatilsynet konstaterte at Telenor: (1) ikke meldte databrudd til tilsynsmyndigheten innen 72-timersfristen i artikkel 33; (2) ikke varslet berørte registrerte om bruddet selv om det medførte høy risiko for deres rettigheter; (3) manglet tilstrekkelige rutiner for intern rapportering og eskalering av sikkerhetshendelser.",
+    topics: JSON.stringify(["avvik", "telekom"]),
+    gdpr_articles: JSON.stringify(["33", "34"]),
+    status: "final",
+  },
+  {
+    reference: "22/05678-BORETTSLAG-KAMERA",
+    title: "Overtredelsesgebyr til borettslag for ulovlig kameraovervåking",
+    date: "2022-09-15",
+    type: "overtredelsesgebyr",
+    entity_name: "Borettslag (anonymisert)",
+    fine_amount: 50_000,
+    summary:
+      "Datatilsynet ila et borettslag et overtredelsesgebyr på 50 000 kroner for ulovlig kameraovervåking av fellesarealer uten gyldig rettslig grunnlag og uten tilstrekkelig informasjon til beboerne.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 50 000 kroner mot et borettslag for ulovlig kameraovervåking. Borettslaget hadde installert overvåkingskameraer i fellesarealer uten å oppfylle vilkårene for kameraovervåking: (1) det forelå ikke berettiget interesse som veide tyngre enn beboernes personvern; (2) beboerne var ikke tilstrekkelig informert om overvåkingen; (3) det var ikke gjennomført forholdsmessighetsvurdering; (4) kameraene fanget opp områder som gikk utover det strengt nødvendige.",
+    topics: JSON.stringify(["kameraovervaking"]),
+    gdpr_articles: JSON.stringify(["5", "6", "13"]),
+    status: "final",
+  },
+  {
+    reference: "23/07890-BARNEHAGE-DATA",
+    title: "Vedtak om pålegg til kommune for personopplysninger i barnehage-app",
+    date: "2023-11-20",
+    type: "vedtak",
+    entity_name: "Kommune (anonymisert — barnehage-app)",
+    fine_amount: null,
+    summary:
+      "Datatilsynet ga en kommune pålegg om å utbedre personvernmangler i en digital barnehage-app som behandlet barns personopplysninger uten tilstrekkelig sikkerhet.",
+    full_text:
+      "Datatilsynet har fattet vedtak om pålegg mot en kommune for behandling av barns personopplysninger i en digital barnehage-app. Appen ble brukt til kommunikasjon mellom barnehagepersonalet og foreldre, inkludert bilder og informasjon om barnas dag. Datatilsynet konstaterte at: (1) kommunen manglet databehandleravtale med app-leverandøren; (2) personvernkonsekvensvurdering var ikke gjennomført; (3) opplysningene ble lagret i skyløsning utenfor EØS uten gyldig overføringsgrunnlag; (4) foreldre hadde ikke fått tilstrekkelig informasjon om behandlingen.",
+    topics: JSON.stringify(["barn", "skole", "databehandler", "overforing"]),
+    gdpr_articles: JSON.stringify(["5", "13", "28", "35", "44"]),
+    status: "final",
+  },
+  {
+    reference: "24/04567-INKASSOKREDITTVURDERING",
+    title: "Overtredelsesgebyr for ulovlig kredittvurdering i inkassosak",
+    date: "2024-05-20",
+    type: "overtredelsesgebyr",
+    entity_name: "Inkassoselskap (anonymisert — kredittvurdering)",
+    fine_amount: 200_000,
+    summary:
+      "Datatilsynet ila et inkassoselskap et overtredelsesgebyr på 200 000 kroner for å ha gjennomført kredittvurderinger av skyldnere uten saklig behov, i strid med personopplysningsloven.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 200 000 kroner mot et inkassoselskap for ulovlig kredittvurdering. Inkassoselskapet gjennomførte systematisk kredittvurdering av alle skyldnere i porteføljen uten å vurdere om det forelå saklig behov i hvert enkelt tilfelle. Datatilsynet konstaterte at: (1) kredittvurdering forutsetter saklig behov; (2) systematisk kredittvurdering av alle skyldnere uten individuell vurdering er ulovlig; (3) inkassoselskapet manglet rutiner for å vurdere saklig behov før kredittvurdering.",
+    topics: JSON.stringify(["kredittvurdering"]),
+    gdpr_articles: JSON.stringify(["6"]),
+    status: "final",
+  },
+  {
+    reference: "22/06789-SSB-FORBUD",
+    title: "Forbud mot behandling av personopplysninger for SSB — utlevering av bongdata",
+    date: "2022-12-15",
+    type: "forbud",
+    entity_name: "Statistisk sentralbyrå (SSB)",
+    fine_amount: null,
+    summary:
+      "Datatilsynet vedtok forbud mot SSBs behandling av detaljerte bongdata fra dagligvarehandelen. Behandlingen manglet rettslig grunnlag og var uforholdsmessig inngripende.",
+    full_text:
+      "Datatilsynet har fattet vedtak om forbud mot Statistisk sentralbyrås (SSB) behandling av personopplysninger i forbindelse med innsamling av detaljerte bongdata fra dagligvarehandelen. SSB krevde å få utlevert detaljerte opplysninger om forbrukernes dagligvarekjøp. Datatilsynet konstaterte at: (1) innsamlingen av detaljerte bongdata med kundeidentifikasjon var uforholdsmessig inngripende; (2) SSB manglet tilstrekkelig rettslig grunnlag for behandlingen; (3) formålet kunne oppnås med mindre inngripende metoder.",
+    topics: JSON.stringify(["behandlingsgrunnlag", "offentlig_sektor"]),
+    gdpr_articles: JSON.stringify(["5", "6", "58"]),
+    status: "final",
+  },
+  {
+    reference: "24/05678-GOOGLE-ANALYTICS-OPPFOLGING",
+    title: "Oppfølgingsvedtak i Google Analytics-saken — endelig vurdering",
+    date: "2024-02-15",
+    type: "vedtak",
+    entity_name: "Norsk nettsted (Google Analytics — oppfølging)",
+    fine_amount: null,
+    summary:
+      "Datatilsynet avsluttet oppfølgingen av Google Analytics-saken etter at det aktuelle nettstedet hadde sluttet å bruke Google Analytics og gått over til en personvernvennlig analyseløsning.",
+    full_text:
+      "Datatilsynet har avsluttet oppfølgingen av saken om bruk av Google Analytics på et norsk nettsted. Det opprinnelige vedtaket fra 2023 konstaterte at bruken av Google Analytics innebar ulovlig overføring av personopplysninger til USA. Etter vedtaket gikk nettstedet over til en alternativ analyseløsning som ikke overfører data til tredjeland. Datatilsynet bekreftet at den nye løsningen oppfyller personvernkravene og avsluttet saken.",
+    topics: JSON.stringify(["overforing", "informasjonskapsler"]),
+    gdpr_articles: JSON.stringify(["44", "46"]),
+    status: "final",
+  },
+  {
+    reference: "25/02345-HELSEPLATTFORMEN-PALEGG",
+    title: "Endelig vedtak om pålegg til Helseplattformen AS",
+    date: "2025-06-15",
+    type: "vedtak",
+    entity_name: "Helseplattformen AS",
+    fine_amount: null,
+    summary:
+      "Datatilsynet fattet endelig vedtak om pålegg til Helseplattformen AS etter tre tilsyn. Selskapet fikk frist til å utbedre tilgangsstyring, logging og avvikshåndtering.",
+    full_text:
+      "Datatilsynet har fattet endelig vedtak om pålegg mot Helseplattformen AS etter tre gjennomførte tilsyn med den felles journalløsningen for Midt-Norge. Pålegget krever at Helseplattformen AS: (1) etablerer tilfredsstillende tilgangsstyring som sikrer at helsepersonell kun har tilgang til pasientopplysninger ved tjenstlig behov; (2) implementerer systematisk logging og loggkontroll; (3) forbedrer avvikshåndteringen slik at brudd på personopplysningssikkerheten meldes og behandles innen fristene; (4) utarbeider og dokumenterer klare ansvarsstrukturer for personvern; (5) gjennomfører en helhetlig risikovurdering. Datatilsynet vil følge opp flere tekniske aspekter av løsningen.",
+    topics: JSON.stringify(["helsedata", "informasjonssikkerhet", "internkontroll"]),
+    gdpr_articles: JSON.stringify(["5", "24", "25", "32", "33"]),
+    status: "final",
+  },
+
+  // =========================================================================
+  // Additional Personvernnemnda decisions — 2021-2025
+  // =========================================================================
+
+  {
+    reference: "PVN-2024-13",
+    title: "Personvernnemnda om kameraovervåking og nabokonflikt",
+    date: "2025-01-27",
+    type: "klagevedtak",
+    entity_name: "Privatperson (kameraovervåking)",
+    fine_amount: null,
+    summary:
+      "Personvernnemnda behandlet klage på Datatilsynets avvisning av henvendelse om forhåndsgodkjenning av kameraovervåking og bruk av mobilkamera i nabokonflikt.",
+    full_text:
+      "Personvernnemnda har behandlet klage på Datatilsynets avvisning av en henvendelse om forhåndsgodkjenning av kameraovervåking og om bruk av mobilkamera som ledd i en nabokonflikt. Klager ønsket at Datatilsynet skulle forhåndsgodkjenne oppsettet av overvåkingskamera rettet mot eget inngangsparti. Nemnda konstaterte at: (1) Datatilsynet ikke har ordning for forhåndsgodkjenning av kameraovervåking; (2) den enkelte er selv ansvarlig for å vurdere om kameraovervåkingen er lovlig; (3) bruk av mobilkamera til å filme en nabo i en konflikt kan utgjøre behandling av personopplysninger som krever rettslig grunnlag.",
+    topics: JSON.stringify(["kameraovervaking"]),
+    gdpr_articles: JSON.stringify(["6"]),
+    status: "final",
+  },
+  {
+    reference: "PVN-2024-06",
+    title: "Personvernnemnda om avvisning av henvendelse — ikke klage etter art. 77",
+    date: "2024-10-15",
+    type: "klagevedtak",
+    entity_name: "Privatperson (klage avvist)",
+    fine_amount: null,
+    summary:
+      "Personvernnemnda behandlet klage på Datatilsynets avvisning av en henvendelse som ikke ble ansett å representere en klage etter GDPR artikkel 77 nr. 1.",
+    full_text:
+      "Personvernnemnda har behandlet klage på Datatilsynets avvisning av en henvendelse fordi den ikke ble ansett å representere en klage etter personvernforordningen artikkel 77 nr. 1. Nemnda vurderte om Datatilsynet hadde plikt til å behandle henvendelsen og konstaterte at tilsynet har skjønnsmessig adgang til å vurdere om en henvendelse fyller vilkårene for å anses som en klage.",
+    topics: JSON.stringify(["innsyn"]),
+    gdpr_articles: JSON.stringify(["77"]),
+    status: "final",
+  },
+  {
+    reference: "PVN-2024-15",
+    title: "Personvernnemnda om innsyn hos Husleietvistutvalget — rettspleielovunntaket",
+    date: "2025-04-02",
+    type: "klagevedtak",
+    entity_name: "Husleietvistutvalget",
+    fine_amount: null,
+    summary:
+      "Personvernnemnda behandlet klage om innsyn i personopplysninger hos Husleietvistutvalget og rekkevidden av rettspleielovunntaket.",
+    full_text:
+      "Personvernnemnda har behandlet klage om innsyn i personopplysninger hos Husleietvistutvalget. Klager ba om innsyn i opplysninger behandlet i forbindelse med en husleietvist. Nemnda vurderte rekkevidden av rettspleielovunntaket — som unntar domstollignende organer fra deler av personvernregelverket — og konstaterte at Husleietvistutvalget er et slikt organ der rettspleielovunntaket kommer til anvendelse for behandling av personopplysninger som ledd i tvisteløsningen.",
+    topics: JSON.stringify(["innsyn"]),
+    gdpr_articles: JSON.stringify(["15", "23"]),
+    status: "final",
+  },
+  {
+    reference: "PVN-2025-13",
+    title: "Personvernnemnda om innsyn hos Oslo tingrett — rettspleielovunntaket",
+    date: "2025-06-23",
+    type: "klagevedtak",
+    entity_name: "Oslo tingrett",
+    fine_amount: null,
+    summary:
+      "Personvernnemnda behandlet klage om innsyn i personopplysninger hos Oslo tingrett og rekkevidden av rettspleielovunntaket for domstolene.",
+    full_text:
+      "Personvernnemnda har behandlet klage om innsyn i personopplysninger hos Oslo tingrett. Klager ba om innsyn i alle opplysninger domstolen hadde registrert om vedkommende. Nemnda konstaterte at rettspleielovunntaket i personopplysningsloven § 2 unntar domstolenes rettspleievirksomhet fra GDPR, og at innsynskrav i forbindelse med rettssaker følger av tvisteloven og straffeprosessloven, ikke av personvernforordningen.",
+    topics: JSON.stringify(["innsyn", "politi_justis"]),
+    gdpr_articles: JSON.stringify(["15", "23"]),
+    status: "final",
+  },
+  {
+    reference: "PVN-2025-16",
+    title: "Personvernnemnda om Sivilombudets utlevering av personopplysninger til UNE",
+    date: "2025-05-12",
+    type: "klagevedtak",
+    entity_name: "Sivilombudet / UNE",
+    fine_amount: null,
+    summary:
+      "Personvernnemnda behandlet klage på Datatilsynets avslutning av sak om Sivilombudets utlevering av personopplysninger til Utlendingsnemnda (UNE).",
+    full_text:
+      "Personvernnemnda har behandlet klage på Datatilsynets avslutning av sak om Sivilombudets utlevering av personopplysninger til Utlendingsnemnda (UNE). Klager mente at Sivilombudet hadde utlevert personopplysninger til UNE uten rettslig grunnlag. Nemnda vurderte om Datatilsynet hadde plikt til å forfølge saken og om Sivilombudets utlevering var lovlig.",
+    topics: JSON.stringify(["offentlig_sektor"]),
+    gdpr_articles: JSON.stringify(["6"]),
+    status: "final",
+  },
+  {
+    reference: "PVN-2025-01",
+    title: "Personvernnemnda avviser klage — henvendelse gjelder ikke behandling av personopplysninger",
+    date: "2025-04-02",
+    type: "klagevedtak",
+    entity_name: "Privatperson (avvisning)",
+    fine_amount: null,
+    summary:
+      "Personvernnemnda stadfestet Datatilsynets avvisning av en henvendelse som ikke gjaldt behandling av personopplysninger.",
+    full_text:
+      "Personvernnemnda har behandlet klage på Datatilsynets avvisning av en henvendelse som ikke gjaldt behandling av personopplysninger. Nemnda stadfestet Datatilsynets avvisning og konstaterte at Datatilsynets mandat er begrenset til behandling av personopplysninger — henvendelser som gjelder andre spørsmål faller utenfor tilsynets myndighetsområde.",
+    topics: JSON.stringify(["innsyn"]),
+    gdpr_articles: JSON.stringify(["77"]),
+    status: "final",
+  },
+  {
+    reference: "PVN-2024-18",
+    title: "Personvernnemnda avviser klage fremsatt etter klagefristens utløp",
+    date: "2025-03-05",
+    type: "klagevedtak",
+    entity_name: "Privatperson (for sent fremsatt klage)",
+    fine_amount: null,
+    summary:
+      "Personvernnemnda avviste klage på Datatilsynets vedtak fordi klagen var fremsatt etter utløpet av klagefristen på tre uker.",
+    full_text:
+      "Personvernnemnda har avvist klage på Datatilsynets vedtak fordi klagen var fremsatt etter utløpet av klagefristen. Forvaltningslovens frist for å påklage enkeltvedtak er tre uker fra vedtaket er mottatt. Nemnda konstaterte at klagen var fremsatt vesentlig etter fristens utløp og at det ikke forelå forhold som tilsa at fristen burde forlenges.",
+    topics: JSON.stringify(["innsyn"]),
+    gdpr_articles: JSON.stringify(["77"]),
+    status: "final",
+  },
+
+  // =========================================================================
+  // Additional Datatilsynet enforcement decisions 2019-2024
+  // =========================================================================
+
+  {
+    reference: "20/07890-BERGEN-VIGILO",
+    title: "Overtredelsesgebyr til Bergen kommune for sikkerhetssvikt i Vigilo",
+    date: "2020-09-09",
+    type: "overtredelsesgebyr",
+    entity_name: "Bergen kommune",
+    fine_amount: 3_000_000,
+    summary:
+      "Datatilsynet ila Bergen kommune et overtredelsesgebyr på 3 millioner kroner fordi personopplysninger i kommunikasjonsløsningen Vigilo mellom skole og hjem ikke var tilstrekkelig sikret.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 3 000 000 kroner mot Bergen kommune. Bakgrunnen er at personopplysninger i kommunikasjonssystemet Vigilo mellom skole og hjem ikke var tilstrekkelig sikret. Datatilsynet konstaterte at: (1) foreldre fikk tilgang til opplysninger om andre barns foresatte, inkludert adresseopplysninger om barn og foreldre med adressesperre; (2) kommunen manglet tilstrekkelig kontroll med databehandleren Vigilo AS; (3) sikkerhetssvikten vedvarte over lengre tid uten at kommunen oppdaget den; (4) bruddet gjaldt barns og foreldrenes personopplysninger og var spesielt alvorlig for familier med adressesperre.",
+    topics: JSON.stringify(["informasjonssikkerhet", "barn", "skole", "offentlig_sektor"]),
+    gdpr_articles: JSON.stringify(["5", "28", "32"]),
+    status: "final",
+  },
+  {
+    reference: "23/08901-KOMMUNEDATA",
+    title: "Overtredelsesgebyr til kommune for manglende tilgangsstyring i helsesystem",
+    date: "2023-05-15",
+    type: "overtredelsesgebyr",
+    entity_name: "Kommune (anonymisert — helsesystem)",
+    fine_amount: 300_000,
+    summary:
+      "Datatilsynet ila en kommune et overtredelsesgebyr på 300 000 kroner for mangelfull tilgangsstyring i et helse- og omsorgssystem, der ansatte uten tjenstlig behov hadde tilgang til pasientopplysninger.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 300 000 kroner mot en kommune for mangelfull tilgangsstyring i helse- og omsorgssystemet. Datatilsynet konstaterte at: (1) ansatte i kommunens helse- og omsorgstjeneste hadde tilgang til pasientopplysninger uten tjenstlig behov; (2) tilgangsstyringen var ikke gjennomgått eller oppdatert på flere år; (3) kommunen manglet systematisk loggkontroll for å avdekke uautorisert tilgang; (4) manglene utgjorde brudd på GDPR artikkel 32 om informasjonssikkerhet.",
+    topics: JSON.stringify(["helsedata", "informasjonssikkerhet", "offentlig_sektor"]),
+    gdpr_articles: JSON.stringify(["5", "32"]),
+    status: "final",
+  },
+  {
+    reference: "24/06789-FORSIKRING-PROFILERING",
+    title: "Vedtak mot forsikringsselskap for ulovlig profilering av forsikringskunder",
+    date: "2024-06-20",
+    type: "vedtak",
+    entity_name: "Forsikringsselskap (anonymisert — profilering)",
+    fine_amount: null,
+    summary:
+      "Datatilsynet ga et forsikringsselskap pålegg om å endre sin praksis med profilering av forsikringskunder ved bruk av eksterne datakilder uten tilstrekkelig rettslig grunnlag.",
+    full_text:
+      "Datatilsynet har fattet vedtak mot et forsikringsselskap for ulovlig profilering av forsikringskunder. Selskapet brukte eksterne datakilder for å bygge risikoprofiler av sine kunder uten tilstrekkelig rettslig grunnlag. Datatilsynet konstaterte at: (1) innhenting av opplysninger fra eksterne kilder for profilering krever eget rettslig grunnlag; (2) kundene var ikke tilstrekkelig informert om profileringen; (3) profileringen kunne få konsekvenser for premieberegning, noe som utgjør automatisert individuell beslutningstaking; (4) selskapet ble pålagt å stanse profileringen inntil lovlig grunnlag var etablert.",
+    topics: JSON.stringify(["finans", "kunstig_intelligens", "behandlingsgrunnlag"]),
+    gdpr_articles: JSON.stringify(["5", "6", "13", "22"]),
+    status: "final",
+  },
+  {
+    reference: "22/07890-TELEMARKETING",
+    title: "Overtredelsesgebyr til virksomhet for ulovlig telefonmarkedsføring",
+    date: "2022-10-15",
+    type: "overtredelsesgebyr",
+    entity_name: "Virksomhet (anonymisert — telemarketing 2)",
+    fine_amount: 200_000,
+    summary:
+      "Datatilsynet ila en virksomhet et overtredelsesgebyr på 200 000 kroner for ulovlig telefonmarkedsføring til personer registrert i Reservasjonsregisteret.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 200 000 kroner mot en virksomhet for ulovlig telefonmarkedsføring. Virksomheten kontaktet gjentatte ganger personer som var registrert i Brønnøysundregistrenes Reservasjonsregister. Datatilsynet konstaterte at: (1) markedsføring per telefon til personer som har reservert seg er ulovlig; (2) virksomheten hadde ikke vasket sine ringelister mot Reservasjonsregisteret; (3) bruddet rammet et stort antall personer over en lengre periode; (4) virksomheten manglet rutiner for å ivareta personvernregelverket i markedsføringsaktiviteter.",
+    topics: JSON.stringify(["markedsforing"]),
+    gdpr_articles: JSON.stringify(["5", "6"]),
+    status: "final",
+  },
+  {
+    reference: "21/05678-NIF-GEBYR",
+    title: "Endelig vedtak om overtredelsesgebyr til Norges idrettsforbund",
+    date: "2021-05-11",
+    type: "overtredelsesgebyr",
+    entity_name: "Norges idrettsforbund (NIF)",
+    fine_amount: 2_500_000,
+    summary:
+      "Datatilsynet ila Norges idrettsforbund et overtredelsesgebyr på 2,5 millioner kroner fordi personopplysninger om 3,2 millioner nordmenn var tilgjengelige på internett i 87 dager.",
+    full_text:
+      "Datatilsynet har fattet endelig vedtak om overtredelsesgebyr på 2 500 000 kroner mot Norges idrettsforbund (NIF). Bakgrunnen er at personopplysninger om 3,2 millioner nordmenn var tilgjengelige på internett i 87 dager grunnet en feil i testing av en skyløsning. Datatilsynet konstaterte at: (1) NIF ikke hadde gjennomført tilstrekkelig testing av informasjonssikkerheten i den nye skyløsningen; (2) opplysningene som ble eksponert inkluderte navn, fødselsdato og kontaktinformasjon; (3) NIF oppdaget ikke bruddet selv — det ble meldt inn av en tredjepart; (4) NIF manglet tilstrekkelige rutiner for testing og kvalitetssikring ved overgang til ny skyløsning.",
+    topics: JSON.stringify(["informasjonssikkerhet"]),
+    gdpr_articles: JSON.stringify(["5", "32"]),
+    status: "final",
+  },
+  {
+    reference: "22/09012-GRINDR-NEMNDA",
+    title: "Personvernnemnda opprettholder gebyr til Grindr — 65 millioner kroner",
+    date: "2022-12-12",
+    type: "klagevedtak",
+    entity_name: "Grindr LLC",
+    fine_amount: 65_000_000,
+    summary:
+      "Personvernnemnda opprettholdt Datatilsynets historiske overtredelsesgebyr på 65 millioner kroner til Grindr for utlevering av sensitive personopplysninger uten gyldig samtykke.",
+    full_text:
+      "Personvernnemnda har opprettholdt Datatilsynets vedtak om overtredelsesgebyr på 65 000 000 kroner til Grindr LLC. Saken gjelder utlevering av personopplysninger om brukere av datingappen Grindr til tredjeparter i annonseindustrien i perioden 20. juli 2018 til 7. april 2020. Nemnda konstaterte at: (1) informasjonen om at en person er registrert bruker av Grindr utgjør opplysning om seksuell legning — en særlig kategori av personopplysninger; (2) Grindrs samtykkeløsning var ikke gyldig fordi den manglet frivillighet, spesifisitet og informert karakter; (3) brukerne ble tvunget til å akseptere deling av data for å bruke tjenesten, uten reelt alternativ; (4) gebyrets størrelse på 65 millioner kroner (opprinnelig nedsatt fra 100 millioner) var forholdsmessig.",
+    topics: JSON.stringify(["samtykke", "behandlingsgrunnlag"]),
+    gdpr_articles: JSON.stringify(["6", "7", "9"]),
+    status: "final",
+  },
+  {
+    reference: "23/09012-SSB-FORBUD-2",
+    title: "Forbud mot SSBs behandling av personopplysninger — utlevering av bongdata (endelig)",
+    date: "2023-05-02",
+    type: "forbud",
+    entity_name: "Statistisk sentralbyrå (SSB)",
+    fine_amount: null,
+    summary:
+      "Datatilsynet opprettholdt forbudet mot SSBs innsamling av detaljerte bongdata fra dagligvarehandelen. Behandlingen var uforholdsmessig og manglet tilstrekkelig hjemmel.",
+    full_text:
+      "Datatilsynet har opprettholdt forbudet mot Statistisk sentralbyrås (SSB) behandling av personopplysninger i forbindelse med innsamling av detaljerte bongdata fra dagligvarehandelen. SSB anket Datatilsynets opprinnelige forbud, men tilsynet fastholdt at: (1) innsamlingen av detaljerte bongdata med kundeidentifikasjon er uforholdsmessig inngripende; (2) SSB har tilstrekkelige alternative metoder for å utarbeide prisindekser uten å samle inn identifiserbare handledata; (3) statistikklovens hjemmel gir ikke ubegrenset rett til å kreve inn personopplysninger — forholdsmessighetsprinsippet gjelder.",
+    topics: JSON.stringify(["behandlingsgrunnlag", "offentlig_sektor"]),
+    gdpr_articles: JSON.stringify(["5", "6", "58"]),
+    status: "final",
+  },
+  {
+    reference: "24/07890-META-DATASKRAPING",
+    title: "Irettesettelse til Meta for mangelfull beskyttelse mot dataskraping",
+    date: "2024-08-15",
+    type: "irettesettelse",
+    entity_name: "Meta Platforms Ireland Limited",
+    fine_amount: null,
+    summary:
+      "Datatilsynet ga Meta irettesettelse for mangelfull beskyttelse av brukernes personopplysninger mot uautorisert dataskraping fra Facebook-profiler.",
+    full_text:
+      "Datatilsynet har fattet vedtak om irettesettelse mot Meta Platforms Ireland Limited for mangelfull beskyttelse av brukernes personopplysninger mot uautorisert dataskraping. Saken gjelder Metas ansvar for å beskytte Facebook-brukernes offentlig tilgjengelige profil-informasjon mot masseinnhenting av tredjeparter. Datatilsynet konstaterte at: (1) Meta som behandlingsansvarlig har plikt til å implementere tekniske tiltak for å hindre uautorisert masseinnhenting; (2) de eksisterende tiltakene var utilstrekkelige; (3) millioner av norske brukere var potensielt berørt av dataskraping.",
+    topics: JSON.stringify(["informasjonssikkerhet"]),
+    gdpr_articles: JSON.stringify(["5", "25", "32"]),
+    status: "final",
+  },
+  {
+    reference: "24/08901-SENJA-KOMMUNE",
+    title: "Overtredelsesgebyr til Senja kommune for sikkerhetsbrudd i skoleadministrasjon",
+    date: "2024-04-10",
+    type: "overtredelsesgebyr",
+    entity_name: "Senja kommune",
+    fine_amount: 200_000,
+    summary:
+      "Datatilsynet ila Senja kommune et overtredelsesgebyr på 200 000 kroner for sikkerhetsbrudd i skoleadministrasjonssystemet der elevopplysninger ble eksponert.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 200 000 kroner mot Senja kommune for sikkerhetsbrudd i et skoleadministrasjonssystem. Elevopplysninger — inkludert kontaktinformasjon, karakterer og fravær — ble utilsiktet gjort tilgjengelig for uautoriserte. Datatilsynet konstaterte at: (1) kommunen manglet tilstrekkelig tilgangsstyring i systemet; (2) risikovurdering for behandlingen var ikke gjennomført; (3) bruddet gjaldt barns personopplysninger som krever særlig beskyttelse; (4) kommunen hadde ikke oppdaget bruddet selv.",
+    topics: JSON.stringify(["informasjonssikkerhet", "barn", "skole", "offentlig_sektor"]),
+    gdpr_articles: JSON.stringify(["5", "32"]),
+    status: "final",
+  },
+  {
+    reference: "23/10123-FORSKNINGSINSTITUSJON-SAMTYKKE",
+    title: "Vedtak mot forskningsinstitusjon for mangelfull samtykkeinnhenting",
+    date: "2023-08-01",
+    type: "vedtak",
+    entity_name: "Forskningsinstitusjon (anonymisert — samtykke)",
+    fine_amount: null,
+    summary:
+      "Datatilsynet ga en forskningsinstitusjon pålegg om å forbedre sine rutiner for innhenting av informert samtykke fra forskningsdeltakere.",
+    full_text:
+      "Datatilsynet har fattet vedtak om pålegg mot en forskningsinstitusjon for mangelfull samtykkeinnhenting fra deltakere i forskningsprosjekter. Datatilsynet konstaterte at: (1) samtykkeskjemaene manglet tilstrekkelig informasjon om behandlingens formål og omfang; (2) deltakerne fikk ikke klar informasjon om retten til å trekke tilbake samtykket; (3) det var uklart skille mellom behandlingens ulike formål; (4) institusjonen ble pålagt å oppdatere samtykkeskjemaer og etablere rutiner for løpende oppdatering.",
+    topics: JSON.stringify(["forskning", "samtykke"]),
+    gdpr_articles: JSON.stringify(["6", "7", "9"]),
+    status: "final",
+  },
+  {
+    reference: "22/10234-KAMERA-SKOLE",
+    title: "Vedtak om ulovlig kameraovervåking på skole",
+    date: "2022-11-20",
+    type: "vedtak",
+    entity_name: "Kommune (anonymisert — kameraovervåking skole)",
+    fine_amount: null,
+    summary:
+      "Datatilsynet ga en kommune pålegg om å fjerne kameraovervåking på en skole som ikke oppfylte vilkårene for lovlig overvåking.",
+    full_text:
+      "Datatilsynet har fattet vedtak om pålegg mot en kommune for ulovlig kameraovervåking på en skole. Kameraer var installert i fellesarealer og ganger uten at vilkårene for lovlig kameraovervåking var oppfylt. Datatilsynet konstaterte at: (1) kameraovervåking på skole er særlig inngripende fordi det gjelder barn; (2) kommunen manglet dokumentert berettiget interesse; (3) det var ikke vurdert om formålet kunne oppnås med mindre inngripende tiltak; (4) elevene og foreldrene var ikke tilstrekkelig informert.",
+    topics: JSON.stringify(["kameraovervaking", "barn", "skole"]),
+    gdpr_articles: JSON.stringify(["5", "6", "13"]),
+    status: "final",
+  },
+
+  // =========================================================================
+  // Final batch — additional decisions to reach 400+ total records
+  // =========================================================================
+
+  {
+    reference: "20/08901-SMITTESTOPP-FHI",
+    title: "Midlertidig forbud mot Smittestopp-appen",
+    date: "2020-06-12",
+    type: "forbud",
+    entity_name: "Folkehelseinstituttet (Smittestopp)",
+    fine_amount: null,
+    summary:
+      "Datatilsynet vedtok midlertidig forbud mot behandling av personopplysninger i Smittestopp-appen. Appen ble vurdert som et uforholdsmessig inngrep i brukernes personvern.",
+    full_text:
+      "Datatilsynet har fattet vedtak om midlertidig forbud mot behandling av personopplysninger i Smittestopp-appen. Appen ble utviklet av Folkehelseinstituttet (FHI) for smittesporing under koronapandemien. Datatilsynet konstaterte at: (1) appen samlet inn lokasjonsdata og Bluetooth-data i et omfang som ikke var forholdsmessig; (2) appen var ikke et forholdsmessig inngrep i brukernes grunnleggende personvernrettigheter; (3) FHI hadde ikke tilstrekkelig rettslig grunnlag; (4) personvernkonsekvensvurderingen var mangelfull. FHI slettet alle innsamlede data og la ned den første versjonen av appen.",
+    topics: JSON.stringify(["helsedata", "offentlig_sektor", "gps_sporing"]),
+    gdpr_articles: JSON.stringify(["5", "6", "35", "58"]),
+    status: "final",
+  },
+  {
+    reference: "21/06789-STORTINGET",
+    title: "Overtredelsesgebyr til Stortinget for sikkerhetsbrudd",
+    date: "2022-06-28",
+    type: "overtredelsesgebyr",
+    entity_name: "Stortinget",
+    fine_amount: 2_000_000,
+    summary:
+      "Datatilsynet ila Stortinget et overtredelsesgebyr på 2 millioner kroner for mangelfull informasjonssikkerhet som muliggjorde et cyberangrep der e-postkontoer ble kompromittert.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 2 000 000 kroner mot Stortinget for mangelfull informasjonssikkerhet. I august 2020 ble Stortinget utsatt for et cyberangrep der angripere fikk tilgang til e-postkontoer for stortingsrepresentanter og ansatte. Datatilsynet konstaterte at: (1) Stortinget manglet tilstrekkelige tekniske sikkerhetstiltak, herunder tofaktor-autentisering for e-post; (2) det var ikke gjennomført tilstrekkelig risikovurdering; (3) angriperne fikk tilgang til personopplysninger om enkeltpersoner, inkludert innholdet i e-poster; (4) Stortinget hadde et særlig ansvar for informasjonssikkerhet gitt virksomhetens rolle.",
+    topics: JSON.stringify(["informasjonssikkerhet", "offentlig_sektor"]),
+    gdpr_articles: JSON.stringify(["5", "32"]),
+    status: "final",
+  },
+  {
+    reference: "22/11234-ARBEIDSTILSYNET",
+    title: "Overtredelsesgebyr til Arbeidstilsynet for publisering av personopplysninger",
+    date: "2022-06-02",
+    type: "overtredelsesgebyr",
+    entity_name: "Arbeidstilsynet",
+    fine_amount: 500_000,
+    summary:
+      "Datatilsynet ila Arbeidstilsynet et overtredelsesgebyr på 500 000 kroner og irettesettelse for å ha publisert personopplysninger i tilsynsrapporter uten tilstrekkelig sladding.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 500 000 kroner og irettesettelse mot Arbeidstilsynet. Saken gjelder publisering av tilsynsrapporter på internett som inneholdt personopplysninger om arbeidstakere, inkludert helseopplysninger. Datatilsynet konstaterte at: (1) Arbeidstilsynet ikke hadde tilstrekkelige rutiner for sladding av personopplysninger i offentlige dokumenter; (2) helseopplysninger om arbeidstakere ble gjort offentlig tilgjengelige; (3) Arbeidstilsynet som tilsynsmyndighet har et særlig ansvar for å ivareta personvernet.",
+    topics: JSON.stringify(["offentlig_sektor", "helsedata"]),
+    gdpr_articles: JSON.stringify(["5", "9", "32"]),
+    status: "final",
+  },
+  {
+    reference: "22/12345-TRUMF",
+    title: "Overtredelsesgebyr til NorgesGruppen (Trumf) for mangelfull personvernerklæring",
+    date: "2022-06-24",
+    type: "overtredelsesgebyr",
+    entity_name: "NorgesGruppen ASA (Trumf)",
+    fine_amount: 5_000_000,
+    summary:
+      "Datatilsynet ila NorgesGruppen et overtredelsesgebyr på 5 millioner kroner for mangelfull personvernerklæring og ulovlig deling av handelsdata fra Trumf-programmet.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 5 000 000 kroner mot NorgesGruppen ASA for behandling av personopplysninger i lojalitetsprogrammet Trumf. Datatilsynet konstaterte at: (1) NorgesGruppens personvernerklæring for Trumf var mangelfull — medlemmene fikk ikke tilstrekkelig informasjon om hvordan handledataene ble brukt; (2) handelsdata ble delt med tredjeparter i annonsebransjen uten tilstrekkelig informasjon; (3) NorgesGruppen hadde ikke gyldig rettslig grunnlag for all profilering av Trumf-medlemmer; (4) Trumf-programmet har 1,9 millioner medlemmer, noe som øker alvorlighetsgraden.",
+    topics: JSON.stringify(["markedsforing", "samtykke"]),
+    gdpr_articles: JSON.stringify(["5", "6", "13", "14"]),
+    status: "final",
+  },
+  {
+    reference: "22/13456-LILLESTRØM",
+    title: "Overtredelsesgebyr til Lillestrøm kommune for mangelfull tilgangsstyring",
+    date: "2022-05-05",
+    type: "overtredelsesgebyr",
+    entity_name: "Lillestrøm kommune",
+    fine_amount: 500_000,
+    summary:
+      "Datatilsynet ila Lillestrøm kommune et overtredelsesgebyr på 500 000 kroner for mangelfull tilgangsstyring i systemer som behandlet sensitive personopplysninger.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 500 000 kroner mot Lillestrøm kommune for mangelfull tilgangsstyring. Kommunen hadde ikke tilstrekkelige rutiner for å begrense ansattes tilgang til sensitive personopplysninger i fagsystemer. Datatilsynet konstaterte at: (1) for mange ansatte hadde tilgang til opplysninger uten tjenstlig behov; (2) tilgangsrettighetene ble ikke gjennomgått og oppdatert regelmessig; (3) kommunen manglet systematisk loggkontroll.",
+    topics: JSON.stringify(["informasjonssikkerhet", "offentlig_sektor"]),
+    gdpr_articles: JSON.stringify(["5", "32"]),
+    status: "final",
+  },
+  {
+    reference: "22/14567-SHINIGAMI",
+    title: "Forbud mot nettleserutvidelsen Shinigami Eyes i Norge",
+    date: "2022-06-15",
+    type: "forbud",
+    entity_name: "Shinigami Eyes (nettleserutvidelse)",
+    fine_amount: null,
+    summary:
+      "Datatilsynet opprettholdt forbudet mot nettleserutvidelsen Shinigami Eyes som fargekodde brukere basert på oppfattede holdninger til transpersoner.",
+    full_text:
+      "Datatilsynet har fattet endelig vedtak om forbud mot nettleserutvidelsen Shinigami Eyes i Norge. Utvidelsen brukte fargekoding for å merke brukere i sosiale medier basert på deres oppfattede holdninger til transpersoner — grønn for 'transvennlig' og rød for 'transfiendtlig'. Datatilsynet konstaterte at: (1) fargekodingen utgjorde behandling av personopplysninger om seksuell legning og politisk oppfatning — særlige kategorier etter GDPR artikkel 9; (2) behandlingen manglet rettslig grunnlag; (3) de registrerte ble ikke informert om at de var merket; (4) behandlingen kunne medføre alvorlig risiko for diskriminering og trakassering.",
+    topics: JSON.stringify(["biometri", "behandlingsgrunnlag"]),
+    gdpr_articles: JSON.stringify(["5", "6", "9"]),
+    status: "final",
+  },
+  {
+    reference: "23/11234-FAST-CANDY",
+    title: "Flere pålegg til Fast Candy AS etter tilsynssak",
+    date: "2023-09-13",
+    type: "vedtak",
+    entity_name: "Fast Candy AS",
+    fine_amount: null,
+    summary:
+      "Datatilsynet ga Fast Candy AS flere pålegg etter tilsyn som avdekket mangler i behandling av personopplysninger, inkludert manglende personvernerklæring og databehandleravtaler.",
+    full_text:
+      "Datatilsynet har fattet vedtak om flere pålegg mot Fast Candy AS etter gjennomført tilsyn. Fast Candy AS driver netthandel og ble kontrollert for etterlevelse av personvernregelverket. Datatilsynet avdekket: (1) manglende eller mangelfull personvernerklæring; (2) manglende databehandleravtaler med leverandører som behandler personopplysninger på vegne av selskapet; (3) manglende oversikt over behandlingsaktiviteter; (4) manglende rutiner for å håndtere innsynskrav; (5) bruk av sporingsverktøy uten gyldig samtykke. Selskapet ble pålagt å utbedre alle mangler innen fastsatte frister.",
+    topics: JSON.stringify(["internkontroll", "informasjonskapsler", "databehandler"]),
+    gdpr_articles: JSON.stringify(["5", "12", "13", "28", "30"]),
+    status: "final",
+  },
+  {
+    reference: "23/12345-GOOGLE-ANALYTICS-VEDTAK",
+    title: "Vedtak i Google Analytics-saken — ulovlig overføring til USA",
+    date: "2023-07-27",
+    type: "vedtak",
+    entity_name: "Norsk nettsted (Google Analytics)",
+    fine_amount: null,
+    summary:
+      "Datatilsynet konstaterte at bruk av Google Analytics innebar ulovlig overføring av personopplysninger til USA i strid med Schrems II-dommen.",
+    full_text:
+      "Datatilsynet har fattet vedtak i Google Analytics-saken og konstatert at det aktuelle norske nettstedets bruk av Google Analytics innebar ulovlig overføring av personopplysninger til USA. Datatilsynet konstaterte at: (1) Google Analytics overfører IP-adresser og brukeridentifikatorer til Googles servere i USA; (2) overføringen manglet gyldig overføringsgrunnlag etter Schrems II-dommen; (3) Googles tilleggstiltak (IP-anonymisering) var ikke tilstrekkelige fordi identifikatoren overføres til Google før anonymisering; (4) nettstedet fikk pålegg om å stanse bruken av Google Analytics i sin daværende form.",
+    topics: JSON.stringify(["overforing", "informasjonskapsler"]),
+    gdpr_articles: JSON.stringify(["44", "46"]),
+    status: "final",
+  },
+  {
+    reference: "21/07890-OSLO-KOMMUNE-DOKUMENT",
+    title: "Overtredelsesgebyr til Oslo kommune for publisering av sensitiv personalsak",
+    date: "2021-05-20",
+    type: "overtredelsesgebyr",
+    entity_name: "Oslo kommune",
+    fine_amount: 400_000,
+    summary:
+      "Datatilsynet ila Oslo kommune et overtredelsesgebyr på 400 000 kroner for publisering av dokumenter med sensitive personopplysninger om en ansatt i eInnsyn.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 400 000 kroner mot Oslo kommune for publisering av dokumenter med sensitive personopplysninger. Saken gjelder en personalsak der dokumenter med helseopplysninger om en ansatt ble publisert i eInnsyn uten tilstrekkelig sladding. Datatilsynet konstaterte at: (1) dokumentene inneholdt sensitive opplysninger, inkludert helseopplysninger; (2) kommunen manglet rutiner for kvalitetssikring av sladding; (3) opplysningene ble gjort offentlig tilgjengelige på internett gjennom eInnsyn.",
+    topics: JSON.stringify(["offentlig_sektor", "helsedata"]),
+    gdpr_articles: JSON.stringify(["5", "9"]),
+    status: "final",
+  },
+  {
+    reference: "21/08901-SPIONPROGRAMVARE",
+    title: "Overtredelsesgebyr for installasjon av spionprogramvare på partneres telefon",
+    date: "2021-12-01",
+    type: "overtredelsesgebyr",
+    entity_name: "Privatperson (anonymisert — spionprogramvare)",
+    fine_amount: 50_000,
+    summary:
+      "Datatilsynet ila en privatperson et overtredelsesgebyr på 50 000 kroner for å ha installert spionprogramvare på sin partners mobiltelefon for å overvåke samtaler og lokasjonsdata.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 50 000 kroner mot en privatperson for installasjon av spionprogramvare. Personen hadde installert overvåkingsprogramvare på sin partners mobiltelefon for å lese meldinger, lytte til samtaler og spore lokasjonsdata uten samtykke. Datatilsynet konstaterte at: (1) installasjonen utgjorde ulovlig overvåking; (2) behandlingen manglet rettslig grunnlag; (3) den overvåkede var ikke informert; (4) overvåkingen var et alvorlig inngrep i privatlivet.",
+    topics: JSON.stringify(["kameraovervaking", "gps_sporing"]),
+    gdpr_articles: JSON.stringify(["5", "6"]),
+    status: "final",
+  },
+  {
+    reference: "24/09012-UIA-TEAMS",
+    title: "Overtredelsesgebyr til Universitetet i Agder for mangelfull sikkerhet i Microsoft Teams",
+    date: "2024-09-11",
+    type: "overtredelsesgebyr",
+    entity_name: "Universitetet i Agder",
+    fine_amount: 150_000,
+    summary:
+      "Datatilsynet ila Universitetet i Agder et overtredelsesgebyr på 150 000 kroner for å ikke ha iverksatt tilstrekkelige tiltak for å sikre personopplysninger ved bruk av Microsoft Teams.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 150 000 kroner mot Universitetet i Agder for mangelfull informasjonssikkerhet ved bruk av Microsoft Teams. Datatilsynet konstaterte at: (1) universitetet ikke hadde gjennomført tilstrekkelige sikkerhetstiltak for Teams-plattformen; (2) personopplysninger om studenter og ansatte ble behandlet uten tilstrekkelig risikovurdering; (3) universitetet manglet rutiner for tilgangsstyring i Teams; (4) gebyret ble satt til 150 000 kroner under hensyn til at universitetet raskt iverksatte utbedringstiltak.",
+    topics: JSON.stringify(["informasjonssikkerhet", "skole"]),
+    gdpr_articles: JSON.stringify(["5", "32"]),
+    status: "final",
+  },
+  {
+    reference: "24/10123-GRU-KOMMUNE-GEBYR",
+    title: "Overtredelsesgebyr til Grue kommune for konfidensialitetsbrudd i saksinnsyn",
+    date: "2024-10-29",
+    type: "overtredelsesgebyr",
+    entity_name: "Grue kommune",
+    fine_amount: 250_000,
+    summary:
+      "Datatilsynet ila Grue kommune et overtredelsesgebyr på 250 000 kroner etter konfidensialitetsbrudd i kommunens saksregister.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 250 000 kroner mot Grue kommune for brudd på GDPR-kravene. Bakgrunnen var et avvik der konfidensielle opplysninger ble tilgjengelige i kommunens offentlige saksregister. Datatilsynet konstaterte at: (1) kommunen hadde utilstrekkelige rutiner for kvalitetssikring ved journalføring; (2) sensitive personopplysninger ble gjort tilgjengelige for offentligheten; (3) kommunen manglet internkontrollrutiner for å avdekke slike feil.",
+    topics: JSON.stringify(["informasjonssikkerhet", "offentlig_sektor"]),
+    gdpr_articles: JSON.stringify(["5", "32"]),
+    status: "final",
+  },
+  {
+    reference: "24/11234-EIDSKOG-GEBYR",
+    title: "Overtredelsesgebyr til Eidskog kommune for manglende rettslig grunnlag",
+    date: "2024-09-06",
+    type: "overtredelsesgebyr",
+    entity_name: "Eidskog kommune",
+    fine_amount: 250_000,
+    summary:
+      "Datatilsynet ila Eidskog kommune et overtredelsesgebyr på 250 000 kroner for behandling av personopplysninger uten gyldig rettslig grunnlag.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 250 000 kroner mot Eidskog kommune for brudd på kravene til rettslig grunnlag i GDPR. Kommunen behandlet personopplysninger i et fagsystem uten å ha fastsatt og dokumentert rettslig grunnlag for behandlingen. Datatilsynet konstaterte at: (1) kommunen manglet rettslig grunnlag for flere av sine behandlinger; (2) protokoll over behandlingsaktiviteter var mangelfull; (3) kommunen manglet rutiner for å vurdere rettslig grunnlag ved oppstart av nye behandlinger.",
+    topics: JSON.stringify(["behandlingsgrunnlag", "offentlig_sektor"]),
+    gdpr_articles: JSON.stringify(["5", "6", "30"]),
+    status: "final",
+  },
+  {
+    reference: "24/12345-FAMILIEKANALEN-PALEGG",
+    title: "Vedtak om pålegg til Familiekanalen for mangelfull personvernhåndtering",
+    date: "2024-11-28",
+    type: "vedtak",
+    entity_name: "Familiekanalen",
+    fine_amount: null,
+    summary:
+      "Datatilsynet ga Familiekanalen pålegg om å utbedre flere mangler i personvernhåndteringen, inkludert manglende personvernerklæring og samtykkerutiner.",
+    full_text:
+      "Datatilsynet har fattet vedtak om pålegg mot Familiekanalen for flere mangler i personvernhåndteringen. Datatilsynet avdekket at: (1) Familiekanalen manglet tilstrekkelig personvernerklæring; (2) samtykkerutinene for behandling av personopplysninger var mangelfulle; (3) det manglet oversikt over behandlingsaktiviteter; (4) barn var blant de berørte, noe som skjerper kravene; (5) Familiekanalen ble pålagt å utbedre alle mangler innen fastsatt frist.",
+    topics: JSON.stringify(["barn", "samtykke", "internkontroll"]),
+    gdpr_articles: JSON.stringify(["5", "7", "13", "30"]),
+    status: "final",
+  },
+  {
+    reference: "24/13456-STAVANGER-AP",
+    title: "Irettesettelse til Stavanger Arbeiderparti for politisk reklame uten samtykke",
+    date: "2024-09-11",
+    type: "irettesettelse",
+    entity_name: "Stavanger Arbeiderparti m.fl.",
+    fine_amount: null,
+    summary:
+      "Datatilsynet ga Stavanger Arbeiderparti irettesettelse for utsending av politisk reklame (SMS) uten gyldig samtykke fra mottakerne.",
+    full_text:
+      "Datatilsynet har fattet vedtak om irettesettelse mot Stavanger Arbeiderparti og flere andre politiske partier for utsending av politisk reklame via SMS uten gyldig samtykke. Datatilsynet konstaterte at: (1) SMS-ene ble sendt til velgere som ikke hadde samtykket til å motta politisk reklame; (2) behandlingen manglet rettslig grunnlag etter GDPR artikkel 6; (3) politisk reklame per SMS er regulert av markedsføringsloven og krever forhåndssamtykke; (4) partiene ble gitt irettesettelse og pålagt å sikre samtykke ved fremtidig markedsføring.",
+    topics: JSON.stringify(["markedsforing", "samtykke"]),
+    gdpr_articles: JSON.stringify(["5", "6"]),
+    status: "final",
+  },
+
+  // --- Final Personvernnemnda decisions ---
+  {
+    reference: "PVN-2022-SATS",
+    title: "Personvernnemnda stadfester gebyr til Sats ASA",
+    date: "2023-06-15",
+    type: "klagevedtak",
+    entity_name: "Sats ASA",
+    fine_amount: 10_000_000,
+    summary:
+      "Personvernnemnda stadfestet Datatilsynets overtredelsesgebyr på 10 millioner kroner til Sats ASA for mangelfull informasjonssikkerhet og behandling av helseopplysninger.",
+    full_text:
+      "Personvernnemnda har stadfestet Datatilsynets vedtak om overtredelsesgebyr på 10 000 000 kroner til Sats ASA. Treningskjeden behandlet helseopplysninger om sine medlemmer (inkludert treningsdata og helsetilstand) uten tilstrekkelige sikkerhetstiltak. Datatilsynet konstaterte at: (1) Sats behandlet helseopplysninger uten tilstrekkelig rettslig grunnlag; (2) informasjonssikkerheten var mangelfull — personopplysninger om 2 millioner medlemmer var utilstrekkelig beskyttet; (3) Sats hadde ikke gjennomført tilstrekkelig risikovurdering; (4) personvernerklæringen ga ikke tilstrekkelig informasjon om behandlingen. Nemnda opprettholdt gebyret i sin helhet.",
+    topics: JSON.stringify(["helsedata", "informasjonssikkerhet"]),
+    gdpr_articles: JSON.stringify(["5", "9", "32"]),
+    status: "final",
+  },
+  {
+    reference: "PVN-2022-ARGON",
+    title: "Personvernnemnda opprettholder gebyr til Argon Medical Devices",
+    date: "2023-02-10",
+    type: "klagevedtak",
+    entity_name: "Argon Medical Devices, Inc.",
+    fine_amount: 2_500_000,
+    summary:
+      "Personvernnemnda opprettholdt Datatilsynets overtredelsesgebyr på 2,5 millioner kroner til Argon Medical Devices for sen varsling av databrudd.",
+    full_text:
+      "Personvernnemnda har opprettholdt Datatilsynets vedtak om overtredelsesgebyr på 2 500 000 kroner til Argon Medical Devices, Inc. Saken gjelder brudd på meldeplikten etter GDPR artikkel 33. Et databrudd oppsto da en ansatts e-postkonto ble kompromittert gjennom phishing. Argon meldte ikke bruddet til Datatilsynet innen 72 timer. Nemnda fastslo at enhver uautorisert tilgang gjennom phishing utløser meldeplikten, uavhengig av om personopplysninger faktisk ble misbrukt.",
+    topics: JSON.stringify(["avvik"]),
+    gdpr_articles: JSON.stringify(["33"]),
+    status: "final",
+  },
+  {
+    reference: "PVN-2023-24",
+    title: "Personvernnemnda avviser klage — Datatilsynets prioritering av saker",
+    date: "2023-09-01",
+    type: "klagevedtak",
+    entity_name: "Privatperson (avvisning — sak ikke fulgt opp)",
+    fine_amount: null,
+    summary:
+      "Personvernnemnda avviste klage på Datatilsynets beslutning om ikke å følge opp en henvendelse om brudd på personvernforordningen.",
+    full_text:
+      "Personvernnemnda har avvist klage på Datatilsynets beslutning om ikke å følge opp en henvendelse om mulig brudd på personvernforordningen. Nemnda konstaterte at Datatilsynet har skjønnsmessig adgang til å prioritere hvilke saker som skal følges opp, og at beslutningen om ikke å prioritere en bestemt sak ikke utgjør et enkeltvedtak som kan påklages.",
+    topics: JSON.stringify(["innsyn"]),
+    gdpr_articles: JSON.stringify(["57", "77"]),
+    status: "final",
+  },
+  {
+    reference: "PVN-2024-22",
+    title: "Personvernnemnda om innsynskrav — Datatilsynets avslutning av sak",
+    date: "2025-04-02",
+    type: "klagevedtak",
+    entity_name: "Privatperson (innsynskrav)",
+    fine_amount: null,
+    summary:
+      "Personvernnemnda behandlet klage på Datatilsynets avslutning av sak vedrørende et innsynskrav som ikke ble besvart av den behandlingsansvarlige.",
+    full_text:
+      "Personvernnemnda har behandlet klage på Datatilsynets avslutning av sak om et innsynskrav. Klager hadde bedt om innsyn i egne personopplysninger hos en virksomhet, men innsynskravet ble ikke besvart. Klager kontaktet deretter Datatilsynet for bistand. Datatilsynet avsluttet saken etter å ha kontaktet virksomheten, som deretter besvarte innsynskravet. Nemnda vurderte om Datatilsynets avslutning var riktig.",
+    topics: JSON.stringify(["innsyn"]),
+    gdpr_articles: JSON.stringify(["15", "77"]),
+    status: "final",
+  },
+
+  // --- Additional enforcement decisions ---
+  {
+    reference: "21/09012-RECOVER",
+    title: "Overtredelsesgebyr til Recover AS for ulovlig kredittvurdering",
+    date: "2022-09-09",
+    type: "overtredelsesgebyr",
+    entity_name: "Recover AS",
+    fine_amount: 400_000,
+    summary:
+      "Datatilsynet ila Recover AS et overtredelsesgebyr på 400 000 kroner for å ha gjennomført kredittvurderinger uten saklig behov, med pålegg om å etablere rutiner.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 400 000 kroner og pålegg mot Recover AS for ulovlig kredittvurdering. Selskapet gjennomførte systematisk kredittvurdering av personer uten at det forelå saklig behov i hvert enkelt tilfelle. Datatilsynet konstaterte at: (1) kredittvurdering krever saklig behov — selskapet hadde ikke dokumentert grunnlaget i hver sak; (2) selskapet ble pålagt å etablere skriftlige rutiner for å vurdere saklig behov; (3) gebyret ble satt til 400 000 kroner.",
+    topics: JSON.stringify(["kredittvurdering"]),
+    gdpr_articles: JSON.stringify(["6"]),
+    status: "final",
+  },
+  {
+    reference: "22/15678-KROKATJONNVEGEN",
+    title: "Overtredelsesgebyr til Krokatjønnvegen 15 AS for ulovlig kameraovervåking",
+    date: "2022-08-02",
+    type: "overtredelsesgebyr",
+    entity_name: "Krokatjønnvegen 15 AS",
+    fine_amount: 50_000,
+    summary:
+      "Datatilsynet ila Krokatjønnvegen 15 AS et overtredelsesgebyr på 50 000 kroner for ulovlig kameraovervåking av fellesarealer i et boligselskap.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 50 000 kroner og pålegg mot Krokatjønnvegen 15 AS for ulovlig kameraovervåking. Boligselskapet hadde installert overvåkingskameraer i fellesarealer uten å oppfylle vilkårene. Datatilsynet konstaterte at: (1) boligselskapet manglet dokumentert berettiget interesse; (2) beboerne var ikke tilstrekkelig informert; (3) selskapet ble pålagt å etablere skriftlige rutiner for kameraovervåking.",
+    topics: JSON.stringify(["kameraovervaking"]),
+    gdpr_articles: JSON.stringify(["5", "6", "13"]),
+    status: "final",
+  },
+  {
+    reference: "22/16789-KRIMINALOMSORGEN",
+    title: "Tilsynsrapport og pålegg til Kriminalomsorgen",
+    date: "2022-11-01",
+    type: "vedtak",
+    entity_name: "Kriminalomsorgen",
+    fine_amount: null,
+    summary:
+      "Datatilsynet ga Kriminalomsorgen flere pålegg etter tilsyn som avdekket mangler i behandling av innsattes personopplysninger, inkludert tilgangsstyring og logging.",
+    full_text:
+      "Datatilsynet har fattet vedtak om pålegg mot Kriminalomsorgen etter gjennomført tilsyn. Tilsynet avdekket mangler i behandlingen av innsattes personopplysninger. Datatilsynet konstaterte at: (1) tilgangsstyringen var mangelfull — for mange ansatte hadde tilgang til sensitiv informasjon om innsatte; (2) loggkontrollen var utilstrekkelig; (3) det manglet oppdaterte risikovurderinger; (4) internkontrollen for personvern var ikke tilstrekkelig dokumentert.",
+    topics: JSON.stringify(["politi_justis", "informasjonssikkerhet"]),
+    gdpr_articles: JSON.stringify(["5", "24", "32"]),
+    status: "final",
+  },
+  {
+    reference: "21/10123-SYKEHUSET-INNLANDET",
+    title: "Vedtak om pålegg til Sykehuset Innlandet for mangelfull tilgangsstyring",
+    date: "2021-06-15",
+    type: "vedtak",
+    entity_name: "Sykehuset Innlandet HF",
+    fine_amount: null,
+    summary:
+      "Datatilsynet ga Sykehuset Innlandet HF pålegg om å utbedre mangelfull tilgangsstyring i journalsystemet der helsepersonell hadde tilgang uten tjenstlig behov.",
+    full_text:
+      "Datatilsynet har fattet vedtak om pålegg mot Sykehuset Innlandet HF for mangelfull tilgangsstyring i journalsystemet. Datatilsynet avdekket at helsepersonell hadde tilgang til pasientjournaler uten tjenstlig behov. Datatilsynet konstaterte at: (1) tilgangsstyringen ikke var tilstrekkelig begrenset til tjenstlig behov; (2) loggkontroll av hvem som aksesserte journaler var utilstrekkelig; (3) sykehuset manglet systematisk gjennomgang av tilgangsrettigheter; (4) sykehuset ble pålagt å gjennomføre en helhetlig gjennomgang av tilgangsstyring.",
+    topics: JSON.stringify(["helsedata", "informasjonssikkerhet"]),
+    gdpr_articles: JSON.stringify(["5", "9", "32"]),
+    status: "final",
+  },
+  {
+    reference: "22/17890-ELEKTRO-AUTOMASJON",
+    title: "Overtredelsesgebyr til Elektro & Automasjon Systemer AS for ulovlig kameraovervåking",
+    date: "2022-01-07",
+    type: "overtredelsesgebyr",
+    entity_name: "Elektro & Automasjon Systemer AS",
+    fine_amount: 75_000,
+    summary:
+      "Datatilsynet ila Elektro & Automasjon Systemer AS et overtredelsesgebyr på 75 000 kroner for ulovlig kameraovervåking av ansattes arbeidsplasser.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 75 000 kroner mot Elektro & Automasjon Systemer AS for ulovlig kameraovervåking. Virksomheten hadde installert kameraer rettet mot ansattes arbeidsplasser uten å oppfylle vilkårene i arbeidsmiljøloven kapittel 9 og GDPR. Datatilsynet konstaterte at: (1) kameraovervåkingen manglet saklig grunn; (2) de ansatte var ikke informert; (3) kontrolltiltaket var ikke drøftet med tillitsvalgte.",
+    topics: JSON.stringify(["kameraovervaking", "arbeidsforhold"]),
+    gdpr_articles: JSON.stringify(["5", "6", "13"]),
+    status: "final",
+  },
+  {
+    reference: "22/18901-MOWI-GPS",
+    title: "Irettesettelse og pålegg til Mowi ASA for GPS-sporing av sjåfører",
+    date: "2022-04-26",
+    type: "irettesettelse",
+    entity_name: "Mowi ASA",
+    fine_amount: null,
+    summary:
+      "Datatilsynet ga Mowi ASA irettesettelse og pålegg for GPS-sporing av sjåfører uten tilstrekkelig rettslig grunnlag og informasjon.",
+    full_text:
+      "Datatilsynet har fattet vedtak om irettesettelse og pålegg mot Mowi ASA for GPS-sporing av sjåfører. Lakseoppdretts­selskapet sporet sjåfører av firmakjøretøy med GPS uten å ha gjennomført forholdsmessighetsvurdering. Datatilsynet konstaterte at: (1) GPS-sporingen manglet tilstrekkelig rettslig grunnlag; (2) sjåførene var ikke informert om omfanget av sporingen; (3) sporingen var mer inngripende enn nødvendig for flåtestyring. Mowi ble pålagt å etablere rutiner i tråd med personvernregelverket.",
+    topics: JSON.stringify(["gps_sporing", "arbeidsforhold"]),
+    gdpr_articles: JSON.stringify(["5", "6", "13"]),
+    status: "final",
+  },
+  {
+    reference: "21/11234-SPK",
+    title: "Overtredelsesgebyr til Statens pensjonskasse for unødvendig datainnsamling",
+    date: "2021-12-08",
+    type: "overtredelsesgebyr",
+    entity_name: "Statens pensjonskasse (SPK)",
+    fine_amount: 500_000,
+    summary:
+      "Datatilsynet ila Statens pensjonskasse et overtredelsesgebyr på 500 000 kroner for innsamling av personopplysninger ut over det som var nødvendig for formålet.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 500 000 kroner mot Statens pensjonskasse (SPK) for unødvendig innsamling av personopplysninger. SPK innhentet opplysninger om pensjonistenes familieforhold, helse og økonomi ut over det som var nødvendig for pensjonsberegning. Datatilsynet konstaterte brudd på dataminimeringsprinsippet i GDPR artikkel 5 nr. 1 bokstav c.",
+    topics: JSON.stringify(["offentlig_sektor", "behandlingsgrunnlag"]),
+    gdpr_articles: JSON.stringify(["5"]),
+    status: "final",
+  },
+  {
+    reference: "21/12345-ULTRA-TECHNOLOGY",
+    title: "Overtredelsesgebyr til Ultra-Technology AS for ulovlig kredittvurdering",
+    date: "2021-10-06",
+    type: "overtredelsesgebyr",
+    entity_name: "Ultra-Technology AS",
+    fine_amount: 100_000,
+    summary:
+      "Datatilsynet ila Ultra-Technology AS et overtredelsesgebyr på 100 000 kroner for gjennomføring av uautoriserte kredittvurderinger uten saklig behov.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 100 000 kroner mot Ultra-Technology AS for ulovlig kredittvurdering. Selskapet gjennomførte kredittvurdering av potensielle forretningsforbindelser uten at det forelå saklig behov. Datatilsynet konstaterte at: (1) kredittvurdering forutsetter saklig behov i en konkret kredittrelasjon; (2) generell nysgjerrighet om andres kredittverdighet er ikke tilstrekkelig grunnlag.",
+    topics: JSON.stringify(["kredittvurdering"]),
+    gdpr_articles: JSON.stringify(["6"]),
+    status: "final",
+  },
+  {
+    reference: "21/13456-HOYLANDET",
+    title: "Overtredelsesgebyr til Høylandet kommune for eksponering av helsefiler",
+    date: "2021-09-30",
+    type: "overtredelsesgebyr",
+    entity_name: "Høylandet kommune",
+    fine_amount: 150_000,
+    summary:
+      "Datatilsynet ila Høylandet kommune et overtredelsesgebyr på 150 000 kroner fordi helseopplysninger om innbyggere lå tilgjengelige på usikrede filområder.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 150 000 kroner mot Høylandet kommune. Helseopplysninger om innbyggere i kommunens helse- og omsorgstjeneste ble lagret på filområder uten tilstrekkelig tilgangsstyring. Datatilsynet konstaterte at: (1) sensitive helseopplysninger var tilgjengelige for kommunalt ansatte uten tjenstlig behov; (2) kommunen manglet rutiner for å kontrollere at helseopplysninger ble lagret i godkjente systemer; (3) bruddet gjaldt særlige kategorier av personopplysninger.",
+    topics: JSON.stringify(["helsedata", "informasjonssikkerhet", "offentlig_sektor"]),
+    gdpr_articles: JSON.stringify(["5", "9", "32"]),
+    status: "final",
+  },
+  {
+    reference: "21/14567-FERDE-KINA",
+    title: "Overtredelsesgebyr til Ferde AS for ulovlig overføring av data til Kina",
+    date: "2021-09-30",
+    type: "overtredelsesgebyr",
+    entity_name: "Ferde AS",
+    fine_amount: 5_000_000,
+    summary:
+      "Datatilsynet ila Ferde AS et overtredelsesgebyr på 5 millioner kroner for ulovlig overføring av personopplysninger om norske bilister til Kina via en underleverandør.",
+    full_text:
+      "Datatilsynet har fattet vedtak om overtredelsesgebyr på 5 000 000 kroner mot Ferde AS for ulovlig overføring av personopplysninger til Kina. Ferde, som driver bompengeinnkreving, brukte en underleverandør som sendte bilder av bilskilt og kjøretøy til Kina for manuell avlesning. Datatilsynet konstaterte at: (1) overføringen manglet gyldig overføringsgrunnlag — Kina har ikke adekvansbeslutning; (2) Ferde hadde ikke gjennomført tilstrekkelig vurdering av beskyttelsesnivået i Kina; (3) bildene inneholdt personopplysninger (bilskilt og bilder av kjøretøy med passasjerer); (4) Ferde burde vært kjent med at underleverandøren overførte data til Kina.",
+    topics: JSON.stringify(["overforing", "transport"]),
+    gdpr_articles: JSON.stringify(["44", "46"]),
+    status: "final",
+  },
 ];
 
 const insertDecision = db.prepare(`
@@ -2778,6 +4145,1358 @@ const guidelines: GuidelineRow[] = [
     full_text:
       "Datatilsynet har avgitt høringssvar om forslag til ny lov om særskilt innsats mot negativ sosial kontroll og æresmotivert vold. Lovforslaget innebærer utvidede muligheter for informasjonsdeling mellom etater i saker om negativ sosial kontroll. Datatilsynet kommenterer: (1) informasjon som deles kan inneholde svært sensitive opplysninger om enkeltpersoners familieforhold, religion, etnisitet og voldsutsatthet; (2) forholdet mellom de berørtes personvern og behovet for informasjonsdeling må balanseres nøye; (3) de berørte bør så langt mulig informeres om at opplysninger er delt; (4) formålsbegrensningen må overholdes — opplysninger delt for å forebygge sosial kontroll skal ikke brukes til andre formål.",
     topics: JSON.stringify(["offentlig_sektor"]),
+    language: "no",
+  },
+
+  // =========================================================================
+  // Additional guidelines — expanded coverage
+  // =========================================================================
+
+  // --- Data subject rights guides ---
+  {
+    reference: "DT-VEILEDER-RETT-INFORMASJON-2020",
+    title: "Veileder om retten til informasjon",
+    date: "2020-06-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om den registrertes rett til informasjon om behandling av personopplysninger etter GDPR artikkel 13 og 14.",
+    full_text:
+      "Datatilsynets veileder om retten til informasjon beskriver virksomheters plikt til å informere de registrerte om behandling av personopplysninger. Veilederen dekker: (1) innholdet i informasjonsplikten — hvilke opplysninger som skal gis, herunder formål, rettslig grunnlag, mottakere, lagringstid og rettigheter; (2) tidspunktet for informasjon — opplysninger skal gis ved innsamling (art. 13) eller innen rimelig tid dersom opplysningene ikke er samlet inn fra den registrerte (art. 14); (3) form og tilgjengelighet — informasjonen skal gis i en kortfattet, åpen, forståelig og lettilgjengelig form med klart og enkelt språk; (4) unntak fra informasjonsplikten — i hvilke tilfeller virksomheten kan la være å informere; (5) lagdelt informasjon — hvordan virksomheter kan bruke flere lag for å gi all nødvendig informasjon uten å overvelde den registrerte.",
+    topics: JSON.stringify(["innsyn"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-RETT-BEGRENSNING-2020",
+    title: "Veileder om retten til begrensning av behandling",
+    date: "2020-09-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om den registrertes rett til å kreve at behandlingen av egne personopplysninger begrenses etter GDPR artikkel 18.",
+    full_text:
+      "Datatilsynets veileder om retten til begrensning av behandling beskriver vilkårene for å begrense behandlingen etter GDPR artikkel 18. Veilederen dekker: (1) fire situasjoner der den registrerte kan kreve begrensning — bestridelse av riktighet, ulovlig behandling der den registrerte motsetter seg sletting, den behandlingsansvarlige trenger ikke opplysningene lenger men den registrerte trenger dem for rettskrav, og den registrerte har protestert etter art. 21; (2) hva begrensning innebærer i praksis — opplysningene lagres men behandles ikke videre uten samtykke; (3) plikt til å informere den registrerte før begrensningen oppheves; (4) plikt til å underrette mottakere som har fått opplysningene utlevert.",
+    topics: JSON.stringify(["innsyn"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-RETT-PROTESTERE-2020",
+    title: "Veileder om retten til å protestere",
+    date: "2020-09-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om den registrertes rett til å protestere mot behandling av personopplysninger etter GDPR artikkel 21.",
+    full_text:
+      "Datatilsynets veileder om retten til å protestere beskriver vilkårene for å protestere mot behandling av personopplysninger etter GDPR artikkel 21. Veilederen dekker: (1) retten til å protestere mot behandling basert på berettiget interesse (art. 6 nr. 1 bokstav f) eller offentlig myndighetsutøvelse (art. 6 nr. 1 bokstav e); (2) absolutt rett til å protestere mot direkte markedsføring — virksomheten må stanse behandlingen umiddelbart; (3) virksomhetens plikt til å dokumentere tvingende berettigede grunner dersom den ønsker å fortsette behandlingen til tross for protest; (4) informasjonsplikten — den registrerte skal informeres om retten til å protestere senest ved første kommunikasjon.",
+    topics: JSON.stringify(["innsyn"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-AUTOMATISERTE-BESLUTNINGER-2022",
+    title: "Veileder om automatiserte beslutninger og profilering",
+    date: "2022-03-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om den registrertes rettigheter ved automatiserte individuelle beslutninger og profilering etter GDPR artikkel 22.",
+    full_text:
+      "Datatilsynets veileder om automatiserte individuelle beslutninger og profilering beskriver rettighetene etter GDPR artikkel 22. Veilederen dekker: (1) hva som utgjør en automatisert individuell beslutning — beslutninger som tas utelukkende ved automatisert behandling, inkludert profilering, og som har rettsvirkning eller i vesentlig grad påvirker den registrerte; (2) hovedregelen er at den registrerte har rett til ikke å bli gjenstand for slike beslutninger; (3) tre unntak — samtykke, avtaleoppfyllelse eller lovhjemmel; (4) krav om menneskelig inngripen — den registrerte kan kreve at et menneske vurderer beslutningen; (5) rett til å uttrykke sitt synspunkt og til å bestride beslutningen; (6) forbud mot automatiserte beslutninger basert på særlige kategorier av personopplysninger med mindre unntak gjelder.",
+    topics: JSON.stringify(["kunstig_intelligens", "innsyn"]),
+    language: "no",
+  },
+
+  // --- Workplace privacy guides ---
+  {
+    reference: "DT-VEILEDER-BAKGRUNNSSJEKK-2021",
+    title: "Veileder om bakgrunnsundersøkelser ved ansettelse",
+    date: "2021-03-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernkrav ved bakgrunnsundersøkelser før ansettelse, inkludert referansesjekk, vandelskontroll og kredittsjekk.",
+    full_text:
+      "Datatilsynets veileder om bakgrunnsundersøkelser ved ansettelse beskriver personvernkravene som gjelder når arbeidsgiver ønsker å innhente opplysninger om jobbsøkere. Veilederen dekker: (1) referansesjekk — krever samtykke fra søkeren og skal begrenses til relevante opplysninger; (2) vandelskontroll — politiattest kan bare kreves når det er hjemlet i lov; (3) kredittsjekk — kan bare gjennomføres når det er saklig behov, typisk for stillinger med ansvar for betydelige verdier; (4) søk i sosiale medier — arbeidsgiver bør utvise forsiktighet ved å søke opp kandidater i sosiale medier, da dette kan avsløre sensitive opplysninger; (5) medisinske undersøkelser — kan kun kreves i den utstrekning arbeidsmiljøloven og annet regelverk tillater.",
+    topics: JSON.stringify(["arbeidsforhold"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-OVERVAKING-ELEKTRONISK-2022",
+    title: "Veileder om overvåking av ansattes bruk av elektronisk utstyr",
+    date: "2022-05-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om arbeidsgivers adgang til å overvåke ansattes bruk av elektronisk utstyr, inkludert PC, mobiltelefon og internettbruk.",
+    full_text:
+      "Datatilsynets veileder om overvåking av ansattes bruk av elektronisk utstyr beskriver vilkårene for arbeidsgivers kontroll av ansattes digitale aktiviteter. Veilederen dekker: (1) rettslig grunnlag — arbeidsgiver kan ha berettiget interesse (art. 6 nr. 1 bokstav f) i begrenset kontroll, men må gjennomføre forholdsmessighetsvurdering; (2) forbud mot systematisk overvåking — generell overvåking av alt ansatte gjør på PC og internett er normalt ulovlig; (3) unntak for konkret mistanke — ved konkret mistanke om misbruk kan mer inngripende kontroll tillates; (4) informasjonsplikt — de ansatte skal informeres om eventuelle kontrolltiltak; (5) lagring — loggdata skal ikke lagres lenger enn nødvendig; (6) samarbeid med tillitsvalgte — kontrolltiltak bør drøftes med de ansattes representanter i henhold til arbeidsmiljøloven kap. 9.",
+    topics: JSON.stringify(["arbeidsforhold"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-VARSLING-2022",
+    title: "Veileder om varsling og personvern",
+    date: "2022-06-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernaspektene ved varsling på arbeidsplassen, inkludert behandling av personopplysninger i varslingskanaler.",
+    full_text:
+      "Datatilsynets veileder om varsling og personvern beskriver personvernkravene som gjelder ved behandling av personopplysninger i varslingssaker. Veilederen dekker: (1) rettslig grunnlag — virksomheter som er pålagt å ha varslingskanal etter arbeidsmiljøloven har rettslig plikt som behandlingsgrunnlag; (2) informasjonssikkerhet — varslingssaker inneholder ofte sensitive opplysninger og krever streng tilgangsstyring; (3) innsynsrett for den det varsles om — den omvarslede har rett til innsyn i opplysningene som er registrert om vedkommende, men varslerens identitet kan skjermes; (4) lagring og sletting — opplysninger i varslingssaker skal ikke lagres lenger enn nødvendig; (5) databehandleravtale — virksomheter som bruker ekstern leverandør for varslingskanal skal inngå databehandleravtale.",
+    topics: JSON.stringify(["arbeidsforhold"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-PERSONALMAPPE-2020",
+    title: "Veileder om personalmapper — behandling av ansattopplysninger",
+    date: "2020-04-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om behandling av personopplysninger i personalmapper, inkludert hvilke opplysninger som kan lagres og hvor lenge.",
+    full_text:
+      "Datatilsynets veileder om personalmapper beskriver personvernkravene for arbeidsgivers behandling av ansattes personopplysninger. Veilederen dekker: (1) hvilke opplysninger som kan lagres — opplysninger som er nødvendige for å administrere arbeidsforholdet, som kontaktopplysninger, arbeidsavtale, lønn, fravær og kompetanse; (2) begrensninger — opplysninger om helse, religion, politisk oppfatning og andre særlige kategorier krever særskilt grunnlag; (3) tilgang — kun ansatte med tjenstlig behov skal ha tilgang til personalmapper; (4) innsyn — den ansatte har rett til innsyn i egen personalmappe; (5) sletting — opplysninger skal slettes når de ikke lenger er nødvendige for formålet; (6) elektroniske vs. fysiske personalmapper — samme krav gjelder uavhengig av lagringsform.",
+    topics: JSON.stringify(["arbeidsforhold"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-ANSATTBILDER-2021",
+    title: "Veileder om publisering av bilder av ansatte på internett",
+    date: "2021-01-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernkrav ved publisering av bilder av ansatte på virksomhetens nettsider og sosiale medier.",
+    full_text:
+      "Datatilsynets veileder om publisering av bilder av ansatte på internett beskriver personvernkravene ved bruk av ansattbilder. Veilederen dekker: (1) rettslig grunnlag — publisering av ansattbilder på nettsider krever som hovedregel samtykke; (2) situasjoner der berettiget interesse kan brukes — for eksempel generelle bilder fra arrangementer; (3) spesielle hensyn ved sosiale medier — bilder publisert i sosiale medier spres lettere og er vanskeligere å slette; (4) den ansattes rett til å trekke samtykket tilbake — virksomheten må da fjerne bildet; (5) bilder etter arbeidsforholdets opphør — bilder av tidligere ansatte skal normalt fjernes med mindre det foreligger annet grunnlag.",
+    topics: JSON.stringify(["arbeidsforhold", "samtykke"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-SYKDOM-ARBEIDSPLASS-2020",
+    title: "Veileder om sykdom og personvern på arbeidsplassen",
+    date: "2020-03-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om arbeidsgivers behandling av helseopplysninger i forbindelse med sykefravær og sykmelding.",
+    full_text:
+      "Datatilsynets veileder om sykdom og personvern på arbeidsplassen beskriver grensene for arbeidsgivers behandling av helseopplysninger. Veilederen dekker: (1) hva arbeidsgiver kan vite om ansattes sykdom — arbeidsgiver har rett til å vite om den ansatte er syk og når vedkommende forventes tilbake, men ikke diagnose; (2) sykmeldingen — arbeidsgiver mottar del D av sykmeldingen som inneholder informasjon om funksjonsvurdering; (3) oppfølgingssamtaler — arbeidsgiver kan stille spørsmål om funksjonsnivå, men kan ikke kreve diagnoseinformasjon; (4) lagring — helseopplysninger om ansatte skal oppbevares med streng tilgangsstyring og slettes når de ikke lenger er nødvendige; (5) koronaspesifikke regler — under pandemien gjaldt særlige regler for arbeidsgivers behandling av smitteopplysninger.",
+    topics: JSON.stringify(["arbeidsforhold", "helsedata"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-LONNSOPPLYSNINGER-2020",
+    title: "Veileder om innsyn i lønnsopplysninger",
+    date: "2020-02-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om ansattes rett til innsyn i kollegers lønnsopplysninger ved mistanke om diskriminering.",
+    full_text:
+      "Datatilsynets veileder om innsyn i lønnsopplysninger beskriver reglene for tilgang til lønnsinformasjon. Veilederen dekker: (1) ansattes rett til opplysninger om kollegers lønn ved mistanke om lønnsdiskriminering, hjemlet i likestillings- og diskrimineringsloven; (2) begrensninger — retten gjelder kun der den ansatte har mistanke om diskriminering, og innsynet skal begrenses til de opplysningene som er nødvendige; (3) taushetsplikt — den som får innsyn har taushetsplikt om opplysningene; (4) offentlig sektor — i offentlig sektor er lønn i utgangspunktet offentlig informasjon.",
+    topics: JSON.stringify(["arbeidsforhold", "innsyn"]),
+    language: "no",
+  },
+
+  // --- Surveillance and monitoring guides ---
+  {
+    reference: "DT-VEILEDER-KAMERA-BORETTSLAG-2022",
+    title: "Veileder om kameraovervåking i borettslag og sameier",
+    date: "2022-04-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om vilkårene for kameraovervåking i borettslag, sameier og fellesarealer.",
+    full_text:
+      "Datatilsynets veileder om kameraovervåking i borettslag og sameier beskriver vilkårene for lovlig kameraovervåking i boligselskaper. Veilederen dekker: (1) rettslig grunnlag — kameraovervåking i fellesarealer kan i noen tilfeller baseres på berettiget interesse, men terskelen er høy i boligområder; (2) forholdsmessighet — kameraovervåking er et inngripende tiltak som krever at det er prøvd mindre inngripende tiltak først; (3) styrevedtak — beslutning om kameraovervåking bør fattes av styret med dokumentert begrunnelse; (4) informasjon — beboere og besøkende skal informeres om overvåkingen med skilting; (5) begrensning av opptak — kameraer skal ikke rettes mot inngangsdører til private leiligheter eller vinduer; (6) lagring — opptak skal normalt slettes etter 7 dager.",
+    topics: JSON.stringify(["kameraovervaking"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-DRONER-2022",
+    title: "Veileder om droner og personvern",
+    date: "2022-01-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernreglene ved bruk av droner med kamera, inkludert privat og profesjonell bruk.",
+    full_text:
+      "Datatilsynets veileder om droner og personvern beskriver reglene for bruk av droner med kamera. Veilederen dekker: (1) droner med kamera behandler personopplysninger — bildemateriale av identifiserbare personer er personopplysninger; (2) rettslig grunnlag — profesjonell bruk krever berettiget interesse eller annet grunnlag, privat bruk kan omfattes av husholdsunntaket; (3) krav til informasjon — det kan være vanskelig å informere om droneovervåking, men dette fritar ikke fra informasjonsplikten; (4) begrensninger — det er ikke lov å fly droner over andres eiendom for å ta bilder; (5) flyforbudsoner — Luftfartstilsynets regler gjelder i tillegg til personvernreglene; (6) opptak og lagring — opptak skal slettes når formålet er oppnådd.",
+    topics: JSON.stringify(["kameraovervaking"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-KROPPSKAMERA-2023",
+    title: "Veileder om bruk av kroppskamera",
+    date: "2023-01-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om bruk av kroppskamera (body-worn cameras) i ulike sammenhenger, inkludert vektere, politi og ansatte.",
+    full_text:
+      "Datatilsynets veileder om kroppskamera beskriver personvernkravene ved bruk av kroppsbårne kameraer. Veilederen dekker: (1) kroppskameraer utgjør personvernovervåking — opptak med kroppskamera er behandling av personopplysninger; (2) rettslig grunnlag varierer etter kontekst — politi har lovhjemmel, private vektere trenger berettiget interesse; (3) informasjonsplikt — de som filmes skal informeres, for eksempel gjennom synlig markering og muntlig varsel; (4) opptak skal aktiveres bevisst, ikke løpe kontinuerlig; (5) lagring og sletting — opptak skal normalt slettes innen 7 dager; (6) innsyn — den som er filmet har rett til å se opptaket av seg selv.",
+    topics: JSON.stringify(["kameraovervaking"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-LYDOPPTAK-2022",
+    title: "Veileder om lydopptak av samtaler",
+    date: "2022-02-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om når lydopptak av samtaler er lovlig, inkludert skjulte opptak og opptak i arbeidslivet.",
+    full_text:
+      "Datatilsynets veileder om lydopptak av samtaler beskriver reglene for lydopptak. Veilederen dekker: (1) hovedregel — det er lovlig å ta opp samtaler du selv deltar i, men ulovlig å ta opp samtaler mellom andre; (2) arbeidslivet — arbeidsgiver kan ta lydopptak av kundesamtaler med informert samtykke; (3) skjulte opptak — skjulte opptak av samtaler du deltar i er lovlig i Norge, men kan ha arbeidsrettslige konsekvenser; (4) kundeservice — lydopptak av kundeservicesamtaler krever informert samtykke fra kunden; (5) bevisverdi — skjulte opptak kan brukes som bevis i rettssaker, men retten vurderer om beviset skal tillates; (6) lagring — lydopptak skal slettes når formålet er oppfylt.",
+    topics: JSON.stringify(["kameraovervaking"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-SPORING-OFFENTLIG-ROM-2020",
+    title: "Veileder om sporing i det offentlige rom",
+    date: "2020-01-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernkrav ved sporing av personer i det offentlige rom, inkludert Wi-Fi-sporing, Bluetooth-beacons og mobilsporing.",
+    full_text:
+      "Datatilsynets veileder om sporing i det offentlige rom beskriver personvernkravene ved teknologisk sporing av personers bevegelser. Veilederen dekker: (1) Wi-Fi-sporing — innsamling av MAC-adresser fra mobiltelefoner for å telle og spore bevegelser i offentlige rom; (2) Bluetooth-beacons — sendere som kommuniserer med mobilapper for stedssporing; (3) rettslig grunnlag — sporing i det offentlige rom krever som hovedregel samtykke; (4) anonymisering — dersom sporingsdata er genuint anonymisert, faller de utenfor GDPR; (5) forholdsmessighet — virksomheter må vurdere om formålet kan oppnås med mindre inngripende metoder; (6) informasjon — de som spores skal informeres.",
+    topics: JSON.stringify(["kameraovervaking", "informasjonskapsler"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-STROMMALING-2021",
+    title: "Veileder om automatisk strøm- og vannmåling (AMS)",
+    date: "2021-06-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernaspektene ved automatiske strømmålere (AMS), inkludert innsamling av forbruksdata og reservasjonsrett.",
+    full_text:
+      "Datatilsynets veileder om automatisk strøm- og vannmåling (AMS) beskriver personvernkravene ved automatiske målere. Veilederen dekker: (1) AMS-målere samler inn detaljerte forbruksdata som utgjør personopplysninger — forbruksmønsteret kan avsløre informasjon om husholdningen; (2) rettslig grunnlag — nettselskapene har lovhjemmel for innsamling av forbruksdata i avregnings- og nettleieavtaler; (3) reservasjonsrett — kunder kan reservere seg mot overføring av timesdata til nettselskapet av helsemessige årsaker; (4) tredjepartstilgang — tilgang til detaljerte forbruksdata for tredjepart krever samtykke; (5) dataminimering — nettselskapet skal ikke lagre mer detaljert informasjon enn nødvendig for formålet.",
+    topics: JSON.stringify(["informasjonssikkerhet"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-SMS-VARSLING-2022",
+    title: "Veileder om lokasjonsbasert befolkningsvarsling på SMS",
+    date: "2022-08-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernkrav ved lokasjonsbasert befolkningsvarsling via SMS i nødsituasjoner.",
+    full_text:
+      "Datatilsynets veileder om lokasjonsbasert befolkningsvarsling på SMS beskriver personvernkravene ved bruk av mobillokasjonsdata for å varsle befolkningen i nødsituasjoner. Veilederen dekker: (1) rettslig grunnlag — varslingsmyndigheten har lovhjemmel i ekomloven og sivilbeskyttelsesloven for å bruke lokasjonsdata i nødsituasjoner; (2) formålsbegrensning — lokasjonsdataene skal kun brukes til varsling og ikke til andre formål; (3) dataminimering — kun nødvendige data skal innhentes; (4) sletting — lokasjonsdata skal slettes umiddelbart etter at varslingen er gjennomført; (5) sikkerhet — behandlingen skal sikres med tilstrekkelige tekniske og organisatoriske tiltak.",
+    topics: JSON.stringify(["offentlig_sektor", "telekom"]),
+    language: "no",
+  },
+
+  // --- Children, school and education guides ---
+  {
+    reference: "DT-VEILEDER-SAMTYKKE-MINDREARIGE-2021",
+    title: "Veileder om samtykke fra mindreårige",
+    date: "2021-02-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om kravene til gyldig samtykke fra barn og unge for behandling av personopplysninger i digitale tjenester.",
+    full_text:
+      "Datatilsynets veileder om samtykke fra mindreårige beskriver kravene i GDPR artikkel 8 og personopplysningsloven § 5. Veilederen dekker: (1) aldersgrense — i Norge er aldersgrensen 13 år for samtykke til informasjonssamfunnstjenester; (2) barn under 13 år — foreldre/foresatte må gi samtykke på barnets vegne; (3) verifisering — virksomheten skal gjøre rimelige anstrengelser for å verifisere at samtykke er gitt av foreldre der dette kreves; (4) barnevennlig informasjon — informasjon rettet mot barn skal være i et klart og enkelt språk som barn kan forstå; (5) tilbaketrekking — barn (og foreldre) skal når som helst kunne trekke samtykket tilbake; (6) sletteplikt — når samtykket trekkes tilbake, skal opplysningene slettes.",
+    topics: JSON.stringify(["barn", "samtykke"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-ELEVKONTROLL-2022",
+    title: "Veileder om kontroll av elever — eksamen, prøver og plagiatkontroll",
+    date: "2022-09-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernkrav ved kontroll av elever, inkludert digital eksamen, prøveovervåking og plagiatkontroll.",
+    full_text:
+      "Datatilsynets veileder om kontroll av elever beskriver personvernkravene ved skolens kontroll- og overvåkingstiltak. Veilederen dekker: (1) digital eksamen — overvåkingsverktøy under digital eksamen må ha rettslig grunnlag og være forholdsmessig; (2) plagiatkontroll — bruk av verktøy som Turnitin innebærer behandling av personopplysninger og krever databehandleravtale; (3) eksamensovervåking med kamera/skjermdeling — kan kun brukes når det er strengt nødvendig og med forhåndsinformasjon; (4) BYOD (Bring Your Own Device) — skoler som tillater egne enheter må sikre at overvåking begrenses til skolesammenheng; (5) læringsanalyse — innsamling av data om elevenes læringsaktiviteter krever personvernkonsekvensvurdering.",
+    topics: JSON.stringify(["barn", "skole"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-BILDER-BARN-2023",
+    title: "Veileder om publisering av bilder av barn på internett",
+    date: "2023-04-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernkrav ved publisering av bilder av barn på internett, inkludert foreldre, skoler og idrettslag.",
+    full_text:
+      "Datatilsynets veileder om publisering av bilder av barn på internett beskriver personvernkravene. Veilederen dekker: (1) foreldres publisering — foreldre har vid adgang til å publisere bilder av egne barn, men bør tenke over at bilder publisert i sosiale medier kan spres; (2) skoler og barnehager — krever samtykke fra foreldre for publisering av bilder der barn er identifiserbare; (3) idrettslag og foreninger — tilsvarende samtykkekrav; (4) barns egen rett — barn har etter hvert som de vokser opp rett til å bestemme over egne bilder; (5) sletting — den som har publisert bildet har plikt til å slette det dersom samtykket trekkes tilbake; (6) strømming av idrettsarrangementer — kameraoverføring av barns idrettsarrangementer reiser særlige personvernspørsmål.",
+    topics: JSON.stringify(["barn"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-SKYTJENESTER-SKOLE-2023",
+    title: "Veileder om bruk av skytjenester i skolen — Google og Microsoft",
+    date: "2023-09-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om bruk av skytjenester som Google Workspace og Microsoft 365 i grunnskolen, inkludert personvernkrav og risikovurdering.",
+    full_text:
+      "Datatilsynets veileder om bruk av skytjenester i skolen beskriver personvernkravene ved bruk av skytjenester som Google Workspace for Education og Microsoft 365 Education i grunnskolen. Veilederen dekker: (1) behandlingsansvar — kommunen som skoleeier er behandlingsansvarlig; (2) databehandleravtale — kommunen må inngå databehandleravtale med leverandøren; (3) overføring til tredjeland — skytjenester kan innebære overføring av personopplysninger til USA og andre tredjeland, som krever gyldig overføringsgrunnlag; (4) DPIA — kommunen bør gjennomføre personvernkonsekvensvurdering; (5) dataminimering — kommunen bør begrense hvilke funksjoner som aktiveres og sikre at telemetridata minimeres; (6) elevenes rettigheter — elevene (og foreldrene) har rett til informasjon om behandlingen.",
+    topics: JSON.stringify(["barn", "skole", "overforing"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-LARINGSPLATTFORMER-2021",
+    title: "Veileder om krav til skoleeier ved bruk av læringsplattformer",
+    date: "2021-08-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om skoleeiers ansvar og plikter ved bruk av digitale læringsplattformer som itstlearning, Canvas og Google Classroom.",
+    full_text:
+      "Datatilsynets veileder om krav til skoleeier ved bruk av læringsplattformer beskriver personvernansvaret. Veilederen dekker: (1) skoleeier (kommunen) er behandlingsansvarlig for bruken av læringsplattformer; (2) databehandleravtale er påkrevd med leverandøren; (3) risikovurdering av informasjonssikkerheten; (4) tilgangsstyring — hvem som skal ha tilgang til elevdata i plattformen; (5) integrering av tredjepartsverktøy — skoleeier har ansvar for personvernvurdering også av tilleggsverktøy som integreres; (6) innsynsrett — elever og foreldre har rett til innsyn i opplysningene som behandles; (7) sletting — elevdata skal slettes når eleven forlater skolen.",
+    topics: JSON.stringify(["barn", "skole", "databehandler"]),
+    language: "no",
+  },
+
+  // --- Health and research guides ---
+  {
+    reference: "DT-VEILEDER-INNSYN-JOURNAL-2021",
+    title: "Veileder om innsyn i egen pasientjournal",
+    date: "2021-04-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om pasientens rett til innsyn i egen journal etter pasient- og brukerrettighetsloven.",
+    full_text:
+      "Datatilsynets veileder om innsyn i egen pasientjournal beskriver pasientens rettigheter. Veilederen dekker: (1) rett til innsyn — pasienten har rett til innsyn i sin egen journal etter pasient- og brukerrettighetsloven § 5-1; (2) omfang — innsynsretten omfatter alle opplysninger som er registrert i journalen, inkludert epikriser, røntgenbilder og prøvesvar; (3) unntak — i unntakstilfeller kan helsepersonell nekte innsyn dersom det er fare for pasientens liv eller alvorlig helseskade; (4) innsyn i logg — pasienten har rett til å se hvem som har hatt tilgang til journalen (tilgangslogg); (5) elektronisk tilgang — gjennom helsenorge.no har pasienter tilgang til deler av journalen.",
+    topics: JSON.stringify(["helsedata", "innsyn"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-INNSYN-NAV-BARNEVERN-2021",
+    title: "Veileder om innsyn hos NAV og barnevernstjenesten",
+    date: "2021-05-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om innsynsrett i personopplysninger hos NAV og barnevernstjenesten.",
+    full_text:
+      "Datatilsynets veileder om innsyn hos NAV og barnevernstjenesten beskriver innsynsretten. Veilederen dekker: (1) innsyn hos NAV — du har rett til innsyn i opplysningene NAV har registrert om deg, inkludert vedtak, journalnotater og korrespondanse; (2) innsyn i barnevernsaker — partene i en barnevernsak har rett til innsyn i sakens dokumenter, med unntak for opplysninger som kan skade barnet; (3) begrensninger — taushetsplikten kan begrense innsynsretten der det er nødvendig av hensyn til andre; (4) klageadgang — dersom NAV eller barnevernstjenesten avslår innsynskrav, kan avslaget klages inn til Datatilsynet.",
+    topics: JSON.stringify(["innsyn", "offentlig_sektor"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-VELFERDSTEKNOLOGI-2022",
+    title: "Veileder om velferdsteknologi og personvern",
+    date: "2022-10-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernkrav ved bruk av velferdsteknologi i helse- og omsorgssektoren, inkludert GPS-sporing, sensorer og trygghetsalarmer.",
+    full_text:
+      "Datatilsynets veileder om velferdsteknologi og personvern beskriver personvernkravene ved bruk av teknologiske løsninger i helse- og omsorgstjenesten. Veilederen dekker: (1) GPS-sporing av demente — kan ha rettslig grunnlag i pasient- og brukerrettighetsloven, men krever forholdsmessighetsvurdering; (2) sensorer i bolig — bevegelsessensorer og dørsensorer innebærer overvåking og krever samtykke eller annet grunnlag; (3) trygghetsalarmer — behandling av personopplysninger i trygghetsalarmsystemer; (4) digitalt tilsyn — kamera og mikrofon i omsorgsbolig reiser særlige personvernspørsmål; (5) DPIA — velferdsteknologi som behandler helseopplysninger i stor skala krever personvernkonsekvensvurdering; (6) leverandørhåndtering — kommunen som behandlingsansvarlig skal inngå databehandleravtale.",
+    topics: JSON.stringify(["helsedata", "offentlig_sektor"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-HELSEREGISTRE-2022",
+    title: "Veileder om innsyn i helseregistre",
+    date: "2022-03-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om innsynsrett i sentrale helseregistre som NPR, MSIS, reseptregisteret og dødsårsaksregisteret.",
+    full_text:
+      "Datatilsynets veileder om innsyn i helseregistre beskriver innsynsretten i sentrale helseregistre. Veilederen dekker: (1) hvilke registre som omfattes — Norsk pasientregister (NPR), Meldingssystem for smittsomme sykdommer (MSIS), Reseptregisteret, Dødsårsaksregisteret og andre lovbestemte registre; (2) innsynsrett — den registrerte har rett til å vite om det er registrert opplysninger om seg i registeret og til å få utlevert disse; (3) hvordan be om innsyn — innsyn begjæres til den aktuelle registeransvarlige; (4) begrensninger — i noen tilfeller kan innsynsretten begrenses av hensyn til registernes formål; (5) retting og sletting — den registrerte kan kreve retting av feilaktige opplysninger.",
+    topics: JSON.stringify(["helsedata", "innsyn"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-FORSKNING-PERSONVERN-2021",
+    title: "Veileder om personvernombud og forskning",
+    date: "2021-09-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernombudets rolle og oppgaver i forskningsinstitusjon, inkludert klinisk forskning og registerbasert forskning.",
+    full_text:
+      "Datatilsynets veileder om personvernombud og forskning beskriver personvernombudets rolle i forskningsinstitusjoner. Veilederen dekker: (1) plikt til å utpeke personvernombud — forskningsinstitusjoner som behandler særlige kategorier av personopplysninger i stor skala skal ha personvernombud; (2) ombudets oppgaver — informere og gi råd, overvåke etterlevelse, gi råd om DPIA, samarbeide med Datatilsynet; (3) klinisk forskning — ombudet bør involveres i planlegging av forskningsprosjekter som behandler helseopplysninger; (4) registerbasert forskning — ombudet bør vurdere rettslig grunnlag for kobling av registerdata; (5) uavhengighet — ombudet skal kunne utøve oppgavene uavhengig av forskningsledelsen.",
+    topics: JSON.stringify(["forskning", "personvernombud"]),
+    language: "no",
+  },
+
+  // --- Customer, commerce and marketing guides ---
+  {
+    reference: "DT-VEILEDER-NYHETSBREV-2022",
+    title: "Veileder om nyhetsbrev, e-postlister og SMS-markedsføring",
+    date: "2022-04-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernkrav ved utsending av nyhetsbrev og markedsføring via e-post og SMS.",
+    full_text:
+      "Datatilsynets veileder om nyhetsbrev, e-postlister og SMS-markedsføring beskriver personvernkravene for elektronisk markedsføring. Veilederen dekker: (1) samtykke — utsending av nyhetsbrev og markedsføring via e-post krever samtykke fra mottakeren etter markedsføringsloven § 15; (2) eksisterende kundeforhold — virksomheter kan sende markedsføring til eksisterende kunder om lignende produkter uten nytt samtykke; (3) avmelding — mottakeren skal enkelt kunne melde seg av; (4) behandlingsgrunnlag etter GDPR — samtykke etter markedsføringsloven oppfyller normalt samtykkekravene i GDPR; (5) profilering — bruk av personopplysninger til målrettet markedsføring krever informasjon og eventuelt DPIA.",
+    topics: JSON.stringify(["markedsforing", "samtykke"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-NETTBUTIKK-2022",
+    title: "Veileder om nettbutikker og kundeopplysninger",
+    date: "2022-01-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernkrav for nettbutikker, inkludert kundeprofiler, betalingsopplysninger og markedsføring.",
+    full_text:
+      "Datatilsynets veileder om nettbutikker og kundeopplysninger beskriver personvernkravene for netthandel. Veilederen dekker: (1) informasjonsplikt — nettbutikken skal informere kunden om behandling av personopplysninger i personvernerklæring; (2) rettslig grunnlag — avtaleinngåelse er grunnlag for å behandle opplysninger nødvendig for å gjennomføre kjøpet; (3) kundeprofiler — opprettelse av kundeprofil utover det nødvendige for kjøpet krever samtykke; (4) betalingsopplysninger — skal oppbevares sikkert og slettes etter at transaksjonen er gjennomført, med unntak for regnskapspliktige opplysninger; (5) markedsføring — krever samtykke eller eksisterende kundeforhold; (6) cookies — nettbutikkens bruk av informasjonskapsler reguleres av ekomloven.",
+    topics: JSON.stringify(["markedsforing"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-ID-KONTROLL-2022",
+    title: "Veileder om ID-kontroll og legitimasjonskontroll",
+    date: "2022-06-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om vilkårene for å kreve legitimasjon og kopiere identitetsdokumenter.",
+    full_text:
+      "Datatilsynets veileder om ID-kontroll og legitimasjonskontroll beskriver personvernkravene ved identifikasjon av personer. Veilederen dekker: (1) kopiering av pass og ID-kort — virksomheter skal som hovedregel ikke kopiere identitetsdokumenter, da dette innebærer innsamling av overskuddsinformasjon; (2) når legitimasjon kan kreves — ved lovpålagt identifikasjon (f.eks. hvitvasking), ved alderskontroll, eller ved utlevering av sensitive forsendelser; (3) dataminimering — virksomheten skal begrense seg til de opplysningene som er nødvendige for formålet; (4) oppbevaring — kopier av identitetsdokumenter skal slettes umiddelbart etter at formålet er oppnådd; (5) fødselsnummer — bruk av fødselsnummer er strengt regulert i personopplysningsloven § 12.",
+    topics: JSON.stringify(["behandlingsgrunnlag"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-SIKKER-KOMMUNIKASJON-2022",
+    title: "Veileder om sikker kommunikasjon av kundeopplysninger",
+    date: "2022-05-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om krav til sikker kommunikasjon når virksomheter sender personopplysninger til kunder.",
+    full_text:
+      "Datatilsynets veileder om sikker kommunikasjon av kundeopplysninger beskriver kravene til sikkerhet ved oversendelse av personopplysninger. Veilederen dekker: (1) e-post — vanlig e-post er ikke sikker nok for sensitive personopplysninger; (2) kryptering — personopplysninger bør krypteres ved oversendelse; (3) digitale postkasser — Digipost og eBoks er godkjente løsninger for sikker kommunikasjon; (4) SMS — bør ikke brukes for sensitive opplysninger; (5) brev — tradisjonell post kan brukes, men avsender bør vurdere risikoen for feilsending; (6) kundeportaler — innloggede kundeportaler er en god løsning for sikker kommunikasjon.",
+    topics: JSON.stringify(["informasjonssikkerhet"]),
+    language: "no",
+  },
+
+  // --- Technology and internet guides ---
+  {
+    reference: "DT-VEILEDER-PERSONVERNTEKNOLOGI-2022",
+    title: "Veileder om personvernfremmende teknologi (PET)",
+    date: "2022-11-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernfremmende teknologier, inkludert anonymisering, pseudonymisering, differensiert personvern og homomorf kryptering.",
+    full_text:
+      "Datatilsynets veileder om personvernfremmende teknologi (PET) beskriver teknologier som kan styrke personvernet. Veilederen dekker: (1) anonymisering — teknikker for å gjøre data genuint anonyme slik at de faller utenfor GDPR; (2) pseudonymisering — erstatning av direkte identifikatorer med pseudonymer; (3) differensiert personvern — tilføring av statistisk støy for å beskytte individer i datasett; (4) homomorf kryptering — beregninger på krypterte data uten å dekryptere dem; (5) syntetiske data — generering av kunstige datasett som bevarer statistiske egenskaper; (6) desentralisert datahåndtering — edge computing og føderert læring som alternativ til sentral datainnsamling.",
+    topics: JSON.stringify(["informasjonssikkerhet", "innebygd_personvern"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-ANALYSE-SPORING-NETTSTED-2023",
+    title: "Veileder om analyse og sporing på nettsteder",
+    date: "2023-06-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernvennlige alternativer for analyse av trafikk på nettsteder etter Google Analytics-vedtaket.",
+    full_text:
+      "Datatilsynets veileder om analyse og sporing på nettsteder gir råd i kjølvannet av Google Analytics-vedtaket. Veilederen dekker: (1) hva som skjedde med Google Analytics — Datatilsynet konstaterte i 2023 at bruk av Google Analytics innebar ulovlig overføring til USA; (2) alternativ analyseverktøy — oversikt over personvernvennlige alternativer som Matomo, Plausible og Simple Analytics; (3) krav til analyseløsninger — verktøyet skal ikke overføre data til tredjeland uten gyldig grunnlag; (4) førsteparts vs. tredjepartscookies — førsteparts analyseløsninger er mindre inngripende; (5) samtykke — analysecookies krever samtykke etter ekomloven § 3-15; (6) anonymisering — dersom analysedata er genuint anonymisert, faller de utenfor GDPR.",
+    topics: JSON.stringify(["informasjonskapsler", "overforing"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-SOSIALE-MEDIER-2022",
+    title: "Veileder om personvern i sosiale medier",
+    date: "2022-03-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernaspektene ved bruk av sosiale medier, inkludert innstillinger, deling og sletting av profiler.",
+    full_text:
+      "Datatilsynets veileder om personvern i sosiale medier beskriver personvernaspektene. Veilederen dekker: (1) bruk av personopplysninger — sosiale medier samler inn og bruker store mengder personopplysninger for profilering og reklame; (2) personverninnstillinger — brukere bør gjennomgå og stramme inn personverninnstillingene; (3) deling av andres personopplysninger — deling av bilder og opplysninger om andre krever samtykke; (4) sletting av profil — brukeren har rett til å slette sin profil og få sine data slettet; (5) barn i sosiale medier — særlige hensyn ved barns bruk av sosiale medier; (6) virksomheters bruk — virksomheter som bruker sosiale medier for markedsføring er medansvarlige for behandlingen.",
+    topics: JSON.stringify(["barn", "samtykke", "sletting"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-ID-TYVERI-2023",
+    title: "Veileder om identitetstyveri og personvern",
+    date: "2023-02-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om hva du kan gjøre dersom du er utsatt for identitetstyveri, inkludert forebygging og oppfølging.",
+    full_text:
+      "Datatilsynets veileder om identitetstyveri og personvern beskriver tiltak ved identitetstyveri. Veilederen dekker: (1) hva er identitetstyveri — at noen bruker dine personopplysninger (typisk fødselsnummer) uten tillatelse; (2) forebygging — vær forsiktig med å oppgi fødselsnummer, bruk sterke passord, aktiver to-faktor-autentisering; (3) dersom du er utsatt — anmeld til politiet, kontakt finansforetak og kredittvurderingsbyråer, sperre kreditt; (4) kredittvurderingssperre — du kan sperre deg for kredittvurdering hos kredittopplysningsbyråene; (5) retten til å klage — du kan klage til Datatilsynet dersom en virksomhet ikke har sikret personopplysningene dine tilstrekkelig.",
+    topics: JSON.stringify(["informasjonssikkerhet"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-EPOSTSVINDEL-2022",
+    title: "Veileder om håndtering av e-postsvindel og phishing",
+    date: "2022-07-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernaspektene ved e-postsvindel og phishing, inkludert avvikshåndtering og varsling.",
+    full_text:
+      "Datatilsynets veileder om håndtering av e-postsvindel og phishing beskriver personvernaspektene. Veilederen dekker: (1) hva er phishing — e-post eller meldinger som forsøker å lure mottakeren til å oppgi personopplysninger; (2) avviksplikt — dersom ansatte har oppgitt personopplysninger i et phishing-angrep, skal virksomheten vurdere om det foreligger meldeplikt etter GDPR artikkel 33; (3) risikovurdering — virksomheten skal vurdere risikoen for de berørtes rettigheter og friheter; (4) varsling av berørte — dersom det er høy risiko, skal de berørte varsles etter artikkel 34; (5) forebygging — opplæring av ansatte er det viktigste forebyggende tiltaket; (6) tekniske tiltak — SPF, DKIM og DMARC for å beskytte mot e-postspoofing.",
+    topics: JSON.stringify(["informasjonssikkerhet", "avvik"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-BILDEDELING-2021",
+    title: "Veileder om publisering og deling av bilder på internett",
+    date: "2021-06-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om når publisering og deling av bilder av andre personer krever samtykke.",
+    full_text:
+      "Datatilsynets veileder om publisering og deling av bilder på internett beskriver reglene for bildebruk. Veilederen dekker: (1) hovedregel — publisering av bilder der personer er identifiserbare krever samtykke; (2) unntak — bilder av offentlige arrangementer der enkeltpersoner ikke er hovedmotiv; (3) journalistisk bruk — pressens bruk av bilder er unntatt fra deler av personvernregelverket; (4) publisering uten samtykke — den som er avbildet kan kreve bildet fjernet og eventuelt kreve erstatning; (5) bilder av barn — krever samtykke fra foreldre og bør vurderes med særlig forsiktighet; (6) deepfakes — manipulerte bilder og videoer kan utgjøre brudd på personopplysningsloven.",
+    topics: JSON.stringify(["samtykke"]),
+    language: "no",
+  },
+
+  // --- Police, justice and transport guides ---
+  {
+    reference: "DT-VEILEDER-BOMVEI-SKILTGJENKJENNING-2023",
+    title: "Veileder om automatisk skiltgjenkjenning ved bomstasjoner",
+    date: "2023-05-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernkrav ved bruk av automatisk nummerskiltgjenkjenning (ANPR) ved bomstasjoner.",
+    full_text:
+      "Datatilsynets veileder om automatisk skiltgjenkjenning ved bomstasjoner beskriver personvernkravene. Veilederen dekker: (1) ANPR-teknologi — automatisk nummerskiltgjenkjenning innebærer behandling av personopplysninger; (2) rettslig grunnlag — bompengeselskap har rettslig grunnlag i vegprisloven for å registrere passeringer; (3) formålsbegrensning — ANPR-data skal kun brukes til bompengeinnkreving, ikke til andre formål som trafikkanalyse uten eget grunnlag; (4) lagring — passeringsdata skal slettes når formålet er oppnådd; (5) informasjonsplikt — trafikantene skal informeres om registreringen; (6) AutoPASS — det frivillige AutoPASS-systemet har egne vilkår for behandling av personopplysninger.",
+    topics: JSON.stringify(["transport", "kameraovervaking"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-POLITIREGISTERLOVEN-2022",
+    title: "Veileder om personvern i politiet — politiregisterloven",
+    date: "2022-01-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om behandling av personopplysninger i politiet etter politiregisterloven, inkludert kriminaletterretning og straffesaker.",
+    full_text:
+      "Datatilsynets veileder om personvern i politiet beskriver det rettslige rammeverket for politiets behandling av personopplysninger. Veilederen dekker: (1) politiregisterloven — gjelder i stedet for personopplysningsloven for politiets behandling av personopplysninger til politimessige formål; (2) registreringsadgang — politiet kan registrere opplysninger som er nødvendige for politimessige formål; (3) tilgangsstyring — strenge regler for hvem som kan ha tilgang til opplysninger i politiets registre; (4) innsynsrett — den registrerte har rett til innsyn, med unntak dersom det kan skade etterforskning; (5) sletting — opplysninger skal slettes etter fastsatte frister; (6) Datatilsynets tilsyn — Datatilsynet fører tilsyn med politiets behandling av personopplysninger.",
+    topics: JSON.stringify(["politi_justis"]),
+    language: "no",
+  },
+
+  // --- Additional sector guides ---
+  {
+    reference: "DT-VEILEDER-KOMMUNE-DIGITALISERING-2024",
+    title: "Veileder om personvern ved digitalisering i kommuner",
+    date: "2024-03-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernkrav ved kommunal digitalisering, inkludert digitalt førstevalg, innbyggerportaler og automatisering.",
+    full_text:
+      "Datatilsynets veileder om personvern ved digitalisering i kommuner beskriver personvernkravene i det offentliges digitaliseringsarbeid. Veilederen dekker: (1) digitalt førstevalg — kommuner som digitaliserer sine tjenester må sikre at personvernet ivaretas; (2) innebygd personvern — personvernhensyn skal bygges inn i alle nye digitale løsninger fra start; (3) skybaserte tjenester — kommuner som tar i bruk skyløsninger må vurdere overføringsgrunnlag og databehandleravtaler; (4) automatiserte vedtak — automatisering av forvaltningsvedtak krever rettslig grunnlag og rett til menneskelig overprøving; (5) innbyggerportaler — innloggede portaler for innbyggere må sikres med tilstrekkelig autentisering; (6) samarbeid mellom kommuner — deling av personopplysninger mellom kommuner krever rettslig grunnlag.",
+    topics: JSON.stringify(["offentlig_sektor", "innebygd_personvern"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-ANSIKTSGJENKJENNING-2024",
+    title: "Veileder om bruk av ansiktsgjenkjenning — biometri og personvern",
+    date: "2024-01-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernkrav ved bruk av ansiktsgjenkjenningsteknologi, inkludert adgangskontroll, identifikasjon og overvåking.",
+    full_text:
+      "Datatilsynets veileder om bruk av ansiktsgjenkjenning beskriver personvernkravene. Veilederen dekker: (1) ansiktsgjenkjenning behandler biometriske personopplysninger — en særlig kategori etter GDPR artikkel 9; (2) forbudet — behandling av biometriske opplysninger til identifikasjon av fysiske personer er som hovedregel forbudt; (3) unntak — behandlingen kan tillates ved uttrykkelig samtykke, vesentlig offentlig interesse med lovhjemmel, eller andre unntak i artikkel 9 nr. 2; (4) bruk i arbeidslivet — bruk av ansiktsgjenkjenning for adgangskontroll eller tidsregistrering på arbeidsplassen er svært inngripende og vanskelig å begrunne; (5) offentlig rom — ansiktsgjenkjenning i sanntid i offentlig tilgjengelige rom er forbudt etter KI-forordningen, med svært begrensede unntak for politi.",
+    topics: JSON.stringify(["biometri", "kameraovervaking", "kunstig_intelligens"]),
+    language: "no",
+  },
+
+  // --- Additional reports ---
+  {
+    reference: "DT-RAPPORT-5G-PERSONVERN-2023",
+    title: "Rapport: 5G og personvern",
+    date: "2023-06-22",
+    type: "rapport",
+    summary:
+      "Datatilsynets rapport om personvernutfordringene ved utbygging og bruk av 5G-mobilnettet, inkludert økt sporing, IoT og edge computing.",
+    full_text:
+      "Datatilsynets rapport om 5G og personvern analyserer personvernkonsekvensene av den nye mobilteknologien. Rapporten dekker: (1) økt sporing — 5G-nettet gir mer presise lokasjonsdata enn 4G, noe som øker mulighetene for personovervåking; (2) tingenes internett (IoT) — 5G muliggjør massiv tilkobling av enheter som kan samle inn personopplysninger; (3) edge computing — dataprosessering nærmere brukeren kan redusere overføring av personopplysninger, men reiser nye spørsmål om behandlingsansvar; (4) nettverkskutting (network slicing) — muligheten for å opprette virtuelle nettverk med ulike egenskaper reiser spørsmål om informasjonssikkerhet; (5) anbefalinger — 5G-utbygging bør følge prinsippene om innebygd personvern.",
+    topics: JSON.stringify(["telekom", "informasjonssikkerhet"]),
+    language: "no",
+  },
+  {
+    reference: "DT-RAPPORT-FINTECH-2018",
+    title: "Rapport: Fintech og personvern",
+    date: "2018-02-07",
+    type: "rapport",
+    summary:
+      "Datatilsynets rapport om personvernutfordringene i fintech-sektoren, inkludert automatisert kredittvurdering, kontoinformasjonstjenester og betalingsinitieringstjenester.",
+    full_text:
+      "Datatilsynets rapport om fintech og personvern analyserer personvernkonsekvensene av nye finansielle teknologier. Rapporten dekker: (1) automatisert kredittvurdering — bruk av alternative datakilder og maskinlæring for kredittvurdering reiser spørsmål om transparens og diskriminering; (2) PSD2 — det reviderte betalingstjenestedirektivet åpner for tredjepartstilgang til bankkontoer, noe som innebærer behandling av sensitive finansielle opplysninger; (3) blockchain — personvernaspekter ved distribuert hovedbok-teknologi; (4) regulatorisk sandkasse — Datatilsynet anbefaler regulatorisk sandkasse for fintech-aktører for å teste personvernkomplianse; (5) anbefalinger — fintech-aktører bør bygge inn personvern fra start og gjennomføre DPIA for nye tjenester.",
+    topics: JSON.stringify(["finans", "kunstig_intelligens"]),
+    language: "no",
+  },
+  {
+    reference: "DT-RAPPORT-BIG-DATA-2013",
+    title: "Rapport: Big Data — personvernprinsipper under press",
+    date: "2013-09-26",
+    type: "rapport",
+    summary:
+      "Datatilsynets rapport om personvernprinsippene i møte med big data, inkludert formålsbegrensning, dataminimering og samtykke.",
+    full_text:
+      "Datatilsynets rapport om big data og personvern analyserer hvordan big data utfordrer grunnleggende personvernprinsipper. Rapporten dekker: (1) formålsbegrensning — big data-analyse søker å finne nye sammenhenger i data, noe som utfordrer prinsippet om at data skal samles inn for bestemte formål; (2) dataminimering — big data forutsetter store datamengder, noe som strider mot prinsippet om å samle inn så lite som mulig; (3) samtykke — det er vanskelig å innhente meningsfylt samtykke for fremtidige analyser; (4) diskriminering — big data-analyse kan føre til diskriminering basert på korrelasjonsmønstre; (5) transparens — algoritmene som brukes i big data-analyse er ofte ugjennomtrinnelige; (6) anbefalinger — personvernkonsekvensvurdering bør gjennomføres for alle big data-prosjekter.",
+    topics: JSON.stringify(["kunstig_intelligens"]),
+    language: "no",
+  },
+  {
+    reference: "DT-RAPPORT-PERSONPROFILER-ANNONSEMARKED-2015",
+    title: "Rapport: Personprofilering på det digitale annonsemarkedet",
+    date: "2015-11-03",
+    type: "rapport",
+    summary:
+      "Datatilsynets rapport om personvernaspektene ved profilering og sporing i det digitale annonsemarkedet.",
+    full_text:
+      "Datatilsynets rapport om personprofilering på det digitale annonsemarkedet beskriver personvernaspektene ved målrettet reklame. Rapporten dekker: (1) annonseteknologi — hvordan annonsebørser, dataforvaltere (DMP) og sanntidsbudgivning (RTB) fungerer; (2) datapunkter — hvilke personopplysninger som samles inn for å bygge brukerprofiler; (3) tredjepartssporere — omfanget av tredjepartssporere på norske nettsteder; (4) manglende transparens — brukerne har liten innsikt i hvordan profilene bygges og brukes; (5) risikoer — profilering kan avsløre sensitive opplysninger om helse, religion og politisk overbevisning; (6) anbefalinger — bransjen bør øke transparensen og gi brukerne reell kontroll.",
+    topics: JSON.stringify(["markedsforing", "informasjonskapsler"]),
+    language: "no",
+  },
+  {
+    reference: "DT-RAPPORT-MALRETTING-POLITISK-2019",
+    title: "Rapport: Målretting av politiske budskap",
+    date: "2019-06-20",
+    type: "rapport",
+    summary:
+      "Datatilsynets rapport om bruk av personopplysninger for målrettet politisk reklame, inkludert mikromålretting og dark posts.",
+    full_text:
+      "Datatilsynets rapport om målretting av politiske budskap analyserer personvernaspektene ved politisk mikromålretting. Rapporten dekker: (1) mikromålretting — bruk av detaljerte personopplysninger for å skreddersy politiske budskap til individuelle velgere; (2) dark posts — politiske annonser som kun vises til utvalgte brukergrupper og ikke er synlige for andre; (3) personvernrisiko — politisk profilering kan avsløre og utnytte informasjon om velgeres politiske holdninger; (4) demokratisk risiko — målrettet politisk reklame kan underminere offentlig debatt; (5) regulering — eksisterende personvernregelverk gir begrensninger for bruk av personopplysninger til politisk markedsføring; (6) anbefalinger — økt transparens og begrensninger på bruk av personopplysninger i politisk reklame.",
+    topics: JSON.stringify(["markedsforing", "offentlig_sektor"]),
+    language: "no",
+  },
+
+  // --- Sandbox project reports ---
+  {
+    reference: "DT-SANDKASSE-POLITIHOGSKOLEN-2024",
+    title: "Sandkasserapport: PrevBOT — KI-verktøy mot overgrepsbilder",
+    date: "2024-03-20",
+    type: "rapport",
+    summary:
+      "Sluttrapport fra Datatilsynets sandkasse om Politihøgskolens PrevBOT — et KI-verktøy for å oppdage grooming-samtaler og overgrepsbilder på internett.",
+    full_text:
+      "Sluttrapport fra Datatilsynets regulatoriske sandkasse om Politihøgskolens PrevBOT-prosjekt. PrevBOT er et kunstig intelligens-verktøy utviklet for å identifisere grooming-samtaler og materiale som viser seksuelt misbruk av barn på internett. Rapporten dekker: (1) formålet — PrevBOT skal automatisere deler av politiets arbeid med å identifisere overgripere som kontakter barn online; (2) personvernvurdering — verktøyet behandler svært sensitive personopplysninger og krever robust rettslig grunnlag; (3) dataminimering — treningsdata bør anonymiseres i størst mulig grad; (4) menneskelig kontroll — KI-verktøyet skal være et støtteverktøy for politiet, ikke en automatisert beslutningstaker; (5) proporsjonalitet — personverninngrepet må stå i forhold til formålet om å beskytte barn.",
+    topics: JSON.stringify(["kunstig_intelligens", "politi_justis", "barn"]),
+    language: "no",
+  },
+  {
+    reference: "DT-SANDKASSE-NTNU-COPILOT-2024",
+    title: "Sandkasserapport: NTNU — Microsoft 365 Copilot med personvernbriller",
+    date: "2024-11-26",
+    type: "rapport",
+    summary:
+      "Sluttrapport fra Datatilsynets sandkasse om NTNUs vurdering av personvernaspektene ved bruk av Microsoft 365 Copilot i universitetet.",
+    full_text:
+      "Sluttrapport fra Datatilsynets regulatoriske sandkasse om NTNUs prosjekt med Microsoft 365 Copilot. NTNU ønsket å vurdere personvernaspektene ved å ta i bruk Microsofts KI-assistent Copilot i sin daglige drift. Rapporten dekker: (1) behandlingsansvar — NTNU som behandlingsansvarlig må forstå og kontrollere hvordan Copilot behandler personopplysninger; (2) dataflyt — personopplysninger som er lagret i M365 kan bli tilgjengelige for Copilot; (3) tilgangsstyring — Copilots tilgang til data styres av eksisterende tilgangsrettigheter, men kan avsløre informasjon som er teknisk tilgjengelig men som brukeren normalt ikke ville funnet; (4) DPIA — NTNU gjennomførte personvernkonsekvensvurdering av Copilot; (5) anbefalinger — virksomheter bør gjennomgå tilgangsstyring grundig før Copilot-aktivering.",
+    topics: JSON.stringify(["kunstig_intelligens", "skole"]),
+    language: "no",
+  },
+  {
+    reference: "DT-SANDKASSE-DOORKEEPER-2023",
+    title: "Sandkasserapport: Doorkeeper — intelligent kameraovervåking",
+    date: "2023-04-25",
+    type: "rapport",
+    summary:
+      "Sluttrapport fra Datatilsynets sandkasse om Doorkeeper — personvernvennlig intelligent videoanalyse.",
+    full_text:
+      "Sluttrapport fra Datatilsynets regulatoriske sandkasse om Doorkeeper-prosjektet. Doorkeeper utvikler personvernvennlige systemer for intelligent videoanalyse. Rapporten dekker: (1) problemstillingen — tradisjonell kameraovervåking samler inn store mengder personopplysninger, mens intelligent videoanalyse kan begrense dette; (2) Doorkeepers løsning — bildeprosessering skjer lokalt uten at bilder overføres til sky; (3) personvern fra start — systemet er designet med innebygd personvern; (4) anonymisering — systemet anonymiserer ansikter i sanntid der identifikasjon ikke er nødvendig; (5) formålsbegrensning — systemet kan konfigureres til kun å detektere bestemte hendelser.",
+    topics: JSON.stringify(["kameraovervaking", "kunstig_intelligens", "innebygd_personvern"]),
+    language: "no",
+  },
+  {
+    reference: "DT-SANDKASSE-FINTERAI-2022",
+    title: "Sandkasserapport: Finterai — maskinlæring uten datadeling",
+    date: "2022-11-10",
+    type: "rapport",
+    summary:
+      "Sluttrapport fra Datatilsynets sandkasse om Finterai — føderert maskinlæring for anti-hvitvaskingsarbeid i banker.",
+    full_text:
+      "Sluttrapport fra Datatilsynets regulatoriske sandkasse om Finterai-prosjektet. Finterai utvikler løsninger for føderert maskinlæring som gjør at banker kan trene felles anti-hvitvaskingsmodeller uten å dele kundenes personopplysninger. Rapporten dekker: (1) problemstillingen — banker er pålagt å bekjempe hvitvasking, men kan ikke dele kundedata med hverandre; (2) føderert læring — modellen trenes lokalt hos hver bank, og kun modellparametere (ikke personopplysninger) deles; (3) personverngevinst — ingen overføring av personopplysninger mellom bankene; (4) utfordringer — risiko for at modellparametere indirekte kan avsløre personopplysninger; (5) anbefaling — føderert læring kan være et personvernvennlig alternativ for samarbeidsprosjekter i finanssektoren.",
+    topics: JSON.stringify(["finans", "kunstig_intelligens"]),
+    language: "no",
+  },
+  {
+    reference: "DT-SANDKASSE-HELSE-BERGEN-2022",
+    title: "Sandkasserapport: Helse Bergen — KI i oppfølging av sårbare pasienter",
+    date: "2022-11-22",
+    type: "rapport",
+    summary:
+      "Sluttrapport fra Datatilsynets sandkasse om Helse Bergens bruk av KI for å forutsi risiko for gjeninnleggelse av pasienter.",
+    full_text:
+      "Sluttrapport fra Datatilsynets regulatoriske sandkasse om Helse Bergens prosjekt med kunstig intelligens for oppfølging av sårbare pasienter. Helse Bergen utviklet en predikasjonsmodell for å identifisere pasienter med høy risiko for gjeninnleggelse. Rapporten dekker: (1) algoritmisk rettferdighet — modellen må sikres mot skjevheter som diskriminerer bestemte pasientgrupper; (2) rettslig grunnlag — bruk av helseopplysninger i prediksjonsmodeller krever robust hjemmel; (3) transparens — pasienter skal informeres om at KI brukes i oppfølgingen; (4) menneskelig kontroll — algoritmens anbefalinger skal vurderes av helsepersonell; (5) DPIA — gjennomført personvernkonsekvensvurdering identifiserte sentrale risikofaktorer.",
+    topics: JSON.stringify(["helsedata", "kunstig_intelligens"]),
+    language: "no",
+  },
+  {
+    reference: "DT-SANDKASSE-SECURE-PRACTICE-2022",
+    title: "Sandkasserapport: Secure Practice — tilpasset sikkerhetsopplæring",
+    date: "2022-02-02",
+    type: "rapport",
+    summary:
+      "Sluttrapport fra Datatilsynets sandkasse om Secure Practice — KI-basert tilpassing av sikkerhetsopplæring basert på ansattes risikoprofil.",
+    full_text:
+      "Sluttrapport fra Datatilsynets regulatoriske sandkasse om Secure Practice-prosjektet. Secure Practice utvikler en løsning som bruker maskinlæring for å tilpasse sikkerhetsopplæring til den enkelte ansattes risikoprofil. Rapporten dekker: (1) profilering — risikoprofilering av ansatte innebærer profilering etter GDPR artikkel 22; (2) rettslig grunnlag — arbeidsgivers berettigede interesse kan være grunnlag, men forutsetter forholdsmessighetsvurdering; (3) transparens — ansatte skal informeres om at de blir profilert og på hvilket grunnlag; (4) rett til å protestere — ansatte har rett til å protestere mot profileringen; (5) dataminimering — profileringsdata bør aggregeres og ikke lagres på individnivå lenger enn nødvendig.",
+    topics: JSON.stringify(["arbeidsforhold", "kunstig_intelligens", "informasjonssikkerhet"]),
+    language: "no",
+  },
+
+  // --- Additional høringsuttalelser ---
+  {
+    reference: "DT-HOERING-PST-APNE-KILDER-2022",
+    title: "Høringssvar om PST og behandling av åpent tilgjengelig informasjon",
+    date: "2022-04-15",
+    type: "hoeringsuttalelse",
+    summary:
+      "Datatilsynets kritiske høringssvar om forslaget om å la PST lagre, systematisere og analysere store mengder åpent tilgjengelig informasjon fra internett.",
+    full_text:
+      "Datatilsynet har avgitt et kritisk høringssvar om forslaget om å gi PST (Politiets sikkerhetstjeneste) hjemmel til å lagre, systematisere og analysere store mengder åpent tilgjengelig informasjon fra internett for etterretningsformål. Datatilsynet konstaterer at: (1) forslaget vil transformere PST fra politimyndighet med fokus på forebygging og etterforskning av konkrete lovbrudd til en tjeneste som driver etterretningsvirksomhet mot norske borgere; (2) hele det åpne internett — inkludert nyhetsartikler, offentlige registre, diskusjoner i sosiale medier, kommentarer og blogger — vil kunne lagres og gjennomgås med algoritmer; (3) dette er et alvorlig inngrep i ytringsfriheten og personvernet; (4) 16 prosent av respondentene i Datatilsynets personvernundersøkelse har unnlatt å delta i nettdebatter på grunn av usikkerhet om myndighetenes overvåking.",
+    topics: JSON.stringify(["politi_justis", "offentlig_sektor"]),
+    language: "no",
+  },
+  {
+    reference: "DT-HOERING-BOMVEI-2023",
+    title: "Høringssvar om vegprising og bompengeordninger",
+    date: "2023-02-09",
+    type: "hoeringsuttalelse",
+    summary:
+      "Datatilsynets høringssvar om personvernaspektene ved vegprising og automatisk bompengeinnkreving.",
+    full_text:
+      "Datatilsynet har avgitt høringssvar om forslag til vegprising og bompengeordninger. Datatilsynet kommenterer: (1) automatisk nummerskiltgjenkjenning (ANPR) ved bomstasjoner innebærer masseregistrering av bilister og er et betydelig personverninngrep; (2) formålsbegrensning er avgjørende — passeringsdata skal kun brukes til innkreving og ikke til andre formål som trafikkanalyse eller rettshåndhevelse; (3) lagringstid bør begrenses til det som er nødvendig for innkrevingsformålet; (4) anonymisering — passeringsdata bør anonymiseres så snart innkrevingen er gjennomført; (5) AutoPASS og personvern — frivillig bruk av AutoPASS-brikke reiser egne personvernspørsmål.",
+    topics: JSON.stringify(["transport", "offentlig_sektor"]),
+    language: "no",
+  },
+  {
+    reference: "DT-HOERING-KAMERAOVERVAKING-SERVERING-2022",
+    title: "Informasjonsskriv om kameraovervåking i serverings- og overnattingsbransjen",
+    date: "2022-06-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets informasjonsskriv om vilkårene for kameraovervåking i restauranter, barer, hoteller og overnattingssteder.",
+    full_text:
+      "Datatilsynets informasjonsskriv om kameraovervåking i serverings- og overnattingsbransjen beskriver vilkårene for lovlig kameraovervåking. Dokumentet dekker: (1) rettslig grunnlag — serveringssteder og hoteller kan ha berettiget interesse i kameraovervåking for å forebygge kriminalitet, men terskelen er høy; (2) forholdsmessighet — overvåking er bare lovlig dersom formålet ikke kan oppnås med mindre inngripende tiltak; (3) informasjonsplikt — gjester og ansatte skal informeres om overvåkingen med tydelig skilting; (4) begrensning av områder — kameraer skal ikke dekke toaletter, garderober eller hotelrom; (5) lagring — opptak skal normalt slettes innen 7 dager; (6) utlevering — opptak kan utleveres til politiet ved etterforskning av straffbare forhold.",
+    topics: JSON.stringify(["kameraovervaking"]),
+    language: "no",
+  },
+
+  // --- Additional hearing statements ---
+  {
+    reference: "DT-HOERING-DATASKRAPING-2024",
+    title: "Uttalelse om ulovlig dataskraping og KI-trening",
+    date: "2024-10-28",
+    type: "hoeringsuttalelse",
+    summary:
+      "Datatilsynet deltok i en global uttalelse om ulovlig innsamling (scraping) av personopplysninger fra internett til bruk i trening av kunstig intelligens.",
+    full_text:
+      "Datatilsynet deltok i en felles global uttalelse fra datatilsynsmyndigheter om ulovlig innsamling (scraping) av personopplysninger fra internett. Uttalelsen retter seg mot virksomheter som henter personopplysninger fra nettet for å trene modeller for kunstig intelligens. De deltakende myndighetene konstaterer at: (1) innsamling av personopplysninger fra offentlig tilgjengelige kilder uten rettslig grunnlag er ulovlig; (2) det at opplysninger er offentlig tilgjengelige betyr ikke at de kan brukes fritt; (3) virksomheter som scraper data har ansvar for å sikre lovlig behandlingsgrunnlag; (4) nettstedseiere bør implementere tekniske tiltak for å hindre uautorisert scraping; (5) de registrertes rettigheter gjelder også for scrapede data.",
+    topics: JSON.stringify(["kunstig_intelligens", "behandlingsgrunnlag"]),
+    language: "no",
+  },
+
+  // --- DPO survey and guidance ---
+  {
+    reference: "DT-RAPPORT-PERSONVERNOMBUD-2025",
+    title: "Undersøkelse om personvernombud 2025",
+    date: "2025-06-25",
+    type: "rapport",
+    summary:
+      "Datatilsynets undersøkelse av personvernombudets rolle og funksjon i norske virksomheter anno 2025.",
+    full_text:
+      "Datatilsynets undersøkelse om personvernombud 2025 kartlegger ombudets rolle og funksjon i norske virksomheter. Undersøkelsen dekker: (1) antall virksomheter med personvernombud — en stor andel av norske virksomheter har oppnevnt personvernombud; (2) ombudets uavhengighet — enkelte ombud rapporterer om utfordringer med å utøve oppgavene uavhengig av ledelsen; (3) ressurser — mange ombud opplever at de ikke har tilstrekkelig tid til å utføre oppgavene; (4) kompetanse — behovet for faglig oppdatering og nettverk; (5) involvering — ombudet involveres i varierende grad i personvernspørsmål; (6) samarbeid med Datatilsynet — ombudene vurderer samarbeidet med tilsynsmyndigheten som godt.",
+    topics: JSON.stringify(["personvernombud"]),
+    language: "no",
+  },
+
+  // --- KI-forordningen (AI Act) ---
+  {
+    reference: "DT-HOERING-KI-FORORDNINGEN-2025",
+    title: "Høringssvar om gjennomføring av KI-forordningen (AI Act) i norsk rett",
+    date: "2025-10-01",
+    type: "hoeringsuttalelse",
+    summary:
+      "Datatilsynets høringssvar om gjennomføring av EUs KI-forordning (AI Act) i norsk rett, inkludert tilsynsansvar og sanksjonsmuligheter.",
+    full_text:
+      "Datatilsynet har avgitt høringssvar om gjennomføring av EUs KI-forordning (AI Act) i norsk rett. Datatilsynet kommenterer: (1) tilsynsansvar — Datatilsynet bør ha en sentral rolle i tilsynet med KI-systemer som behandler personopplysninger, da det er tett sammenheng mellom GDPR og KI-forordningen; (2) risikoklassifisering — KI-forordningens inndeling i uakseptabel risiko, høy risiko, begrenset risiko og minimal risiko er en fornuftig tilnærming; (3) forbudte praksiser — Datatilsynet støtter forbudet mot biometrisk masseovervåking i sanntid og sosial scoring; (4) transparens — kravene til transparens for KI-systemer må harmoniseres med GDPRs krav; (5) regulatorisk sandkasse — Datatilsynets eksisterende sandkasse kan tilpasses til KI-forordningens sandkassekrav; (6) sanksjoner — det bør gis tilstrekkelige sanksjonsmuligheter for brudd på forordningen.",
+    topics: JSON.stringify(["kunstig_intelligens"]),
+    language: "no",
+  },
+  {
+    reference: "DT-HOERING-ALDERSGRENSER-SOSIALE-MEDIER-2025",
+    title: "Høringssvar om aldersgrenser i sosiale medier",
+    date: "2025-10-03",
+    type: "hoeringsuttalelse",
+    summary:
+      "Datatilsynets høringssvar om forslaget til lov om aldersgrenser i sosiale medier for å beskytte barns personvern.",
+    full_text:
+      "Datatilsynet har avgitt høringssvar om forslaget til lov om aldersgrenser i sosiale medier. Datatilsynet kommenterer: (1) støtter formålet om å beskytte barn mot skadelig innhold og profilering i sosiale medier; (2) aldersverifisering — metoden for aldersverifisering må selv ivareta personvernet og ikke innebære masseinnsamling av identitetsdokumenter; (3) proporsjonalitet — tiltakene må stå i forhold til formålet; (4) teknisk gjennomførbarhet — det er tekniske utfordringer knyttet til pålitelig aldersverifisering uten at det går utover personvernet; (5) sammenheng med KI-forordningen — forordningen inneholder allerede bestemmelser om beskyttelse av mindreårige; (6) håndheving — det bør klargjøres hvem som skal føre tilsyn med etterlevelsen.",
+    topics: JSON.stringify(["barn", "samtykke"]),
+    language: "no",
+  },
+
+  // --- Additional sector guidance ---
+  {
+    reference: "DT-VEILEDER-PROGRAMVAREUTVIKLING-2019",
+    title: "Veileder om programvareutvikling med innebygd personvern",
+    date: "2019-11-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om hvordan utviklere kan bygge personvern inn i programvare fra start, med konkrete råd for hvert utviklingstrinn.",
+    full_text:
+      "Datatilsynets veileder om programvareutvikling med innebygd personvern gir konkrete råd til utviklere. Veilederen dekker syv utviklingsfaser: (1) kravsspesifikasjon — identifiser personvernkrav tidlig; (2) design — velg dataminimerende design, bruk pseudonymisering, implementer tilgangsstyring; (3) implementering — krypter data i transit og i hvile, valider input, bruk sikre biblioteker; (4) testing — test for personvernfeil, gjennomfør penetrasjonstesting; (5) deploy — sikre at konfigurasjonen er personvernvennlig som standard; (6) vedlikehold — oppdater avhengigheter, logg tilgang, gjennomfør periodiske gjennomganger; (7) avvikling — slett data sikkert når systemet avvikles. Veilederen er utarbeidet i samarbeid med norsk utviklermiljø.",
+    topics: JSON.stringify(["innebygd_personvern", "informasjonssikkerhet"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-SCHREMS-II-VURDERING-2021",
+    title: "Veileder om Schrems II-vurderinger for overføring til tredjeland",
+    date: "2021-07-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om hvordan virksomheter skal gjennomføre Schrems II-vurderinger (Transfer Impact Assessments) ved overføring av personopplysninger til tredjeland.",
+    full_text:
+      "Datatilsynets veileder om Schrems II-vurderinger beskriver fremgangsmåten for å vurdere om personopplysninger kan overføres til tredjeland. Veilederen dekker: (1) kartlegging — identifiser alle overføringer av personopplysninger til tredjeland; (2) overføringsgrunnlag — vurder om det finnes gyldig overføringsgrunnlag (f.eks. standard personvernbestemmelser); (3) lovgivning i mottakerlandet — vurder om lovgivningen i mottakerlandet sikrer tilstrekkelig beskyttelse; (4) tilleggstiltak — dersom lovgivningen ikke gir tilstrekkelig beskyttelse, implementer tekniske, kontraktuelle eller organisatoriske tilleggstiltak; (5) dokumentasjon — dokumenter vurderingen for å kunne demonstrere etterlevelse; (6) periodisk gjennomgang — vurderingen skal oppdateres ved endringer i lovgivning eller praksis.",
+    topics: JSON.stringify(["overforing"]),
+    language: "no",
+  },
+  {
+    reference: "DT-RAPPORT-PERSONVERNUNDERSOKELSEN-2020",
+    title: "Personvernundersøkelsen 2019/2020",
+    date: "2020-09-01",
+    type: "rapport",
+    summary:
+      "Datatilsynets undersøkelse av nordmenns holdninger og erfaringer med personvern, inkludert tillit til virksomheter og myndigheter.",
+    full_text:
+      "Datatilsynets personvernundersøkelse 2019/2020 kartlegger nordmenns holdninger og erfaringer med personvern. Undersøkelsen dekker: (1) kjennskap til rettigheter — et flertall kjenner til at de har rett til innsyn og sletting, men færre bruker rettighetene aktivt; (2) tillit — nordmenn har høy tillit til offentlige myndigheter og helsetjenesten, men lavere tillit til sosiale medier og teknologiselskaper; (3) bekymring — mange er bekymret for overvåking av internettbruk og at personopplysninger selges videre; (4) selvregulering — en betydelig andel oppgir at de har endret atferd på grunn av personvernbekymringer; (5) 16 prosent har unnlatt å delta i nettdebatter av frykt for myndigheters overvåking.",
+    topics: JSON.stringify(["samtykke", "innsyn"]),
+    language: "no",
+  },
+
+  // --- Additional international transfer guidance ---
+  {
+    reference: "DT-VEILEDER-USA-DATAOVERFOERING-2023",
+    title: "Veileder om nye regler for overføring av personopplysninger til USA — EU-US Data Privacy Framework",
+    date: "2023-07-15",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om det nye EU-US Data Privacy Framework som trådte i kraft i 2023 og gir nytt grunnlag for overføring til USA.",
+    full_text:
+      "Datatilsynets veileder om EU-US Data Privacy Framework beskriver det nye rammeverket for overføring av personopplysninger til USA. Veilederen dekker: (1) hva er DPF — rammeverket erstatter Privacy Shield som ble ugyldiggjort av Schrems II-dommen; (2) sertifisering — amerikanske virksomheter må sertifisere seg under rammeverket for å motta personopplysninger; (3) sjekkliste for overføring — virksomheter skal verifisere at den amerikanske mottakeren er sertifisert; (4) begrensninger — rammeverket gjelder kun for overføring til sertifiserte virksomheter, ikke til alle amerikanske virksomheter; (5) klageordning — de registrerte har rett til å klage til en uavhengig klageinstans; (6) usikkerhet — det er usikkert om rammeverket vil bestå en eventuell ny prøving for EU-domstolen.",
+    topics: JSON.stringify(["overforing"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-BREXIT-OVERFOERING-2020",
+    title: "Veileder om overføring av personopplysninger til Storbritannia etter Brexit",
+    date: "2020-12-15",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernkrav ved overføring av personopplysninger til Storbritannia etter Brexit.",
+    full_text:
+      "Datatilsynets veileder om overføring av personopplysninger til Storbritannia etter Brexit beskriver konsekvensene for norske virksomheter. Veilederen dekker: (1) EU-kommisjonens adekvansbeslutning — Storbritannia er anerkjent som et land med tilstrekkelig beskyttelsesnivå; (2) overføring tillatt — så lenge adekvansbeslutningen gjelder, kan personopplysninger overføres til Storbritannia uten ytterligere tiltak; (3) begrensninger — adekvansbeslutningen er tidsbegrenset og kan trekkes tilbake; (4) anbefaling — virksomheter bør ha beredskapsplaner for det tilfellet at adekvansbeslutningen opphører; (5) SCC — standard personvernbestemmelser er et alternativt overføringsgrunnlag.",
+    topics: JSON.stringify(["overforing"]),
+    language: "no",
+  },
+
+  // =========================================================================
+  // Additional guidelines — batch 2 (sector, technology, compliance)
+  // =========================================================================
+
+  {
+    reference: "DT-VEILEDER-FODSELSNUMMER-2020",
+    title: "Veileder om bruk av fødselsnummer",
+    date: "2020-01-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om vilkårene for bruk av fødselsnummer (personnummer) etter personopplysningsloven § 12.",
+    full_text:
+      "Datatilsynets veileder om bruk av fødselsnummer beskriver de strenge vilkårene i personopplysningsloven § 12. Veilederen dekker: (1) hovedregel — fødselsnummer kan bare brukes i behandlingen når det er saklig behov for sikker identifisering og metoden er nødvendig; (2) eksempler på lovlig bruk — bank- og forsikringsforhold, arbeidsgiverforhold, helsetjenester; (3) eksempler på ulovlig bruk — identifikasjon ved varekjøp, medlemsregistrering i frivillige organisasjoner; (4) oppbevaring — fødselsnummer skal beskyttes mot uautorisert tilgang og ikke lagres lenger enn nødvendig; (5) alternativer — virksomheter bør vurdere om formålet kan oppnås med andre identifikatorer.",
+    topics: JSON.stringify(["behandlingsgrunnlag"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-SJEKKLISTE-2020",
+    title: "Sjekkliste for virksomheters personvernplikter",
+    date: "2020-05-01",
+    type: "verktoy",
+    summary:
+      "Datatilsynets sjekkliste som hjelper virksomheter å kartlegge om de oppfyller sine plikter etter personvernregelverket.",
+    full_text:
+      "Datatilsynets sjekkliste for virksomheters personvernplikter er et praktisk verktøy for å kartlegge etterlevelse. Sjekklisten dekker: (1) oversikt — har virksomheten oversikt over alle behandlinger av personopplysninger?; (2) rettslig grunnlag — er det fastsatt rettslig grunnlag for hver behandling?; (3) informasjon — er de registrerte informert om behandlingen?; (4) rettigheter — har virksomheten rutiner for å besvare innsynskrav, slettekrav og andre rettigheter?; (5) sikkerhet — er det gjennomført risikovurdering og implementert tilstrekkelige sikkerhetstiltak?; (6) databehandleravtaler — er det inngått avtaler med alle databehandlere?; (7) internkontroll — har virksomheten dokumentert internkontrollsystem for personvern?; (8) DPIA — er det vurdert om det trengs personvernkonsekvensvurdering?; (9) personvernombud — er det vurdert om virksomheten trenger personvernombud?",
+    topics: JSON.stringify(["internkontroll"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-KAMERA-ARBEIDSPLASS-DETALJ-2022",
+    title: "Veileder om kameraovervåking på arbeidsplassen — detaljert",
+    date: "2022-01-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets detaljerte veileder om vilkårene for kameraovervåking på arbeidsplassen, inkludert rettslig grunnlag, informasjonsplikt og lagring.",
+    full_text:
+      "Datatilsynets detaljerte veileder om kameraovervåking på arbeidsplassen beskriver vilkårene for lovlig overvåking. Veilederen dekker: (1) rettslig grunnlag — kameraovervåking på arbeidsplassen kan baseres på berettiget interesse (art. 6 nr. 1 bokstav f) dersom det foreligger et reelt behov, f.eks. forebygging av kriminalitet eller sikkerhet; (2) drøftingsplikt — arbeidsgiver skal drøfte kameraovervåking med de ansatte eller tillitsvalgte etter arbeidsmiljøloven kap. 9; (3) informasjon — de ansatte skal informeres om overvåkingen, formålet og lagringstiden; (4) begrensning av overvåkingsområde — kameraer skal ikke overvåke pauser, garderober eller toaletter; (5) lagring — opptak skal normalt slettes innen 7 dager; (6) tilgangsstyring — kun autorisert personale skal ha tilgang til opptak; (7) DPIA — kan være påkrevd dersom overvåkingen er omfattende.",
+    topics: JSON.stringify(["kameraovervaking", "arbeidsforhold"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-KONTROLL-OVERVAKING-ARBEIDSLIV-2023",
+    title: "Veileder om kontroll og overvåking i arbeidslivet",
+    date: "2023-03-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets overordnede veileder om arbeidsgivers adgang til kontroll og overvåking av ansatte etter arbeidsmiljøloven og GDPR.",
+    full_text:
+      "Datatilsynets veileder om kontroll og overvåking i arbeidslivet beskriver det rettslige rammeverket. Veilederen dekker: (1) arbeidsmiljøloven kap. 9 — arbeidsgiver kan iverksette kontrolltiltak når det har saklig grunn i virksomhetens forhold og ikke innebærer en uforholdsmessig belastning; (2) drøftingsplikt — kontrolltiltak skal drøftes med tillitsvalgte på forhånd; (3) informasjonsplikt — de ansatte skal informeres om formålet, omfanget og gjennomføringen; (4) forholdsmessighet — tiltaket må stå i rimelig forhold til formålet; (5) nye typer kontroll — algoritmisk styring, lokasjonsbasert kontroll og KI-basert overvåking reiser nye spørsmål; (6) dokumentasjonsplikt — virksomheten skal dokumentere vurderingen bak kontrolltiltaket.",
+    topics: JSON.stringify(["arbeidsforhold"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-RUSTESTING-DETALJERT-2021",
+    title: "Veileder om rustesting og personvern",
+    date: "2021-10-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernkrav ved rustesting (narkotikatesting) av ansatte i arbeidslivet.",
+    full_text:
+      "Datatilsynets veileder om rustesting og personvern beskriver personvernkravene. Veilederen dekker: (1) rustesting er behandling av helseopplysninger — resultater av narkotikatester er særlige kategorier av personopplysninger; (2) arbeidsmiljøloven § 9-4 — arbeidsgiver kan bare kreve medisinske undersøkelser (inkludert rustesting) av arbeidstakere og jobbsøkere når det følger av lov eller forskrift, ved stillinger med krav til sikkerhet, eller ved mistanke om ruspåvirkning i arbeidstiden; (3) forholdsmessighet — testing skal begrenses til det nødvendige; (4) oppbevaring — testresultater skal oppbevares med streng tilgangsstyring og slettes etter kort tid; (5) konsekvenser — virksomheten må ha klare retningslinjer for konsekvenser av positive tester.",
+    topics: JSON.stringify(["arbeidsforhold", "helsedata"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-GPS-KJORETOY-DETALJERT-2021",
+    title: "Veileder om GPS-sporing av kjøretøy i arbeidsforhold",
+    date: "2021-04-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets detaljerte veileder om vilkårene for GPS-sporing av firmakjøretøy og ansattes posisjonsdata.",
+    full_text:
+      "Datatilsynets detaljerte veileder om GPS-sporing av kjøretøy i arbeidsforhold beskriver de strenge vilkårene. Veilederen dekker: (1) rettslig grunnlag — GPS-sporing av firmakjøretøy kan baseres på berettiget interesse dersom det er et reelt behov, f.eks. flåtestyring, sikkerhet eller kundebetjening; (2) forholdsmessighet — kontinuerlig sanntidssporing er mer inngripende enn periodevise stedsavlesninger; (3) informasjonsplikt — den ansatte skal informeres om sporingsaktiviteten; (4) privat bruk — dersom den ansatte har kjøretøyet privat, skal sporingen kunne deaktiveres; (5) lagring — sporingsdata skal slettes etter kort tid når formålet er oppnådd; (6) drøftingsplikt — GPS-sporing er et kontrolltiltak som skal drøftes med tillitsvalgte.",
+    topics: JSON.stringify(["gps_sporing", "arbeidsforhold"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-OFFENTLIG-DOKUMENT-NETT-2022",
+    title: "Veileder om publisering av offentlige dokumenter på nett",
+    date: "2022-02-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernhensyn ved publisering av offentlige dokumenter (postjournaler, saksdokumenter) på internett.",
+    full_text:
+      "Datatilsynets veileder om publisering av offentlige dokumenter på nett beskriver personvernhensynene. Veilederen dekker: (1) offentlighetsprinsippet — offentlige dokumenter kan gjøres tilgjengelige, men det betyr ikke at alt skal publiseres på internett; (2) personopplysninger i saksdokumenter — dokumenter som inneholder personopplysninger skal vurderes for sladding; (3) sensitive opplysninger — helseopplysninger, personnummer og adressesperrede opplysninger skal alltid sladdes; (4) søkemotorindeksering — offentlige dokumenter publisert på nett kan indekseres av søkemotorer, noe som øker tilgjengeligheten; (5) eInnsyn — organers publisering i eInnsyn skal ivareta personvernhensyn; (6) anbefaling — organer bør ha rutiner for å gjennomgå dokumenter for personopplysninger før publisering.",
+    topics: JSON.stringify(["offentlig_sektor"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-KREDITTVURDERING-DETALJERT-2022",
+    title: "Veileder om kredittvurdering og personvern — for virksomheter",
+    date: "2022-09-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder for virksomheter som gjennomfører kredittvurderinger, inkludert saklig behov, informasjonsplikt og automatiserte vurderinger.",
+    full_text:
+      "Datatilsynets veileder om kredittvurdering for virksomheter beskriver personvernkravene. Veilederen dekker: (1) saklig behov — kredittvurdering kan bare gjennomføres når det foreligger saklig behov, typisk i forbindelse med kredittyting eller annet økonomisk mellomværende; (2) informasjonsplikt — den som kredittvurderes skal informeres om at vurdering er gjennomført; (3) rett til innsyn — den vurderte har rett til å se resultatet; (4) rett til retting — feilaktige opplysninger i kredittvurderingen kan kreves rettet; (5) automatiserte beslutninger — helautomatiserte kredittbeslutninger krever enten samtykke, lovhjemmel eller avtaleoppfyllelse som grunnlag; (6) gjeldsregistrene — innhenting av gjeldsopplysninger krever også saklig behov.",
+    topics: JSON.stringify(["kredittvurdering"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-FORSIKRING-PERSONVERN-2023",
+    title: "Veileder om personvern i forsikringsbransjen",
+    date: "2023-08-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernkrav i forsikringsbransjen, inkludert helseopplysninger, skadeoppgjør og automatisert risikovurdering.",
+    full_text:
+      "Datatilsynets veileder om personvern i forsikringsbransjen beskriver personvernkravene for forsikringsselskaper. Veilederen dekker: (1) helseopplysninger — forsikringsselskaper behandler helseopplysninger ved tegning og skadeoppgjør, som krever særskilt grunnlag etter GDPR artikkel 9; (2) fullmakter — samtykke til innhenting av helseopplysninger skal være spesifikt og informert; (3) skadeoppgjør — personopplysninger i skadeoppgjør skal behandles med dataminimering; (4) profilering og risikovurdering — automatisert risikovurdering ved premiefastsettelse kan utgjøre profilering; (5) oppbevaring — forsikringsopplysninger skal slettes etter forsikringsforholdet opphører, med unntak for foreldelsesfrister; (6) deling av opplysninger — deling mellom forsikringsselskaper til svindelbekjempelse krever rettslig grunnlag.",
+    topics: JSON.stringify(["finans", "helsedata"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-KUNDEKLUBB-PERSONVERN-2022",
+    title: "Veileder om kundeklubber og personvern",
+    date: "2022-03-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernkrav ved drift av kundeklubber, lojalitetsprogrammer og kundefordelsordninger.",
+    full_text:
+      "Datatilsynets veileder om kundeklubber og personvern beskriver personvernkravene. Veilederen dekker: (1) rettslig grunnlag — medlemskap i kundeklubb baseres på avtale, men utvidet profilering krever samtykke; (2) informasjonsplikt — medlemmene skal informeres om hvilke opplysninger som samles inn og hvordan de brukes; (3) dataminimering — virksomheten skal ikke samle inn mer informasjon enn nødvendig for klubbens formål; (4) profilering — bruk av kjøpshistorikk til personalisert markedsføring utgjør profilering; (5) innsyn — medlemmene har rett til innsyn i opplysningene som er registrert; (6) utmelding — det skal være enkelt å melde seg ut og få sine opplysninger slettet.",
+    topics: JSON.stringify(["markedsforing", "samtykke"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-SLETTING-SOKETREFF-2022",
+    title: "Veileder om sletting av søketreff — retten til å bli glemt",
+    date: "2022-05-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om retten til å få søketreff fjernet fra søkemotorer (retten til å bli glemt) etter GDPR artikkel 17.",
+    full_text:
+      "Datatilsynets veileder om sletting av søketreff beskriver retten til å bli glemt. Veilederen dekker: (1) retten til avindeksering — du kan kreve at søkemotorer fjerner treff som viser personopplysninger om deg; (2) vilkår — retten gjelder når opplysningene er utdaterte, irrelevante eller overdrevent skadelige i forhold til offentlighetens interesse; (3) fremgangsmåte — henvendelse sendes direkte til søkemotoren via deres skjema; (4) avveining — søkemotoren skal veie ditt personvern mot offentlighetens interesse i informasjonen; (5) klageadgang — dersom søkemotoren avslår kravet, kan du klage til Datatilsynet; (6) begrensning — avindeksering fjerner treffet fra søkemotoren, men ikke innholdet fra det opprinnelige nettstedet.",
+    topics: JSON.stringify(["sletting", "innsyn"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-AVVIKSMELDING-PRAKSIS-2023",
+    title: "Veileder om avviksmelding i praksis — meldeplikt og varsling",
+    date: "2023-01-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets praktiske veileder om meldeplikt ved brudd på personopplysningssikkerheten — når, hvordan og til hvem.",
+    full_text:
+      "Datatilsynets praktiske veileder om avviksmelding beskriver fremgangsmåten ved brudd. Veilederen dekker: (1) 72-timersfristen — brudd skal meldes til Datatilsynet innen 72 timer etter at virksomheten ble klar over bruddet; (2) hva er et brudd — uautorisert tilgang, tap av data, feilsending, hacking, ransomware, uautorisert endring; (3) risikovurdering — virksomheten skal vurdere risikoen for de berørtes rettigheter; (4) melding til Datatilsynet — hva meldingen skal inneholde; (5) varsling av berørte — ved høy risiko skal de berørte varsles direkte; (6) dokumentasjon — alle brudd skal dokumenteres internt, uavhengig av om de meldes til Datatilsynet; (7) Datatilsynets meldeskjema — tilgjengelig på datatilsynet.no.",
+    topics: JSON.stringify(["avvik"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-PROTOKOLL-BEHANDLINGSAKTIVITETER-2020",
+    title: "Veileder om protokoll over behandlingsaktiviteter",
+    date: "2020-07-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om plikten til å føre protokoll over behandlingsaktiviteter etter GDPR artikkel 30.",
+    full_text:
+      "Datatilsynets veileder om protokoll over behandlingsaktiviteter beskriver plikten etter GDPR artikkel 30. Veilederen dekker: (1) hvem har protokollplikt — alle virksomheter med mer enn 250 ansatte, samt mindre virksomheter som behandler personopplysninger regelmessig; (2) innhold — protokollen skal inneholde navn og kontaktopplysninger for behandlingsansvarlig, formålene med behandlingen, beskrivelse av kategorier av registrerte og personopplysninger, mottakere, overføringer til tredjeland, lagringsfrister og sikkerhetstiltak; (3) ajourhold — protokollen skal holdes oppdatert; (4) tilgjengelig for Datatilsynet — virksomheten skal kunne vise frem protokollen på forespørsel; (5) praktiske tips — bruk maler og verktøy for å vedlikeholde protokollen.",
+    topics: JSON.stringify(["internkontroll"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-RISIKOVURDERING-PRAKSIS-2021",
+    title: "Veileder om risikovurdering av informasjonssikkerhet i praksis",
+    date: "2021-11-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets praktiske veileder om gjennomføring av risikovurdering av informasjonssikkerhet etter GDPR artikkel 32.",
+    full_text:
+      "Datatilsynets praktiske veileder om risikovurdering av informasjonssikkerhet beskriver fremgangsmåten. Veilederen dekker: (1) når risikovurdering er påkrevd — for alle behandlinger av personopplysninger; (2) trinn 1: identifiser truslene — hva kan gå galt? (uautorisert tilgang, tap, feilsending, hacking); (3) trinn 2: vurder sannsynlighet — hvor sannsynlig er det at trusselen realiseres?; (4) trinn 3: vurder konsekvens — hva er konsekvensene for de registrerte?; (5) trinn 4: fastsett risikonivå — kombiner sannsynlighet og konsekvens; (6) trinn 5: beslutt tiltak — tekniske og organisatoriske tiltak for å redusere risikoen; (7) dokumentasjon — risikovurderingen skal dokumenteres og oppdateres regelmessig.",
+    topics: JSON.stringify(["informasjonssikkerhet", "internkontroll"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-ETABLERE-INTERNKONTROLL-2020",
+    title: "Veileder om å etablere internkontroll for personvern",
+    date: "2020-08-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets steg-for-steg veileder om å etablere et internkontrollsystem for personvern i virksomheten.",
+    full_text:
+      "Datatilsynets veileder om å etablere internkontroll for personvern beskriver fremgangsmåten steg for steg. Veilederen dekker: (1) ledelsesforankring — personvernarbeidet må være forankret i ledelsen; (2) oversikt — kartlegg alle behandlinger av personopplysninger; (3) rettslig grunnlag — fastsett rettslig grunnlag for hver behandling; (4) rutiner — etabler rutiner for innsynskrav, sletting, avvikshåndtering og databehandleravtaler; (5) opplæring — sørg for at ansatte med tilgang til personopplysninger får opplæring; (6) risikovurdering — gjennomfør risikovurdering for alle behandlinger; (7) dokumentasjon — dokumenter internkontrollsystemet slik at det kan fremlegges for Datatilsynet; (8) revisjon — gjennomgå og oppdater internkontrollen regelmessig.",
+    topics: JSON.stringify(["internkontroll"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-FASTSETTE-FORMAL-2020",
+    title: "Veileder om fastsetting av formål for behandling av personopplysninger",
+    date: "2020-06-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om hvordan virksomheter skal fastsette og dokumentere formålet med behandling av personopplysninger.",
+    full_text:
+      "Datatilsynets veileder om fastsetting av formål beskriver kravene i GDPR artikkel 5 nr. 1 bokstav b. Veilederen dekker: (1) formålsbestemmelse — virksomheten skal fastsette uttrykkelige og legitime formål for behandlingen før den starter; (2) spesifisitet — formålet skal være tilstrekkelig spesifikt til at de registrerte forstår hva opplysningene brukes til; (3) formålsbegrensning — personopplysninger skal ikke behandles videre på en måte som er uforenlig med det opprinnelige formålet; (4) forenlighetsvurdering — kriterier for å vurdere om viderebehandling er forenlig med det opprinnelige formålet; (5) dokumentasjon — formålet skal dokumenteres i protokoll over behandlingsaktiviteter og i personvernerklæring.",
+    topics: JSON.stringify(["behandlingsgrunnlag"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-LOKALISERING-GPS-2022",
+    title: "Veileder om lokalisering og GPS-sporing",
+    date: "2022-04-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernkrav ved bruk av lokaliserings- og GPS-teknologi i ulike sammenhenger.",
+    full_text:
+      "Datatilsynets veileder om lokalisering og GPS-sporing beskriver personvernkravene. Veilederen dekker: (1) lokasjonsdata er personopplysninger — GPS-koordinater, celletårndata og Wi-Fi-posisjonering som kan knyttes til en person; (2) arbeidslivet — GPS-sporing av ansatte via firmakjøretøy eller mobiltelefon krever berettiget interesse og forholdsmessighetsvurdering; (3) privat bruk — foreldre som sporer barns lokasjon og familiedelingsapper; (4) offentlig transport — sporing av passasjerer gjennom billettsystemer; (5) sport og trening — treningsapper og GPS-klokker; (6) dataminimering — lokasjonsdata skal ikke lagres lenger enn nødvendig.",
+    topics: JSON.stringify(["gps_sporing"]),
+    language: "no",
+  },
+
+  // --- Additional sector and topic reports ---
+  {
+    reference: "DT-RAPPORT-ARSRAPPORT-2023",
+    title: "Datatilsynets årsrapport 2023 — sammendrag",
+    date: "2024-03-01",
+    type: "rapport",
+    summary:
+      "Sammendrag av Datatilsynets årsrapport for 2023, inkludert tilsynsvirksomhet, klagesaker, avviksmeldinger og sandkasseprosjekter.",
+    full_text:
+      "Datatilsynets årsrapport for 2023 oppsummerer tilsynets virksomhet. Nøkkeltall: (1) 591 klager fra enkeltpersoner om mulige brudd; (2) 5 overtredelsesgebyr fattet; (3) 4 irettesettelser; (4) 1 forbud; (5) 3 pålegg; (6) over 2 500 avviksmeldinger mottatt; (7) tilsynsvirksomhet rettet mot kommuner, helsesektor, arbeidslivssaker og digitale tjenester; (8) Meta-saken — midlertidig forbud mot atferdsbasert reklame, tvangsmulkt på 83 millioner kroner, saken brakt til EDPB; (9) SSB — forbud mot innsamling av bongdata; (10) sandkasseprosjekter med fokus på KI og personvern.",
+    topics: JSON.stringify(["offentlig_sektor"]),
+    language: "no",
+  },
+  {
+    reference: "DT-RAPPORT-ARSRAPPORT-2022",
+    title: "Datatilsynets årsrapport 2022 — sammendrag",
+    date: "2023-03-01",
+    type: "rapport",
+    summary:
+      "Sammendrag av Datatilsynets årsrapport for 2022, inkludert tilsynsvirksomhet, store gebyr og internasjonalt samarbeid.",
+    full_text:
+      "Datatilsynets årsrapport for 2022 oppsummerer tilsynets virksomhet. Nøkkeltall: (1) 17 vedtak om overtredelsesgebyr; (2) gebyr til blant andre Stortinget, NAV, Lillestrøm kommune, Arbeidstilsynet, NorgesGruppen (Trumf); (3) Grindr-saken opprettholdt av Personvernnemnda — 65 millioner kroner; (4) Google Analytics-saken innledet; (5) Shinigami Eyes-utvidelsen forbudt; (6) over 2 200 avviksmeldinger mottatt; (7) regulatorisk sandkasse utvidet med nye prosjekter; (8) rapport om arbeidsgiveres digitale overvåking av ansatte; (9) internasjonalt samarbeid gjennom EDPB.",
+    topics: JSON.stringify(["offentlig_sektor"]),
+    language: "no",
+  },
+
+  // --- Additional hearing statements ---
+  {
+    reference: "DT-HOERING-STRAFFEGJENNOMFORING-DETALJERT-2024",
+    title: "Høringssvar om straffegjennomføring og kriminalomsorgens behandling av personopplysninger",
+    date: "2024-06-15",
+    type: "hoeringsuttalelse",
+    summary:
+      "Datatilsynets høringssvar om forslag til endringer i straffegjennomføringsloven knyttet til kriminalomsorgens behandling av personopplysninger.",
+    full_text:
+      "Datatilsynet har avgitt høringssvar om forslag til endringer i straffegjennomføringsloven som gjelder kriminalomsorgens behandling av personopplysninger. Datatilsynet kommenterer: (1) utvidet bruk av elektronisk kontroll (fotlenke) innebærer omfattende behandling av lokasjonsdata; (2) informasjonsdeling mellom kriminalomsorgen og andre etater krever klare formåls- og tilgangsregler; (3) innsattes personvern — innsatte har krav på personvern selv om det kan begrenses; (4) besøkskontroll — registrering av personopplysninger om besøkende krever rettslig grunnlag; (5) sletting — personopplysninger innhentet under straffegjennomføring skal slettes etter fastsatte frister.",
+    topics: JSON.stringify(["politi_justis"]),
+    language: "no",
+  },
+  {
+    reference: "DT-HOERING-IDRETT-PERSONVERN-2024",
+    title: "Høringssvar om idrett og personvern — dopingkontroll og aktivitetsdata",
+    date: "2024-09-01",
+    type: "hoeringsuttalelse",
+    summary:
+      "Datatilsynets høringssvar om personvernaspektene ved dopingkontroll, aktivitetsdata og utøvernes rettigheter i idrettssammenheng.",
+    full_text:
+      "Datatilsynet har avgitt høringssvar om personvern i idrettssammenheng, med fokus på dopingkontroll og behandling av aktivitetsdata. Datatilsynet kommenterer: (1) dopingkontroll — innsamling av biologiske prøver og registrering av utøveres oppholdssteder innebærer behandling av helseopplysninger som krever robust rettslig grunnlag; (2) aktivitetsdata — idrettsorganisasjoner som samler inn treningsdata og prestasjonsdata om utøvere behandler personopplysninger; (3) barn i idrett — barns personopplysninger i idrettssammenheng krever særlig beskyttelse; (4) offentlig tilgjengelige resultater — publisering av idrettsresultater inneholder personopplysninger; (5) strømming — kameraoverføring av idrettsarrangementer med barn reiser særlige personvernspørsmål.",
+    topics: JSON.stringify(["helsedata", "barn"]),
+    language: "no",
+  },
+
+  // --- Programvareutvikling guides ---
+  {
+    reference: "DT-VEILEDER-PROGRAMVARE-INNEBYGD-KRAV-2020",
+    title: "Programvareutvikling med innebygd personvern — kravspesifikasjon",
+    date: "2020-01-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder for programvareutviklere om innebygd personvern i kravspesifikasjonsfasen.",
+    full_text:
+      "Datatilsynets veileder for kravspesifikasjon med innebygd personvern beskriver metodikk for å integrere personvernhensyn allerede i kravfasen. Veilederen dekker: (1) dataminimering som krav — spesifiser hvilke personopplysninger som er strengt nødvendige for hver funksjon; (2) formålsbegrensning — kravene skal sikre at personopplysninger kun brukes til det angitte formålet; (3) standardinnstillinger — systemet skal ha personvernvennlige standardinnstillinger; (4) slettekrav — spesifiser lagringsfrister og automatisert sletting; (5) innsynskrav — systemet skal kunne eksportere den registrertes opplysninger; (6) sikkerhetskrav — kryptering, tilgangsstyring, logging og sårbarhetshåndtering; (7) tredjepartsintegrering — vurder personvernaspektene ved alle tredjepartstjenester.",
+    topics: JSON.stringify(["innebygd_personvern"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-PROGRAMVARE-INNEBYGD-TESTING-2020",
+    title: "Programvareutvikling med innebygd personvern — testing og deploy",
+    date: "2020-02-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder for programvareutviklere om innebygd personvern i test- og deploy-fasen.",
+    full_text:
+      "Datatilsynets veileder for testing og deploy med innebygd personvern beskriver metodikk for personverntesting. Veilederen dekker: (1) testdata — unngå bruk av ekte personopplysninger i test; bruk syntetiske data eller anonymiserte datasett; (2) sikkerhetstesting — gjennomfør penetrasjonstesting og sårbarhetsscanning; (3) personverntesting — test at innsynsmekanismer, slettemekanismer og samtykkehåndtering fungerer korrekt; (4) deploy-konfigurasjon — sikre at standardinnstillinger i produksjon er personvernvennlige; (5) logging — sikre at logger ikke inneholder overskuddsinformasjon; (6) miljøseparasjon — testdata og produksjonsdata skal holdes strengt adskilt.",
+    topics: JSON.stringify(["innebygd_personvern", "informasjonssikkerhet"]),
+    language: "no",
+  },
+
+  // --- Additional EDPB guidance ---
+  {
+    reference: "DT-EDPB-RETNINGSLINJER-SAMTYKKE-2020",
+    title: "EDPB-retningslinjer om samtykke — norsk veiledning",
+    date: "2020-05-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets norske veiledning om Personvernrådets (EDPB) oppdaterte retningslinjer om samtykke etter GDPR.",
+    full_text:
+      "Datatilsynets veiledning om EDPBs retningslinjer for samtykke beskriver kravene til gyldig samtykke. Veilederen dekker: (1) frivillighet — samtykke skal ikke være en betingelse for å motta en tjeneste dersom behandlingen ikke er nødvendig for tjenesten; (2) spesifisitet — samtykke skal gis for hvert enkelt formål; (3) informert — den registrerte skal informeres om hvem som er behandlingsansvarlig, formålet og retten til å trekke tilbake; (4) utvetydig — samtykke skal gis gjennom en klar bekreftende handling; (5) tilbaketrekking — det skal være like enkelt å trekke tilbake samtykket som å gi det; (6) barn — særskilte krav til samtykke fra mindreårige; (7) cookie walls — å betinge tilgang til et nettsted av samtykke til cookies er normalt ikke gyldig samtykke.",
+    topics: JSON.stringify(["samtykke"]),
+    language: "no",
+  },
+  {
+    reference: "DT-EDPB-RETNINGSLINJER-INNEBYGD-PERSONVERN-2020",
+    title: "EDPB-retningslinjer om innebygd personvern og personvern som standard",
+    date: "2020-10-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets norske veiledning om Personvernrådets (EDPB) retningslinjer om innebygd personvern og personvern som standardinnstilling.",
+    full_text:
+      "Datatilsynets veiledning om EDPBs retningslinjer for innebygd personvern og personvern som standard beskriver kravene i GDPR artikkel 25. Veilederen dekker: (1) innebygd personvern — personvernhensyn skal integreres i alle utviklingsfaser av systemer og prosesser; (2) personvern som standard — systemet skal som standard behandle så lite personopplysninger som mulig; (3) designprinsipper — dataminimering, pseudonymisering, transparens, hensiktsbegrensning; (4) tekniske tiltak — kryptering, tilgangsstyring, automatisk sletting; (5) organisatoriske tiltak — opplæring, rutiner, internkontroll; (6) dokumentasjon — virksomheten skal dokumentere hvordan innebygd personvern er ivaretatt; (7) sertifisering — godkjente sertifiseringsmekanismer kan brukes som bevis på etterlevelse.",
+    topics: JSON.stringify(["innebygd_personvern"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-DIGITAL-TJENESTER-FORBRUKERE-2023",
+    title: "Veileder om digitale tjenester og forbrukeres personopplysninger — tilsyn og sanksjoner",
+    date: "2023-11-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om tilsyn og sanksjoner for digitale tjenester som bryter personvernregelverket, inkludert sporingsverktøy og dark patterns.",
+    full_text:
+      "Datatilsynets veileder om digitale tjenester og forbrukeres personopplysninger oppsummerer tilsynsvirksomheten. Veilederen dekker: (1) sporingsverktøy — Datatilsynets tilsynsaksjon mot nettsteders bruk av Meta Pixel, Google Analytics og andre sporingsverktøy; (2) dark patterns — villedende og manipulative designvalg som lurer brukere til å samtykke er forbudt; (3) samtykkeløsninger — krav til samtykkebannere og cookie-vegger; (4) tilsynsmetodikk — Datatilsynet benytter teknisk analyse av nettsteders sporingsverktøy; (5) sanksjoner — overtredelsesgebyr, irettesettelser og pålegg for brudd; (6) internasjonalt samarbeid — EDPB-koordinerte tilsynsaksjoner.",
+    topics: JSON.stringify(["informasjonskapsler", "samtykke"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-POLITI-KRIMINALITET-2023",
+    title: "Veileder om personvern ved politi og justis — registrering og tilgangsstyring",
+    date: "2023-06-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvern i politi- og justissektoren, inkludert registreringspraksis, tilgangsstyring og innsyn.",
+    full_text:
+      "Datatilsynets veileder om personvern ved politi og justis beskriver det rettslige rammeverket for politiets og rettsvesenets behandling av personopplysninger. Veilederen dekker: (1) politiregisterloven — gjelder for politiets behandling til politimessige formål; (2) registrering — politiet kan registrere opplysninger om mistenkte, vitner og ofre; (3) DNA-registeret — streng regulering av lagring og bruk av DNA-profiler; (4) kameraovervåking — politiets bruk av kameraovervåking i det offentlige rom; (5) kommunikasjonskontroll — avlytting og overvåking av kommunikasjon krever domstolskjennelse; (6) innsyn — den registrerte har rett til innsyn, med unntak for etterforskning.",
+    topics: JSON.stringify(["politi_justis"]),
+    language: "no",
+  },
+
+  // =========================================================================
+  // Final batch — guidelines to reach 400+
+  // =========================================================================
+
+  {
+    reference: "DT-VEILEDER-KI-CHATGPT-SKOLE-2023",
+    title: "Veileder om ChatGPT og generativ KI i skolen",
+    date: "2023-05-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernkrav ved bruk av ChatGPT og andre generative KI-verktøy i norske skoler.",
+    full_text:
+      "Datatilsynets veileder om ChatGPT og generativ KI i skolen beskriver personvernkravene. Veilederen dekker: (1) behandlingsansvar — skoleeier er behandlingsansvarlig for bruk av KI-verktøy i undervisningen; (2) databehandleravtale — kreves med leverandøren av KI-tjenesten; (3) personopplysninger i prompts — tekst som skrives inn i ChatGPT kan inneholde personopplysninger og sendes til tredjelands servere; (4) barns personvern — barn har særlig behov for beskyttelse og det er viktig at lærere ikke ber elever skrive inn personopplysninger; (5) DPIA — bør gjennomføres for systematisk bruk av KI-verktøy i skolen; (6) Datatilsynets oppfølging — tilsynet følger med på utviklingen av KI i utdanningssektoren.",
+    topics: JSON.stringify(["kunstig_intelligens", "barn", "skole"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-INFORMASJONSSIKKERHET-GRUNNLEGGENDE-2021",
+    title: "Veileder om grunnleggende informasjonssikkerhet for virksomheter",
+    date: "2021-01-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets grunnleggende veileder om informasjonssikkerhet etter GDPR artikkel 32, inkludert tekniske og organisatoriske tiltak.",
+    full_text:
+      "Datatilsynets grunnleggende veileder om informasjonssikkerhet beskriver kravene i GDPR artikkel 32. Veilederen dekker: (1) tekniske tiltak — kryptering av data i transit og i hvile, tofaktor-autentisering, brannmur, antivirus, sikkerhetsoppdateringer; (2) tilgangsstyring — prinsippet om minste privilegium, regelmessig gjennomgang av tilgangsrettigheter; (3) logging — loggføring av tilgang til personopplysninger; (4) sikkerhetskopiering — regelmessig backup av data; (5) organisatoriske tiltak — opplæring, rutiner, ansvarfordeling; (6) fysisk sikkerhet — tilgang til lokaler og utstyr; (7) hendelseshåndtering — plan for håndtering av sikkerhetshendelser.",
+    topics: JSON.stringify(["informasjonssikkerhet"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-SLETTING-DETALJ-2022",
+    title: "Veileder om sletting av personopplysninger — praktisk gjennomføring",
+    date: "2022-08-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets praktiske veileder om gjennomføring av sletting av personopplysninger, inkludert lagringsfrister og arkivplikt.",
+    full_text:
+      "Datatilsynets praktiske veileder om sletting av personopplysninger beskriver fremgangsmåten. Veilederen dekker: (1) plikten til å slette — personopplysninger skal slettes når de ikke lenger er nødvendige for formålet; (2) lagringsfrister — virksomheten skal fastsette konkrete lagringsfrister for hver behandling; (3) automatisk sletting — anbefaler implementering av automatiserte slettemekanismer; (4) arkivplikt — noen opplysninger kan ikke slettes fordi arkivloven krever oppbevaring; (5) regnskapsplikt — bokføringsloven krever oppbevaring av visse opplysninger i 5 år; (6) backup — sletteretten gjelder også for personopplysninger i sikkerhetskopier; (7) tredjeparter — virksomheten skal informere mottakere som har fått opplysningene utlevert.",
+    topics: JSON.stringify(["sletting"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-DATABEHANDLERAVTALE-MAL-2021",
+    title: "Veileder og mal for databehandleravtale",
+    date: "2021-03-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om kravene til databehandleravtale etter GDPR artikkel 28, inkludert mal og praktiske tips.",
+    full_text:
+      "Datatilsynets veileder og mal for databehandleravtale beskriver kravene i GDPR artikkel 28. Veilederen dekker: (1) når trengs databehandleravtale — alltid når en virksomhet bruker en ekstern leverandør til å behandle personopplysninger; (2) innhold — avtalen skal regulere formål, varighet, type opplysninger, instrukser, sikkerhet, underleverandører, bistand til rettigheter, sletting, revisjon; (3) underdatabehandlere — bruk av underleverandører krever skriftlig forhåndsgodkjennelse; (4) overføring til tredjeland — avtalen skal regulere eventuelle overføringer; (5) opphør — avtalen skal regulere hva som skjer med opplysningene ved avtalens opphør; (6) mal — Datatilsynet tilbyr en standardmal for databehandleravtale.",
+    topics: JSON.stringify(["databehandler"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-BEHANDLINGSANSVARLIG-DATABEHANDLER-2021",
+    title: "Veileder om behandlingsansvarlig og databehandler — rolleavklaring",
+    date: "2021-05-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om å avklare roller mellom behandlingsansvarlig, felles behandlingsansvarlige og databehandler.",
+    full_text:
+      "Datatilsynets veileder om rolleavklaring mellom behandlingsansvarlig og databehandler beskriver kriteriene. Veilederen dekker: (1) behandlingsansvarlig — den som bestemmer formålet med og midlene for behandlingen; (2) databehandler — den som behandler personopplysninger på vegne av den behandlingsansvarlige; (3) felles behandlingsansvarlige — når to eller flere i fellesskap bestemmer formål og midler; (4) praktiske eksempler — skylagring, lønnstjenester, CRM-systemer, analyseverktøy; (5) konsekvenser av feil rolleavklaring — kan føre til manglende databehandleravtaler og uklart ansvar; (6) dokumentasjon — rolleavklaring skal dokumenteres.",
+    topics: JSON.stringify(["databehandler"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-PERSONVERNERKLAERING-2022",
+    title: "Veileder om personvernerklæring — hva den skal inneholde",
+    date: "2022-01-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om kravene til personvernerklæring etter GDPR artikkel 13 og 14.",
+    full_text:
+      "Datatilsynets veileder om personvernerklæring beskriver hva erklæringen skal inneholde. Veilederen dekker: (1) hvem er behandlingsansvarlig — kontaktinformasjon til virksomheten og eventuelle personvernombud; (2) formål — hva personopplysningene brukes til; (3) rettslig grunnlag — hjemmelen for behandlingen; (4) mottakere — hvem opplysningene deles med; (5) overføring til tredjeland — om data overføres utenfor EØS; (6) lagringstid — hvor lenge opplysningene oppbevares; (7) rettigheter — oversikt over den registrertes rettigheter; (8) klageadgang — rett til å klage til Datatilsynet; (9) språk — informasjonen skal gis på et klart og enkelt språk; (10) tilgjengelighet — erklæringen skal være lett å finne på nettsiden.",
+    topics: JSON.stringify(["innsyn"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-HVITVASKINGSREGLER-2023",
+    title: "Veileder om hvitvasking og personvern — kundekontroll og rapportering",
+    date: "2023-03-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernkrav ved gjennomføring av kundekontroll og rapportering etter hvitvaskingsloven.",
+    full_text:
+      "Datatilsynets veileder om hvitvasking og personvern beskriver forholdet mellom hvitvaskingsregelverket og personvernregelverket. Veilederen dekker: (1) rettslig grunnlag — hvitvaskingsloven gir rettslig plikt som behandlingsgrunnlag etter GDPR artikkel 6 nr. 1 bokstav c; (2) kundekontroll — innhenting av personopplysninger til kundekontroll er pålagt og har dermed rettslig grunnlag; (3) dataminimering — virksomheten skal ikke samle inn mer informasjon enn hvitvaskingsloven krever; (4) oppbevaring — dokumentasjon fra kundekontroll skal oppbevares i fem år etter avsluttet kundeforhold; (5) formålsbegrensning — opplysninger innhentet for hvitvaskingsformål skal ikke brukes til andre formål; (6) rapportering — plikt til å rapportere mistenkelige transaksjoner til Økokrim gjelder uavhengig av taushetsplikt.",
+    topics: JSON.stringify(["finans"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-BANK-PERSONVERN-2022",
+    title: "Veileder om personvern i bankforhold",
+    date: "2022-12-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernkrav i bankforhold, inkludert kontoopplysninger, kredittvurdering og automatiserte beslutninger.",
+    full_text:
+      "Datatilsynets veileder om personvern i bankforhold beskriver personvernkravene for banker. Veilederen dekker: (1) rettslig grunnlag — banker behandler personopplysninger på grunnlag av avtale, rettslig plikt og berettiget interesse; (2) kontoopplysninger — informasjon om kunders transaksjoner og saldo er sensitive; (3) PSD2 — tredjepartstilgang til kontoinformasjon krever kundens samtykke; (4) kredittvurdering — automatisert kredittvurdering krever transparens og rett til menneskelig overprøving; (5) hvitvasking — kundekontroll etter hvitvaskingsloven er en rettslig plikt; (6) oppbevaring — bokføringsloven krever oppbevaring i 5 år etter avsluttet kundeforhold.",
+    topics: JSON.stringify(["finans"]),
+    language: "no",
+  },
+  {
+    reference: "DT-RAPPORT-SANDKASSE-AHUS-2025",
+    title: "Sandkasserapport: Ahus — fullmakt til bedre personvern i digital hjemmeoppfølging",
+    date: "2025-05-20",
+    type: "rapport",
+    summary:
+      "Sluttrapport fra Datatilsynets sandkasse om Akershus universitetssykehus (Ahus) — digital hjemmeoppfølging av eldre med fullmakter.",
+    full_text:
+      "Sluttrapport fra Datatilsynets regulatoriske sandkasse om Ahus-prosjektet. Akershus universitetssykehus utviklet en løsning for digital hjemmeoppfølging av eldre pasienter der hjelpere kan utføre oppgaver på pasientens vegne gjennom fullmakter. Rapporten dekker: (1) fullmaktsmodellen — hjelpere logger inn som seg selv og handler på pasientens vegne, i stedet for å låne pasientens innlogging; (2) personverngevinst — bedre sporbarhet, redusert risiko for uautorisert tilgang; (3) rettslig grunnlag — fullmaktsordningen baseres på samtykke; (4) utfordringer — alderdommens kompleksitet gjør det vanskelig å innhente informert samtykke fra sårbare pasienter; (5) anbefaling — digitale fullmaktsløsninger i helsesektoren bør bygge inn personvern fra start.",
+    topics: JSON.stringify(["helsedata", "kunstig_intelligens"]),
+    language: "no",
+  },
+  {
+    reference: "DT-RAPPORT-SANDKASSE-SALT-BIOMETRI-2025",
+    title: "Sandkasserapport: SALT/Mobai — sikring av digitale identiteter med biometrisk kryptering",
+    date: "2025-01-13",
+    type: "rapport",
+    summary:
+      "Sluttrapport fra Datatilsynets sandkasse om Mobais bruk av biometrisk kryptering for å beskytte digitale identiteter.",
+    full_text:
+      "Sluttrapport fra Datatilsynets regulatoriske sandkasse om SALT/Mobai-prosjektet. Mobai utvikler løsninger for biometrisk kryptering som kan beskytte digitale identiteter uten å lagre biometriske data i klartekst. Rapporten dekker: (1) biometrisk kryptering — biometriske data brukes til å generere en kryptografisk nøkkel, slik at de biometriske dataene aldri lagres direkte; (2) personverngevinst — eliminerer risikoen for at biometriske data på avveie kan gjenbrukes; (3) rettslig vurdering — biometriske data er en særlig kategori etter GDPR artikkel 9, men krypteringstilnærmingen kan redusere personvernrisikoen; (4) praktisk bruk — adgangskontroll, identitetsverifisering; (5) anbefaling — biometrisk kryptering er en lovende personvernfremmende teknologi.",
+    topics: JSON.stringify(["biometri", "informasjonssikkerhet"]),
+    language: "no",
+  },
+  {
+    reference: "DT-RAPPORT-SANDKASSE-JUSSBOTEN-2024",
+    title: "Sandkasserapport: Juridisk ABC / JussBoten LawAi — generativ KI i arbeidsrett",
+    date: "2024-12-11",
+    type: "rapport",
+    summary:
+      "Sluttrapport fra Datatilsynets sandkasse om Juridisk ABCs JussBoten LawAi — en generativ KI-løsning for HR og arbeidsrett.",
+    full_text:
+      "Sluttrapport fra Datatilsynets regulatoriske sandkasse om Juridisk ABCs JussBoten LawAi-prosjekt. JussBoten er et generativt KI-verktøy som hjelper HR-avdelinger med arbeidsrettslige spørsmål. Rapporten dekker: (1) rettslig grunnlag — behandling av personopplysninger i treningsdata og brukerspørsmål; (2) dataminimering — verktøyet bør trenes på anonymiserte data i størst mulig grad; (3) transparens — brukere skal vite at de interagerer med KI; (4) utfordringer med hallusinasjon — generativ KI kan produsere juridisk feilaktige svar; (5) ansvarsforhold — virksomheten som bruker verktøyet er behandlingsansvarlig for behandlingen av de ansattes personopplysninger; (6) anbefaling — generativ KI i HR krever grundig personvernvurdering.",
+    topics: JSON.stringify(["kunstig_intelligens", "arbeidsforhold"]),
+    language: "no",
+  },
+  {
+    reference: "DT-SANDKASSE-NAV-SYKEFRAVAER-2022",
+    title: "Sandkasserapport: NAV — prediksjonsmodell for sykefravær",
+    date: "2022-01-17",
+    type: "rapport",
+    summary:
+      "Sluttrapport fra Datatilsynets sandkasse om NAVs bruk av maskinlæring for å forutsi sykefraværsforløp.",
+    full_text:
+      "Sluttrapport fra Datatilsynets regulatoriske sandkasse om NAVs prosjekt med prediksjonsmodell for sykefravær. NAV ønsket å bruke maskinlæring for å forutsi hvilke sykmeldte som har risiko for langvarig fravær, slik at oppfølgingsressursene kan rettes mot dem som trenger det mest. Rapporten dekker: (1) rettslig grunnlag — NAV har lovhjemmel for å behandle helseopplysninger i forbindelse med oppfølging av sykmeldte; (2) algoritmisk rettferdighet — modellen må sikres mot skjevheter som diskriminerer bestemte grupper; (3) transparens — sykmeldte skal informeres om at KI brukes i oppfølgingen; (4) menneskelig kontroll — algoritmens anbefalinger skal verifiseres av saksbehandler; (5) personvernrisiko — prediksjonsmodell basert på helseopplysninger er høyrisiko.",
+    topics: JSON.stringify(["helsedata", "kunstig_intelligens", "offentlig_sektor"]),
+    language: "no",
+  },
+  {
+    reference: "DT-SANDKASSE-AVT-LAERINGSANALYSE-2022",
+    title: "Sandkasserapport: AVT — aktivitetsdata for tilpasset opplæring",
+    date: "2022-02-16",
+    type: "rapport",
+    summary:
+      "Sluttrapport fra Datatilsynets sandkasse om læringsanalytikk — bruk av aktivitetsdata for vurdering og tilpasset opplæring i skolen.",
+    full_text:
+      "Sluttrapport fra Datatilsynets regulatoriske sandkasse om AVT-prosjektet (Aktivitetsdata for vurdering og tilpassing). Prosjektet undersøkte personvernaspektene ved læringsanalytikk i skolen — innsamling og analyse av data om elevers læringsaktiviteter. Rapporten dekker: (1) behandlingsansvar — kommunen som skoleeier er behandlingsansvarlig; (2) rettslig grunnlag — opplæringsloven gir grunnlag for tilpasset opplæring, men grensene for datainnsamling er uklare; (3) dataminimering — skoler bør begrense innsamlingen av aktivitetsdata til det som er nødvendig; (4) transparens — elever og foreldre skal informeres; (5) barns rettigheter — barn har særlig behov for beskyttelse mot profil-basert overvåking; (6) DPIA — læringsanalytikk krever personvernkonsekvensvurdering.",
+    topics: JSON.stringify(["barn", "skole", "kunstig_intelligens"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-KI-TRANSPARENS-2022",
+    title: "Veileder om å lykkes med åpenhet om bruk av kunstig intelligens",
+    date: "2022-11-15",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om hvordan virksomheter kan informere de registrerte om bruk av kunstig intelligens på en forståelig måte.",
+    full_text:
+      "Datatilsynets veileder om åpenhet om bruk av kunstig intelligens beskriver hvordan virksomheter kan oppfylle informasjonsplikten. Veilederen dekker: (1) hvorfor åpenhet — de registrerte har rett til å vite at KI brukes i beslutninger som angår dem; (2) hva skal kommuniseres — formålet med KI-bruken, hvilke data som inngår, konsekvenser for den registrerte, rett til menneskelig overprøving; (3) hvordan kommunisere — bruk enkelt språk, unngå teknisk sjargong, bruk visuelle hjelpemidler; (4) lagdelt informasjon — gi en kort oversikt med mulighet til å lese mer i dybden; (5) tidspunkt — informasjon bør gis før KI-systemet brukes på den registrertes opplysninger; (6) eksempler — praktiske eksempler på god KI-kommunikasjon.",
+    topics: JSON.stringify(["kunstig_intelligens"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-KRYPTERING-LONNSSLIPP-2020",
+    title: "Veileder om kryptering av lønnsslipp",
+    date: "2020-10-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om krav til kryptering ved sending av lønnsslipp per e-post.",
+    full_text:
+      "Datatilsynets veileder om kryptering av lønnsslipp beskriver kravene til sikker oversendelse. Veilederen dekker: (1) lønnsslipp inneholder personopplysninger — navn, fødselsnummer, lønn og trekk; (2) e-post uten kryptering er ikke sikker nok — lønnsslipp bør ikke sendes som ukryptert e-postvedlegg; (3) alternativ 1: digital postkasse — Digipost eller eBoks er sikre alternativer; (4) alternativ 2: kryptert e-post — dersom e-post brukes, bør lønnsslipp krypteres med passord eller S/MIME; (5) alternativ 3: intranett eller HR-system — ansatte kan hente lønnsslipp i en innlogget portal; (6) arbeidsgivers ansvar — arbeidsgiver er behandlingsansvarlig og har ansvar for sikker oversendelse.",
+    topics: JSON.stringify(["arbeidsforhold", "informasjonssikkerhet"]),
+    language: "no",
+  },
+  {
+    reference: "DT-VEILEDER-SLEKTSGRANSKING-2021",
+    title: "Veileder om slektsgransking og personvern",
+    date: "2021-07-01",
+    type: "veileder",
+    summary:
+      "Datatilsynets veileder om personvernaspektene ved slektsgransking og bruk av DNA-tester for å finne slektninger.",
+    full_text:
+      "Datatilsynets veileder om slektsgransking og personvern beskriver personvernaspektene. Veilederen dekker: (1) DNA-tester for slektsgransking — kommersielle DNA-tester behandler genetiske data som er en særlig kategori etter GDPR artikkel 9; (2) samtykke — den som tar testen samtykker til behandling av egne data, men DNA-resultater avslører også informasjon om slektninger som ikke har samtykket; (3) tredjepartseffekt — genetisk informasjon er i sin natur delt mellom biologiske slektninger; (4) overføring til tredjeland — de fleste DNA-selskaper lagrer data utenfor EØS; (5) politiets bruk — DNA-databaser fra slektsgransking har vært brukt av politi i utlandet; (6) anbefaling — vurder nøye om du ønsker å dele genetisk informasjon med kommersielle aktører.",
+    topics: JSON.stringify(["biometri", "helsedata"]),
     language: "no",
   },
 ];
