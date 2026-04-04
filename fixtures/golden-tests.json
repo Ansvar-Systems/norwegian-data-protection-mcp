@@ -1,0 +1,126 @@
+{
+  "version": "1.0",
+  "mcp_name": "Norwegian Data Protection MCP",
+  "tests": [
+    {
+      "id": "no-dp-001",
+      "category": "search",
+      "description": "Search decisions for 'personvern'",
+      "tool": "no_dp_search_decisions",
+      "input": { "query": "personvern" },
+      "assertions": { "result_not_empty": true, "min_results": 1 }
+    },
+    {
+      "id": "no-dp-002",
+      "category": "search",
+      "description": "Search decisions for 'samtykke' (consent)",
+      "tool": "no_dp_search_decisions",
+      "input": { "query": "samtykke" },
+      "assertions": { "result_not_empty": true, "min_results": 1 }
+    },
+    {
+      "id": "no-dp-003",
+      "category": "search",
+      "description": "Search decisions filtered by overtredelsesgebyr (fines)",
+      "tool": "no_dp_search_decisions",
+      "input": { "query": "overtredelsesgebyr", "type": "overtredelsesgebyr" },
+      "assertions": { "result_not_empty": true, "min_results": 1 }
+    },
+    {
+      "id": "no-dp-004",
+      "category": "search",
+      "description": "Search decisions with topic filter for informasjonskapsler (cookies)",
+      "tool": "no_dp_search_decisions",
+      "input": { "query": "informasjonskapsler", "topic": "informasjonskapsler" },
+      "assertions": { "result_not_empty": true }
+    },
+    {
+      "id": "no-dp-005",
+      "category": "search",
+      "description": "Search guidelines for 'konsekvensvurdering' (DPIA)",
+      "tool": "no_dp_search_guidelines",
+      "input": { "query": "konsekvensvurdering" },
+      "assertions": { "result_not_empty": true, "min_results": 1 }
+    },
+    {
+      "id": "no-dp-006",
+      "category": "search",
+      "description": "Search guidelines for 'personvernombud' (DPO)",
+      "tool": "no_dp_search_guidelines",
+      "input": { "query": "personvernombud" },
+      "assertions": { "result_not_empty": true, "min_results": 1 }
+    },
+    {
+      "id": "no-dp-007",
+      "category": "search",
+      "description": "Search guidelines filtered by veileder type",
+      "tool": "no_dp_search_guidelines",
+      "input": { "query": "veileder", "type": "veileder" },
+      "assertions": { "result_not_empty": true, "min_results": 1 }
+    },
+    {
+      "id": "no-dp-008",
+      "category": "search",
+      "description": "Search decisions for 'databehandleravtale' (processing agreement)",
+      "tool": "no_dp_search_decisions",
+      "input": { "query": "databehandleravtale" },
+      "assertions": { "result_not_empty": true, "min_results": 1 }
+    },
+    {
+      "id": "no-dp-009",
+      "category": "search",
+      "description": "Search guidelines for 'kameraovervaking' (CCTV surveillance)",
+      "tool": "no_dp_search_guidelines",
+      "input": { "query": "kameraovervaking" },
+      "assertions": { "result_not_empty": true }
+    },
+    {
+      "id": "no-dp-010",
+      "category": "meta_tool",
+      "description": "List topics returns data protection topic taxonomy",
+      "tool": "no_dp_list_topics",
+      "input": {},
+      "assertions": { "result_not_empty": true, "min_results": 10 }
+    },
+    {
+      "id": "no-dp-011",
+      "category": "meta_tool",
+      "description": "About tool returns server metadata",
+      "tool": "no_dp_about",
+      "input": {},
+      "assertions": { "result_not_empty": true }
+    },
+    {
+      "id": "no-dp-012",
+      "category": "data_retrieval",
+      "description": "Get guideline by database ID",
+      "tool": "no_dp_get_guideline",
+      "input": { "id": 1 },
+      "assertions": { "result_not_empty": true }
+    },
+    {
+      "id": "no-dp-013",
+      "category": "negative_test",
+      "description": "Non-existent decision reference handles gracefully",
+      "tool": "no_dp_get_decision",
+      "input": { "reference": "NONEXISTENT-REF-999" },
+      "assertions": { "handles_gracefully": true }
+    },
+    {
+      "id": "no-dp-014",
+      "category": "negative_test",
+      "description": "Non-existent guideline ID handles gracefully",
+      "tool": "no_dp_get_guideline",
+      "input": { "id": 99999 },
+      "assertions": { "handles_gracefully": true }
+    },
+    {
+      "id": "no-dp-015",
+      "category": "search",
+      "description": "Search decisions for 'behandlingsgrunnlag' (legal basis)",
+      "tool": "no_dp_search_decisions",
+      "input": { "query": "behandlingsgrunnlag" },
+      "assertions": { "result_not_empty": true, "min_results": 1 }
+    }
+  ]
+}

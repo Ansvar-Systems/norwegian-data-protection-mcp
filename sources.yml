@@ -1,0 +1,42 @@
+# sources.yml -- Data provenance metadata
+# Reference: docs/mcp-infrastructure-blueprint.md
+
+schema_version: "1.0"
+mcp_name: "Norwegian Data Protection MCP"
+category: "domain_intelligence"
+jurisdiction: "Norway"
+
+sources:
+  - name: "Datatilsynet (Norwegian Data Protection Authority)"
+    authority: "Datatilsynet"
+    official_url: "https://www.datatilsynet.no/"
+    retrieval_method: "MANUAL_CURATION"
+    format: "HTML"
+    authentication: "none"
+    update_frequency: "quarterly"
+    license:
+      type: "Public Domain (Norwegian government publications)"
+      url: "https://www.datatilsynet.no/"
+      summary: "Datatilsynet enforcement decisions and guidance are public records"
+    coverage:
+      scope: "Vedtak, overtredelsesgebyr, varsler, uttalelser, veiledere, retningslinjer, hoeringsuttalelser, FAQs"
+      item_count: 200
+    languages:
+      - "no"
+
+  - name: "Lovdata (Norwegian Legal Information)"
+    authority: "Lovdata"
+    official_url: "https://lovdata.no/"
+    retrieval_method: "REFERENCE_ONLY"
+    format: "HTML"
+    authentication: "none"
+    update_frequency: "n/a"
+    license:
+      type: "Public Domain (Norwegian legislation)"
+      url: "https://lovdata.no/"
+      summary: "Norwegian legislation is freely available; Lovdata is referenced for verification, not ingested"
+    coverage:
+      scope: "Personopplysningsloven, forskrift om behandling av personopplysninger (referenced, not included)"
+      item_count: 0
+    languages:
+      - "no"
