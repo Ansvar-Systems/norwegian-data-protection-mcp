@@ -1,6 +1,7 @@
 node_modules/
 dist/
-data/
+data/**
+!data/coverage.json
 *.db
 *.db-shm
 *.db-wal
