@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "mcp_name": "Norwegian Data Protection MCP",
+  "jurisdiction": "Norway",
+  "data_age": "2026-04-04",
+  "last_ingested": "2026-04-04",
+  "counts": {
+    "decisions": 180,
+    "guidelines": 186,
+    "topics": 30,
+    "total_records": 396
+  },
+  "decision_types": {
+    "overtredelsesgebyr": 89,
+    "vedtak": 34,
+    "klagevedtak": 30,
+    "irettesettelse": 16,
+    "forbud": 8,
+    "varsel": 3
+  },
+  "guideline_types": {
+    "veileder": 127,
+    "rapport": 35,
+    "hoeringsuttalelse": 22,
+    "verktoy": 2
+  },
+  "fines": {
+    "total_nok": 531000000,
+    "decisions_with_fines": 97,
+    "unique_entities_sanctioned": 113
+  },
+  "sources": [
+    {
+      "name": "Datatilsynet",
+      "url": "https://www.datatilsynet.no/",
+      "type": "MANUAL_CURATION",
+      "license": "Public Domain (Norwegian government publications)",
+      "languages": ["no"]
+    }
+  ]
+}

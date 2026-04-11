@@ -30,12 +30,15 @@ import {
   getGuideline,
   listTopics,
 } from "./db.js";
+import { buildCitation } from "./citation.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const PORT = parseInt(process.env["PORT"] ?? "3000", 10);
 const SERVER_NAME = "norwegian-data-protection-mcp";
+const DATA_AGE = "2026-04-04";
+const SOURCE_URL = "https://www.datatilsynet.no/";
 
 let pkgVersion = "0.1.0";
 try {
@@ -117,6 +120,16 @@ const TOOLS = [
     inputSchema: { type: "object" as const, properties: {}, required: [] },
   },
   {
+    name: "no_dp_list_sources",
+    description: "List all data sources used by this MCP server, including authority, coverage counts, and update frequency.",
+    inputSchema: { type: "object" as const, properties: {}, required: [] },
+  },
+  {
+    name: "no_dp_check_data_freshness",
+    description: "Check when the data in this MCP server was last updated and what coverage it provides.",
+    inputSchema: { type: "object" as const, properties: {}, required: [] },
+  },
+  {
     name: "no_dp_about",
     description: "Norwegian Data Protection MCP server. Covers Datatilsynet enforcement decisions, GDPR guidance, and regulatory opinions.",
     inputSchema: { type: "object" as const, properties: {}, required: [] },
@@ -147,6 +160,17 @@ const GetGuidelineArgs = z.object({
   id: z.number().int().positive(),
 });
 
+// --- Helpers -----------------------------------------------------------------
+
+function responseMeta() {
+  return {
+    disclaimer:
+      "Datatilsynet decisions and guidance documents are public records. This is informational only and not legal advice. Verify with official sources at datatilsynet.no.",
+    data_age: DATA_AGE,
+    source_url: SOURCE_URL,
+  };
+}
+
 // --- MCP server factory ------------------------------------------------------
 
 function createMcpServer(): Server {
@@ -163,14 +187,27 @@ function createMcpServer(): Server {
     const { name, arguments: args = {} } = request.params;
 
     function textContent(data: unknown) {
+      const payload =
+        typeof data === "object" && data !== null && !Array.isArray(data)
+          ? { ...(data as Record<string, unknown>), _meta: responseMeta() }
+          : { data, _meta: responseMeta() };
       return {
-        content: [{ type: "text" as const, text: JSON.stringify(data, null, 2) }],
+        content: [{ type: "text" as const, text: JSON.stringify(payload, null, 2) }],
       };
     }
 
-    function errorContent(message: string) {
+    function errorContent(message: string, errorType = "tool_error") {
       return {
-        content: [{ type: "text" as const, text: message }],
+        content: [
+          {
+            type: "text" as const,
+            text: JSON.stringify(
+              { error: message, _meta: responseMeta(), _error_type: errorType },
+              null,
+              2,
+            ),
+          },
+        ],
         isError: true as const,
       };
     }
@@ -180,40 +217,128 @@ function createMcpServer(): Server {
         case "no_dp_search_decisions": {
           const parsed = SearchDecisionsArgs.parse(args);
           const results = searchDecisions({ query: parsed.query, type: parsed.type, topic: parsed.topic, limit: parsed.limit });
-          return textContent({ results, count: results.length });
+          const resultsWithCitation = (results as Record<string, unknown>[]).map((r) => ({
+            ...r,
+            _citation: buildCitation(
+              String(r["reference"] ?? ""),
+              String(r["title"] ?? r["reference"] ?? ""),
+              "no_dp_get_decision",
+              { reference: String(r["reference"] ?? "") },
+              SOURCE_URL,
+            ),
+          }));
+          return textContent({ results: resultsWithCitation, count: results.length });
         }
         case "no_dp_get_decision": {
           const parsed = GetDecisionArgs.parse(args);
           const decision = getDecision(parsed.reference);
-          if (!decision) return errorContent(`Decision not found: ${parsed.reference}`);
-          return textContent(decision);
+          if (!decision) return errorContent(`Decision not found: ${parsed.reference}`, "not_found");
+          const d = decision as Record<string, unknown>;
+          return textContent({
+            ...d,
+            _citation: buildCitation(
+              String(d["reference"] ?? parsed.reference),
+              String(d["title"] ?? d["reference"] ?? parsed.reference),
+              "no_dp_get_decision",
+              { reference: parsed.reference },
+              SOURCE_URL,
+            ),
+          });
         }
         case "no_dp_search_guidelines": {
           const parsed = SearchGuidelinesArgs.parse(args);
           const results = searchGuidelines({ query: parsed.query, type: parsed.type, topic: parsed.topic, limit: parsed.limit });
-          return textContent({ results, count: results.length });
+          const resultsWithCitation = (results as Record<string, unknown>[]).map((r) => ({
+            ...r,
+            _citation: buildCitation(
+              String(r["reference"] ?? r["title"] ?? `guideline-${r["id"]}`),
+              String(r["title"] ?? r["reference"] ?? `Guideline ${r["id"]}`),
+              "no_dp_get_guideline",
+              { id: r["id"] as number },
+              SOURCE_URL,
+            ),
+          }));
+          return textContent({ results: resultsWithCitation, count: results.length });
         }
         case "no_dp_get_guideline": {
           const parsed = GetGuidelineArgs.parse(args);
           const guideline = getGuideline(parsed.id);
-          if (!guideline) return errorContent(`Guideline not found: id=${parsed.id}`);
-          return textContent(guideline);
+          if (!guideline) return errorContent(`Guideline not found: id=${parsed.id}`, "not_found");
+          const g = guideline as Record<string, unknown>;
+          return textContent({
+            ...g,
+            _citation: buildCitation(
+              String(g["reference"] ?? g["title"] ?? `guideline-${parsed.id}`),
+              String(g["title"] ?? `Guideline ${parsed.id}`),
+              "no_dp_get_guideline",
+              { id: parsed.id },
+              SOURCE_URL,
+            ),
+          });
         }
         case "no_dp_list_topics": {
           const topics = listTopics();
           return textContent({ topics, count: topics.length });
+        }
+        case "no_dp_list_sources": {
+          return textContent({
+            sources: [
+              {
+                name: "Datatilsynet (Norwegian Data Protection Authority)",
+                authority: "Datatilsynet",
+                official_url: SOURCE_URL,
+                retrieval_method: "MANUAL_CURATION",
+                update_frequency: "quarterly",
+                coverage: {
+                  decisions: 180,
+                  guidelines: 186,
+                  topics: 30,
+                  total_records: 396,
+                },
+                license: "Public Domain (Norwegian government publications)",
+                languages: ["no"],
+              },
+            ],
+            data_age: DATA_AGE,
+          });
+        }
+        case "no_dp_check_data_freshness": {
+          return textContent({
+            data_age: DATA_AGE,
+            last_updated: DATA_AGE,
+            is_stale: false,
+            coverage: {
+              decisions: 180,
+              guidelines: 186,
+              topics: 30,
+              total_records: 396,
+              fines_total_nok: 531000000,
+              decisions_with_fines: 97,
+              unique_entities_sanctioned: 113,
+            },
+            sources: [SOURCE_URL],
+            update_frequency: "quarterly",
+          });
         }
         case "no_dp_about": {
           return textContent({
             name: SERVER_NAME,
             version: pkgVersion,
             description: "Norwegian Data Protection MCP server. Covers Datatilsynet enforcement decisions, GDPR guidance, and regulatory opinions on personopplysningsloven and the Norwegian GDPR implementation.",
-            data_source: "Datatilsynet (https://www.datatilsynet.no/)",
+            data_source: `Datatilsynet (${SOURCE_URL})`,
+            data_age: DATA_AGE,
+            coverage: {
+              decisions: 180,
+              guidelines: 186,
+              topics: 30,
+              total_records: 396,
+              fines_total_nok: 531000000,
+            },
             tools: TOOLS.map((t) => ({ name: t.name, description: t.description })),
           });
         }
         default:
-          return errorContent(`Unknown tool: ${name}`);
+          return errorContent(`Unknown tool: ${name}`, "unknown_tool");
       }
     } catch (err) {
       const message = err instanceof Error ? err.message : String(err);

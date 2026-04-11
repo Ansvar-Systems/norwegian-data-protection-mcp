@@ -19,7 +19,7 @@ export interface CitationMetadata {
   source_url?: string;
   lookup: {
     tool: string;
-    args: Record<string, string>;
+    args: Record<string, unknown>;
   };
 }
 
@@ -39,7 +39,7 @@ export function buildCitation(
   canonicalRef: string,
   displayText: string,
   toolName: string,
-  toolArgs: Record<string, string>,
+  toolArgs: Record<string, unknown>,
   sourceUrl?: string | null,
   aliases?: string[],
 ): CitationMetadata {
@@ -134,7 +134,7 @@ export function buildRegulationCitation(
   reference: string,
   title: string,
   toolName: string,
-  toolArgs: Record<string, string>,
+  toolArgs: Record<string, unknown>,
   authority?: string | null,
   sourceUrl?: string | null,
 ): CitationMetadata {
