@@ -24,6 +24,7 @@ sources:
     languages:
       - "no"
 
+    last_verified: "2026-05-10"
   - name: "Lovdata (Norwegian Legal Information)"
     authority: "Lovdata"
     official_url: "https://lovdata.no/"
@@ -40,3 +41,4 @@ sources:
       item_count: 0
     languages:
       - "no"
+    last_verified: "2026-05-10"
