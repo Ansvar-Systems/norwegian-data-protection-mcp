@@ -1,0 +1,67 @@
+{
+  "manifest_version": "0.3",
+  "name": "norwegian-data-protection",
+  "display_name": "Norwegian Data Protection MCP",
+  "version": "0.1.0",
+  "description": "Datatilsynet (Norwegian data protection authority) MCP server — decisions, sanctions, and guidance on GDPR enforcement in Norway",
+  "author": {
+    "name": "Ansvar Systems",
+    "email": "hello@ansvar.eu",
+    "url": "https://ansvar.eu"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ansvar-Systems/norwegian-data-protection-mcp"
+  },
+  "homepage": "https://ansvar.eu",
+  "keywords": ["mcp", "model-context-protocol", "ai", "claude", "datatilsynet", "norwegian-data-protection", "gdpr", "norway", "data-protection", "compliance", "ansvar"],
+  "category": "data-protection",
+  "jurisdiction": "Norway",
+  "server": {
+    "type": "node",
+    "entry_point": "dist/src/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/dist/src/index.js"],
+      "env": {}
+    }
+  },
+  "tools": [
+      {
+          "name": "search_decisions"
+      },
+      {
+          "name": "get_decision"
+      },
+      {
+          "name": "search_guidelines"
+      },
+      {
+          "name": "get_guideline"
+      },
+      {
+          "name": "list_topics"
+      },
+      {
+          "name": "about"
+      },
+      {
+          "name": "list_sources"
+      },
+      {
+          "name": "check_data_freshness"
+      }
+  ],
+  "attribution": {
+    "publisher": "Datatilsynet",
+    "license": "Public Domain (Norwegian government publications)",
+    "source_url_pattern": "https://www.datatilsynet.no/"
+  },
+  "compatibility": {
+    "platforms": ["darwin", "win32", "linux"],
+    "runtimes": {
+      "node": ">=20.0.0"
+    }
+  }
+}
